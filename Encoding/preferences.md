@@ -26,7 +26,7 @@
   * If possible, set to `Slow` but this usually means 8+ hours to encode an average movie
 * Quality Level: set to `18` for most movies
   * Can be set to `20` for older, lower-quality movies
-  * Set to `16` for particularly high-profile, visually-impressive movies
+  * Set to `16` for particularly high-profile, visually-impressive movies – or consider just keeping the original remuxed source file instead of encoding at all
 
 ### Audio
 #### Track selection
