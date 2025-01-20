@@ -33,15 +33,15 @@
 * Keep only the original audio
   * Discard dub tracks (if the movie was meant to have Japanese audio, it will be kept in Japanese)
   * Discard any "Audio Description" or Commentary tracks
-* Prefer DTS-HD or DTS format, encode to AAC otherwise
+* Prefer DTS-HD or DTS format, encode to AAC otherwise (do not keep TrueHD, AC3, EAC3, FLAC, or other formats)
   * Passthrough the best-available DTS format when possible (DTS-HD, followed by DTS)
   * Otherwise, convert the highest-quality track to AAC
     * Maintain the highest available channel mix (e.g. if the source is 7.1, keep that intact)
-    * Maximum bitrate: 384 kbps or the original track's value, whichever is lower (do not upscale)
+    * Maximum bitrate: 512 kbps or the original track's value, whichever is lower (do not upscale)
 
 #### Track naming
 * Label tracks according to their channel availability, not their format:
-  * e.g. `Surround 5.1` or `Stereo`, not `DTS Surround` or `AAC for Roku` etc
+  * e.g. `Surround 5.1` or `Stereo`, not `DTS Surround` or `AAC for Roku`
 
 ### Subtitles
 #### Track selection
