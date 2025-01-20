@@ -20,7 +20,7 @@ An analogy I particularly like: **my server is like a backyard pool shared with 
 * Sometimes it might be closed for maintenance or because it's over capacity.
 * Yes, I can see if it's being used, but I'm not watching you use it.
 * If there's something definitely *wrong* with it, please let me know!
-* If you abuse your invite, you get uninvited.
+* If you abuse your access, you get uninvited.
 
 ## Getting Started
 
