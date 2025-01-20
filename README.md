@@ -1,0 +1,1 @@
+This is intended to be my personal documentation for maintaining a [Plex](https://plex.tv) server – my preferences for using [Handbrake](https://handbrake.fr/) to encode files to manageable sizes, onboarding guides for users invited to the server, etc.
