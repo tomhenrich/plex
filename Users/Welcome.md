@@ -37,7 +37,7 @@ An analogy I particularly like: **my server is like a backyard pool shared with 
 
 Plex is organized into **Libraries** that contain either Movies or TV Shows. The **Home Screen** will show what has recently been added to the Server, what titles are recently added, and any titles you're in the middle of watching.
 
-You can go into a specific Library to browse for something to watch, or search for something specific. Movies that are part of a series (e.g. all the James Bond movies) are usually grouped into Collections. I have my Plex set to put any franchise of 2 or more movies into a Collection, plus I have a few custom collections like "movies based on Stephen King books".
+You can go into a specific Library to browse for something to watch, or search for something specific. Movies that are part of a series (e.g. all the James Bond movies) are usually grouped into Collections. I have my Server set up so that any franchise of 2 or more movies goes into a Collection, plus I have some custom collections like "movies based on Stephen King books" or "Chocolate Factory".
 
 Once you decide on something to watch, just click Play. At any time, you can change your playback settings like subtitles or quality.
 
