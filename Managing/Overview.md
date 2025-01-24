@@ -21,7 +21,7 @@ The Plex app on any Client device understands the device's capabilities: what ki
   * Audio tracks are usually one of these formats: DTS, AC3, EAC3, or AAC; these are fairly well-supported.
   * Super high-fidelity tracks like TrueHD or Atmos are not well-supported by client devices. I typically only keep these tracks for 4K content.
 * **Subtitle type**
-  * Subtitles are either text-based (SRT or SSA/ASS) or image-based (PGS or VOBSUB, literally pictures that get overlaid on the video).
+  * Subtitles are either text-based (SRT or SSA/ASS) or image-based (PGS for Blu-rays or VOBSUB for DVDs, literally pictures of text which get overlaid on the video).
   * Text subtitles are very widely supported. Image subtitles are less so, but Plex should still handle them relatively easily.
 * **Bitrate/quality**
   * The higher the bitrate, the higher the quality. This is mostly irrelevant on the home network, but may cause issues if attempting to play over the internet with a capped connection speed.
