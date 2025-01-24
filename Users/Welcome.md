@@ -79,4 +79,6 @@ Without getting super technical, [how well content plays](https://support.plex.t
   * The video or audio might have a bitrate (quality level) that is too high for the connection between your device and my Server – either your download speed or my upload speed.
   * Think of it like pushing a ball through a pipe – if the ball is too big for the pipe, you need to squish it down to fit.
 
-[^1]: Physical Blu-rays and DVDs, and files directly copied from them, use subtitles that are just pictures of words which get overlaid on the video. These are usually called "PGS" or "Vobsub" when shown in Plex.
+[^1]: Physical Blu-rays and DVDs, and files directly copied from them, use subtitles that are just pictures of words which get overlaid on the video.
+  These are usually called "PGS" or "Vobsub" when shown in Plex.
+
