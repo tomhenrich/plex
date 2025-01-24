@@ -14,12 +14,11 @@ My Plex server is running from a computer in my home, using my home internet, an
   * The computer does occasionally need to be restarted for updates, but I try to make sure no one's using it at the time.
 * **You may not share your account with others.**
 
-> [!NOTE]
-> An analogy I particularly like: **my server is like a backyard pool shared with friends.**
+An analogy I particularly like: **my server is like a backyard pool shared with friends.**
 * You're welcome to use it whenever you like, just don't let in people I didn't invite.
 * Sometimes it might be closed for maintenance or because it's over capacity.
 * Yes, I can see if it's being used, but I'm not watching you use it.
-* If you abuse your access, you get uninvited.
+* If you continually abuse your access, you don't get to use it anymore.
 
 ## Getting Started
 1. From the invitation email you received, click the link to **create an account** on the Plex website.
@@ -27,11 +26,10 @@ My Plex server is running from a computer in my home, using my home internet, an
 2. **[Install the Plex app](https://www.plex.tv/apps-devices/)** on your streaming device of choice and sign in.
    * Plex charges a one-time $5 activation fee on iOS and Android phones, but other devices do not have this restriction.
 
-3. **Set up your app** to remove their default services and pin my stuff to your navigation.
-   * I recommend [following the guides on this site](https://mediaclients.wiki/en/Plex/Plex-Invite) for your device.
+3. **[Set up your app](https://mediaclients.wiki/en/Plex/Plex-Invite)** to remove their default services and pin my stuff to your navigation.
    * The steps are a little different for each device, but the idea is the same everywhere.
 
-4. **[Update the quality settings](https://mediaclients.wiki/en/Plex#streaming-clients) for your device**.
+4. **[Update the quality settings](https://mediaclients.wiki/en/Plex#streaming-clients)** in your app.
    * The default settings in Plex apps are not good and will result in a low-quality experience.
 
 ## Actually Using Plex
@@ -47,11 +45,16 @@ Once you decide on something to watch, just click Play. At any time before or du
 * Subtitles labeled "SDH" ("Subtitled for Deaf and Hard of hearing") means they also contain effects (like `[music playing]`).
 * Subtitles labeled "Forced" means they _only_ contain foreign-language dialogue, like if someone speaks a few lines of French in an otherwise English-language movie.
 
+That's it!
 
 -----
 
+> [!NOTE]
+> From here down is 100% optional reading, just if you're curious about how it works.
 
-## _If you're curious:_ "how does it work?"
+-----
+
+## How It Works
 
 The simple version is: I have a computer at my home, connected to hard drives with media files. Plex organizes those files, collects information about them (titles, plot summaries, audience ratings, etc), and streams them to devices (called "Clients").
 
