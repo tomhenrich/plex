@@ -70,10 +70,10 @@ Without getting super technical, [how well content plays](https://support.plex.t
 🟠 If the Client can't handle something, it will **Transcode** the file to a format it _does_ support. This creates some work for the Server since it has to re-create the file on-the-fly, and may result in some buffering.
 
 **Common reasons for transcoding:**
-* If your device doesn't support 5.1 audio, the Server can transcode the audio to a stereo mix.
-  * If you're using a streaming device like a Roku plugged into a TV, it will also depend on what your TV tells the device it can handle.
-* If your device doesn't support the encoding format of the video, the Server will transcode to a format the Client can handle.
-* If your device doesn't support image-based subtitles[^1], the Server has to create a new stream that merges the video and the subtitles together.
+* If your setup doesn't support 5.1 surround sound, the Server can transcode the audio to a stereo mix.
+  * If you're using a streaming device plugged into a TV (like a Roku or Chromecast), it will also depend on what your TV tells the device it can handle.
+* If your setup doesn't support the encoding format of the audio or video, the Server will transcode to a format the Client can handle.
+* If your setup doesn't support image-based subtitles[^1], the Server has to create a new stream that merges the video and the subtitles together.
   * This is probably the most resource-intensive task the Server has to deal with.
 * The network connection speed is not enough to play the original video or audio.
   * The video or audio might have a bitrate (quality level) that is too high for the connection between your device and my Server – either your download speed or my upload speed.
