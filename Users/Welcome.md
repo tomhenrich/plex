@@ -1,41 +1,45 @@
 # Welcome to Plex
 
-[Plex](https://www.plex.tv/) is a company that makes software for individuals to operate their own media server, letting you host your own media files and stream that media to devices. Think of it like Netflix, but run by an individual from their own home.
+[Plex](https://www.plex.tv/) is a company that makes software letting you host media files and stream that content to devices. Think of it like Netflix, but run by an individual from their own home.
 
-If you're reading this, you were probably invited to my server. Welcome.
+If you're reading this, you were probably invited to my server. Welcome!
 
-## Basic Terms
+## Basic Rules
 My Plex server is running from a computer in my home, using my home internet, and has content I've personally added. As such:
 
 * **It's probably not a replacement for your other streaming subscriptions.**
   * I don't have the resources to acquire every movie ever made, but if there's something you'd like me to add, let me know and I'll do what I can to find it (within reason).
 * **I cannot 100% guarantee 24/7 availability.**
-  * I don't have unlimited internet data, so external access may be limited temporarily if I'm in danger of exceeding my monthly data cap.
-    * _Once I successfully upgrade to unlimited data this will not be a concern._
+  * I don't have unlimited internet data, so external access may be limited temporarily if I'm in danger of exceeding my monthly data cap. _(Once I successfully upgrade to unlimited data this will not be a concern.)_
   * The computer does occasionally need to be restarted for updates, but I try to make sure no one's using it at the time.
 * **You may not share your account with others.**
 
-An analogy I particularly like: **my server is like a backyard pool shared with friends.**
+> [!NOTE]
+> An analogy I particularly like: **my server is like a backyard pool shared with friends.**
 * You're welcome to use it whenever you like, just don't let in people I didn't invite.
 * Sometimes it might be closed for maintenance or because it's over capacity.
 * Yes, I can see if it's being used, but I'm not watching you use it.
-* If there's something definitely _wrong_ with it, please let me know!
 * If you abuse your access, you get uninvited.
 
 ## Getting Started
-1. You'll receive an email from Plex directing you to **create an account** on their site.
-2. Once you do that, **[install the Plex app](https://www.plex.tv/apps-devices/)** on your streaming device of choice and sign in.
-   * Plex charges a one-time $5 activation fee on iOS and Android phones, but other streaming devices do not have this restriction.
+1. From the invitation email you received, click the link to **create an account** on the Plex website.
+
+2. **[Install the Plex app](https://www.plex.tv/apps-devices/)** on your streaming device of choice and sign in.
+   * Plex charges a one-time $5 activation fee on iOS and Android phones, but other devices do not have this restriction.
+
 3. **Set up your app** to remove their default services and pin my stuff to your navigation.
    * I recommend [following the guides on this site](https://mediaclients.wiki/en/Plex/Plex-Invite) for your device.
    * The steps are a little different for each device, but the idea is the same everywhere.
-4. I _strongly_ encourage you to **[update the quality settings](https://mediaclients.wiki/en/Plex#streaming-clients) for your device**.
-   * The default settings in Plex apps will result in lower-quality streams and a bad experience for everyone involved.
+
+4. **[Update the quality settings](https://mediaclients.wiki/en/Plex#streaming-clients) for your device**.
+   * The default settings in Plex apps are not good and will result in a low-quality experience.
 
 ## Actually Using Plex
-Plex is organized into **Libraries** that can contain either Movies or TV Shows (one or the other per Library). The **Home Screen** will show what has recently been added to the Server, what's recently released, and any titles you're in the middle of watching.
+The **Home Screen** will show what has recently been added to the Server and any titles you're in the middle of watching.
 
-You can go into a specific Library to browse for something to watch, or search for something specific. Movies that are part of a series (e.g. all the James Bond movies) are usually grouped into Collections. I have my Server set up so that any franchise of 2 or more movies goes into a Collection, plus I have some custom collections like "movies based on Stephen King books" or "Chocolate Factory".
+Plex is organized into **Libraries** that can contain either Movies or TV Shows. You can go into a specific Library to browse, or you can use search.
+
+Movies that are part of a series (e.g. all the James Bond movies) are usually grouped into Collections. My Server is set up so any franchise of 2 or more movies goes into a Collection, plus I have some custom collections like "movies based on Stephen King books" or "Chocolate Factory".
 
 Once you decide on something to watch, just click Play. At any time before or during playback, you can change your settings like selecting subtitles, switching audio tracks, or adjusting quality or playback speed.
 
