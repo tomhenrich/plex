@@ -10,7 +10,6 @@ My Plex server is running from a computer in my home, using my home internet, an
 * **It's probably not a replacement for your other streaming subscriptions.**
   * I don't have the resources to acquire every movie ever made, but if there's something you'd like me to add, let me know and I'll do what I can to find it (within reason).
 * **I cannot 100% guarantee 24/7 availability.**
-  * I don't have unlimited internet data, so external access may be limited temporarily if I'm in danger of exceeding my monthly data cap. _(Once I successfully upgrade to unlimited data this will not be a concern.)_
   * The computer does occasionally need to be restarted for updates, but I try to make sure no one's using it at the time.
 * **You may not share your account with others.**
 
