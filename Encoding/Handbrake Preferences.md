@@ -30,11 +30,11 @@
 
 ### Audio
 #### Track selection
-* Keep only the original audio
-  * Discard dub tracks (if the movie was meant to have Japanese audio, it will be kept in Japanese)
+* Keep only the original audio associated with the title
+  * Discard dubbed language tracks – if the movie was meant to have Japanese audio, it will be kept in Japanese
   * Discard any "Audio Description" or Commentary tracks
-* Prefer DTS-HD or DTS format, encode to AAC otherwise (do not keep TrueHD, AC3, EAC3, FLAC, or other formats)
-  * Passthrough the best-available DTS format when possible (DTS-HD, followed by DTS)
+* Prefer DTS-HD or DTS format, encode to AAC otherwise – do not keep TrueHD, AC3, EAC3, FLAC, or other formats when encoding from Blu-ray sources
+  * Passthrough the best-available DTS format when possible
   * Otherwise, convert the highest-quality track to AAC
     * Maintain the highest available channel mix (e.g. if the source is 7.1, keep that intact)
     * Maximum bitrate: 512 kbps or the original track's value, whichever is lower (do not upscale)
@@ -63,23 +63,3 @@
 * Non-SDH tracks should not have a name
 * Forced tracks should be named "Foreign Dialogue"
   * If the media's original language is not English, the subtitle track does not need to be labeled as Forced (e.g. a Japanese movie does not need the English subtitles marked "Forced")
-
-# Metadata updates after Handbrake completes
-
-Depending on the content of the media and the Handbrake selections, it is encouraged to use MKVToolnixGUI or jMKVPropEdit to update the resulting file to maintain naming and metadata conventions.
-
-## Using MKVToolnixGUI
-1. Open MKVToolnixGUI and select the "Header Editor" tab from the navigation.
-2. "Segment Information"
-    * Set the Title field following Plex's preferred `[Name] (Year)` convention (e.g. `The Matrix (1999)`)
-3. "Video" track
-    * Set the Language field to the original language of the media
-4. "Audio" tracks
-    * Ensure the Language field of each track is the original language of that audio
-    * The first track should have the "Default" attribute set to True
-    * Any subsequent tracks should have the "Default" attribute set to False
-5. "Subtitle" tracks
-    * The first track should have the "Default" attribute set to True
-    * Any subsequent tracks should have the "Default" attribute set to False
-    * Any SDH tracks should have the "Hearing impaired" attribute set to True
-    * Any Forced tracks should have the "Forced" attribute set to True
