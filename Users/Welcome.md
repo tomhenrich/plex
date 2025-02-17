@@ -21,12 +21,13 @@ An analogy I particularly like: **my server is like a backyard pool shared with 
 
 ## Getting Started
 1. From the invitation email you received, click the link to **create an account** on the Plex website.
+   * Plex will automatically subscribe you to their emails. Visit [plex.tv/email-preferences](https://www.plex.tv/email-preferences/) to unsubscribe.
 
 2. **[Install the Plex app](https://www.plex.tv/apps-devices/)** on your streaming device of choice and sign in.
    * Plex charges a one-time $5 activation fee on iOS and Android phones, but other devices do not have this restriction.
 
-3. **[Set up your app](https://mediaclients.wiki/en/Plex/Plex-Invite)** to remove their default services and pin my stuff to your navigation.
-   * The steps are a little different for each device, but the idea is the same everywhere.
+3. **[Set up your app](https://support.plex.tv/articles/customizing-the-apps/)** to remove their default services and pin my stuff to your navigation.
+   * The steps are a little different for each device, but the idea is the same everywhere: open the navigation, select "More" to find my libraries and pin them, and do the opposite for their default services.
 
 4. **[Update the quality settings](https://mediaclients.wiki/en/Plex#streaming-clients)** in your app.
    * The default settings in Plex apps are not good and will result in a low-quality experience.
@@ -40,8 +41,11 @@ Movies that are part of a series (e.g. all the James Bond movies) are usually gr
 
 Once you decide on something to watch, just click Play. At any time before or during playback, you can change your settings like selecting subtitles, switching audio tracks, or adjusting quality or playback speed.
 
-**A note on subtitles:**
-* Subtitles labeled "SDH" ("Subtitled for Deaf and Hard of hearing") means they also contain effects (like `[music playing]`).
+> [!TIP]
+> If you see any ads, you're watching something from Plex's own service. You will never see ads while watching anything from my server.
+
+**Quick note on subtitles:**
+* Subtitles labeled "SDH" ("Subtitled for Deaf and Hard of hearing") means they also contain effects like `[music playing]`.
 * Subtitles labeled "Forced" means they _only_ contain foreign-language dialogue, like if someone speaks a few lines of French in an otherwise English-language movie.
 
 That's it!
