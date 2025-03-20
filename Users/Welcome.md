@@ -24,7 +24,7 @@ An analogy I particularly like: **my server is like a backyard pool shared with 
    * Plex will automatically subscribe you to their emails. Visit [plex.tv/email-preferences](https://www.plex.tv/email-preferences/) to unsubscribe.
 
 2. **[Install the Plex app](https://www.plex.tv/apps-devices/)** on your streaming device of choice and sign in.
-   * Plex charges a one-time $5 activation fee on iOS and Android phones, but other devices do not have this restriction.
+   * Plex charges a one-time $5 activation fee on iOS and Android phones[^1], but other devices do not have this restriction.
 
 3. **[Set up your app](https://support.plex.tv/articles/customizing-the-apps/)** to remove their default services and pin my stuff to your navigation.
    * The steps are a little different for each device, but the idea is the same everywhere: open the navigation, select "More" to find my libraries and pin them, and do the opposite for their default services.
@@ -60,3 +60,5 @@ That's it!
 ## Helpful Links
 * [Mediaclients.wiki](https://mediaclients.wiki/en/Plex) has a bunch of useful info and guides
 * [Plexplainers](https://plxplainers.xyz) is a newer resource with screenshots from various app platforms
+
+[^1]: This requirement [will no longer be valid](https://www.plex.tv/blog/important-2025-plex-updates/#so-long) with the release of the new mobile apps in 2025.
