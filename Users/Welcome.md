@@ -4,6 +4,11 @@
 
 If you're reading this, you were probably invited to my server. Welcome!
 
+* [Basic Rules](#basic-rules)
+* [Getting Started](#getting-started): get set up
+* [Using Plex](#using-plex): start watching
+
+
 ## Basic Rules
 My Plex server is running from a computer in my home, using my home internet, and has content I've personally added. As such:
 
@@ -32,7 +37,7 @@ An analogy I particularly like: **my server is like a backyard pool shared with 
 4. **[Update the quality settings](https://mediaclients.wiki/en/Plex#streaming-clients)** in your app.
    * The default settings in Plex apps are not good and will result in a low-quality experience.
 
-## Actually Using Plex
+## Using Plex
 The **Home Screen** will show what has recently been added to the Server and any titles you're in the middle of watching.
 
 Plex is organized into **Libraries** that can contain either Movies or TV Shows. You can go into a specific Library to browse, or you can use search.
@@ -41,23 +46,21 @@ Movies that are part of a series (e.g. all the James Bond movies) are usually gr
 
 Once you decide on something to watch, just click Play. At any time before or during playback, you can change your settings like selecting subtitles, switching audio tracks, or adjusting quality or playback speed.
 
-> [!TIP]
-> If you see any ads, you're watching something from Plex's own service. You will never see ads while watching anything from my server.
-
-**Quick note on subtitles:**
+### Subtitles
 * Subtitles labeled "SDH" ("Subtitled for Deaf and Hard of hearing") means they also contain effects like `[music playing]`.
 * Subtitles labeled "Forced" means they _only_ contain foreign-language dialogue, like if someone speaks a few lines of French in an otherwise English-language movie.
 
-That's it!
+You can [update your account settings](Account%20Settings.md) to enable subtitles without having to do it every time you start watching something.
 
 -----
 
-> [!NOTE]
-> If you're curious, you can check out [how Plex streaming works](How%20It%20Works.md) and why updating the quality settings matters.
+> [!TIP]
+> If you see any ads, you're watching something from Plex's own service. You will never see ads while watching anything from my server.
 
 -----
 
 ## Helpful Links
+* If you're curious, you can check out [how Plex streaming works](How%20It%20Works.md) and why updating the quality settings matters.
 * [Mediaclients.wiki](https://mediaclients.wiki/en/Plex) has a bunch of useful info and guides
 * [Plexplainers](https://plxplainers.xyz) is a newer resource with screenshots from various app platforms
 
