@@ -20,3 +20,9 @@ If you prefer having subtitles on, you can log into your account and set that pr
      6. Select "Save Changes"
 
 ![Subtitle settings: English, Always enabled, Prefer SDH and Prefer Forced](/assets/subtitle-settings.png)
+
+## Privacy Settings
+
+Ethan Sholly has put together a good resource for checking Plex's various privacy-related settings, including marketing email preferences, ad partner data usage, playback data, and more.
+
+[Optimal Plex Settings for Privacy-Conscious Users](https://selfh.st/plex-privacy-settings/)
