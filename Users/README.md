@@ -33,6 +33,7 @@ Three quick steps:
 3. Set up your app
    1. **[Pin my stuff to your navigation](https://support.plex.tv/articles/customizing-the-apps/#toc-0)** and remove their default streaming stuff.
       * The steps are a little different for each device, but the idea is the same everywhere: open the navigation, select "More" to find the library/libraries I've shared with you and pin them, and do the opposite for their default services.
+      * You will see my server named `Scylla` with the content you have access to.
    2. **[Update the quality settings](https://mediaclients.wiki/en/Plex#streaming-clients)** in your app.
       * The default streaming settings in Plex apps are set pretty low and will result in a poor-quality experience.
 
