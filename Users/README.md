@@ -2,23 +2,9 @@
 
 [Plex](https://www.plex.tv/) is a company that makes software letting you host media files and stream that content to devices. Think of it like Netflix, but run by an individual from their own home.
 
-1. [Basic Intro](#basic-intro)
-2. [Getting Started](#getting-started): get logged in and update some basic settings
+1. [Getting Started](#getting-started): get logged in and update some basic settings
+2. [Basic Intro](#basic-intro)
 3. [Using Plex](#using-plex): start watching!
-
-
-## Basic Intro
-My Plex server is running from a computer in my home and has content I've personally curated. As such:
-
-* **It's not meant to be a full replacement for every possible streaming subscription.**
-  * I don't have the resources to acquire every movie ever made, but if there's something you'd like me to add, let me know and I'll do what I can to find it (within reason).
-* **I can't 100% guarantee 24/7 availability.** (It's a computer, it gets restarted sometimes.)
-* **Do not share your account with anyone else.**
-
-An analogy I like: **my server is like a backyard pool shared with friends.**
-* You're welcome to use it whenever you like!
-* Yes, I can see if it's being used, but I'm not watching you use it.
-* Abusing your access (like giving your key to others) will get you kicked out.
 
 ## Getting Started
 
@@ -36,6 +22,19 @@ Three quick steps:
       * You will see my server named `Scylla` with the content you have access to.
    2. **[Update the quality settings](https://mediaclients.wiki/en/Plex#streaming-clients)** in your app.
       * The default streaming settings in Plex apps are set pretty low and will result in a poor-quality experience.
+
+## Basic Intro
+My Plex server is running from a computer in my home and has content I've personally curated. As such:
+
+* **It's not meant to be a full replacement for every possible streaming subscription.**
+  * I don't have the resources to acquire every movie ever made, but if there's something you'd like me to add, let me know and I'll do what I can to find it (within reason).
+* **I can't 100% guarantee 24/7 availability.** (It's a computer, it gets restarted sometimes.)
+* **Do not share your account with anyone else.**
+
+An analogy I like: **my server is like a backyard pool shared with friends.**
+* You're welcome to use it whenever you like!
+* Yes, I can see if it's being used, but I'm not watching you use it.
+* Abusing your access (like giving your key to others) will get you kicked out.
 
 ## Using Plex
 The **Home Screen** shows what has recently been added to my Server and anything you're in the middle of watching.
