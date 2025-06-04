@@ -48,7 +48,7 @@ Movies that are part of a series (e.g. all the James Bond movies) are grouped in
 Once you decide on something to watch, **just click Play**. You can change your settings at any time — enable subtitles, adjust streaming quality, or change audio tracks (if available).
 
 > [!TIP]
-> **Subtitles:** You can [update your account settings](Account%20Settings.md) to enable subtitles without having to select them every time you start watching something.
+> **Subtitles:** You can [update your account settings](Guides/Account%20Settings.md) to enable subtitles without having to select them every time you start watching something.
 > Note that subtitles labeled "Forced" _only_ contain foreign-language dialogue, like if someone speaks a few lines of French in an otherwise English-language movie.
 
 
@@ -58,7 +58,7 @@ Once you decide on something to watch, **just click Play**. You can change your 
 -----
 
 ## Helpful Links
-* **If you're curious**, you can check out [how Plex streaming works](How%20It%20Works.md) and why updating the quality settings matters.
+* **If you're curious**, you can check out [how Plex streaming works](Guides/How%20It%20Works.md) and why updating the quality settings matters.
 * [Mediaclients.wiki](https://mediaclients.wiki/en/Plex) has a bunch of useful info and guides
 * [Plexplainers](https://web.archive.org/web/20250317201942/http://plxplainers.xyz/) is a good resource with screenshots from various app platforms (archived on Wayback Machine as the original has disappeared)
 
