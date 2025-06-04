@@ -20,7 +20,7 @@ Three quick steps:
    1. **[Pin my stuff to your navigation](https://support.plex.tv/articles/customizing-the-apps/#toc-0)** and remove their default streaming stuff.
       * The steps are a little different for each device, but the idea is the same everywhere: open the navigation, select "More" to find the library/libraries I've shared with you and pin them, and do the opposite for their default services.
       * You will see my server named `Scylla` with the content you have access to.
-   2. **[Update the quality settings](https://mediaclients.wiki/en/Plex#streaming-clients)** in your app.
+   2. **[Update the quality settings](Guides/QualitySettings.md)** in your app.
       * The default streaming settings in Plex apps are set pretty low and will result in a poor-quality experience.
 
 ## Basic Intro
@@ -48,7 +48,7 @@ Movies that are part of a series (e.g. all the James Bond movies) are grouped in
 Once you decide on something to watch, **just click Play**. You can change your settings at any time — enable subtitles, adjust streaming quality, or change audio tracks (if available).
 
 > [!TIP]
-> **Subtitles:** You can [update your account settings](Guides/Account%20Settings.md) to enable subtitles without having to select them every time you start watching something.
+> **Subtitles:** You can [update your account settings](Guides/AccountSettings.md) to enable subtitles without having to select them every time you start watching something.
 > Note that subtitles labeled "Forced" _only_ contain foreign-language dialogue, like if someone speaks a few lines of French in an otherwise English-language movie.
 
 
@@ -58,7 +58,7 @@ Once you decide on something to watch, **just click Play**. You can change your 
 -----
 
 ## Helpful Links
-* **If you're curious**, you can check out [how Plex streaming works](Guides/How%20It%20Works.md) and why updating the quality settings matters.
+* **If you're curious**, you can check out [how Plex streaming works](Guides/HowItWorks.md) and why updating the quality settings matters.
 * [Mediaclients.wiki](https://mediaclients.wiki/en/Plex) has a bunch of useful info and guides
 * [Plexplainers](https://web.archive.org/web/20250317201942/http://plxplainers.xyz/) is a good resource with screenshots from various app platforms (archived on Wayback Machine as the original has disappeared)
 
