@@ -22,7 +22,7 @@ If you prefer to use subtitles, you can set that option in your account instead 
         * "Manually selected" means you will have to select a subtitle every time you watch something.
         * "Shown with foreign audio" means Plex will only display subtitles if you're watching something in a language other than your preferred audio. (e.g. you're watching a Japanese-language movie, so you'll get English subtitles)
      5. The last two boxes are up to you — they only apply if something on Plex doesn't already have subtitles and you use its built-in search tool to find some
-        * I suggest "Prefer SDH subtitles" (the kind with effects like "[melancholy music]" instead of only dialogue) and "Prefer non-forced subtitles" (forced means foreign dialogue in an otherwise all-English movie)
+        * I suggest "Prefer SDH subtitles" (the kind with effects like `[melancholy music]` instead of only dialogue) and "Prefer non-forced subtitles" (forced means foreign dialogue in an otherwise all-English movie)
      6. Select "Save Changes"
 
 You can always change your subtitle selection for any given content while you're watching it.
