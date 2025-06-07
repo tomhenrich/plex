@@ -26,13 +26,13 @@ My Plex server is running from a computer in my home and has content I've person
 
 * **It's not meant to be a full replacement for every possible streaming subscription.**
   * I don't have the resources to acquire every movie ever made, but if there's something you'd like me to add, let me know and I'll do what I can to find it (within reason).
-* **I can't 100% guarantee 24/7 availability.** (It's a computer, it gets restarted sometimes.)
-* **Do not share your account with anyone else.**
+* **You may not share your account with anyone else.**
 
 An analogy I like: **my server is like a backyard pool shared with friends.**
 * You're welcome to use it whenever you like!
-* Yes, I can see if it's being used, but I'm not watching you use it.
-* Abusing your access (like giving your key to others) will get you kicked out.
+* Sometimes it might be temporarily unavailable due to maintenance.
+* Yes, I can tell if it's being used, mostly just to know if something needs to be fixed.
+* Giving your key to someone else will get you kicked out.
 
 ## Using Plex
 The **Home Screen** shows what has recently been added to my Server and anything you're in the middle of watching.
