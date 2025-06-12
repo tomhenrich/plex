@@ -11,15 +11,15 @@
 Three quick steps:
 
 1. From the invitation email you received, click the link to **create a Plex account** on the official Plex website.
-2. **[Install the Plex app](https://www.plex.tv/apps-devices/)** on your streaming device of choice and sign in.
+2. **Install the Plex app** on [your streaming device of choice](https://www.plex.tv/apps-devices/) and sign in.
 3. Set up your app
-   1. **[Pin my stuff to your navigation](https://support.plex.tv/articles/customizing-the-apps/#toc-0)** and remove their default streaming stuff.
-      * The steps are a little different for each device, but the idea is the same everywhere: open the navigation, select "More" to find the library/libraries I've shared with you and pin them, and do the opposite for their default services.
+   1. **[Update the quality settings](Guides/QualitySettings.md)** in your app.
+      * The default settings in Plex apps are pretty low and will result in a poor-quality experience.
+   2. **[Pin my content to your navigation](https://support.plex.tv/articles/customizing-the-apps/#toc-0)** and remove their default streaming garbage.
+      * This looks a little different on each device, but generally: open the navigation, select "More", find whatever I've shared with you, and pin them for quick access.
       * You will see my server named `Scylla` with the content you have access to.
-   2. **[Update the quality settings](Guides/QualitySettings.md)** in your app.
-      * The default streaming settings in Plex apps are set pretty low and will result in a poor-quality experience.
 
-That's it — you're in and can start looking for something to watch.
+That's it! You're in and can start looking for something to watch.
 
 ## Basic Intro
 My Plex server is running from a computer in my home and has content I've personally curated. As such:
@@ -56,7 +56,7 @@ Once you decide on something to watch, **just click Play**. You can change your 
 -----
 
 ## Helpful Links
-* **If you're curious**, you can check out [how Plex streaming works](Guides/HowItWorks.md) and why updating the quality settings matters.
+* **If you're curious**, you can check out [how Plex streaming works](Guides/HowItWorks.md) and why updating the quality settings matters
 * [Mediaclients.wiki](https://mediaclients.wiki/en/Plex) has a bunch of useful info and guides
 * [Plexplainers](https://web.archive.org/web/20250317201942/http://plxplainers.xyz/) is a good resource with screenshots from various app platforms (archived on Wayback Machine as the original has disappeared)
 
