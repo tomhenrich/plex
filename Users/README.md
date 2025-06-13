@@ -12,6 +12,7 @@ Three quick steps:
 
 1. From the invitation email you received, click the link to **create a Plex account** on the official Plex website.
 2. **Install the Plex app** on [your streaming device of choice](https://www.plex.tv/apps-devices/) and sign in.
+   * I highly recommend an Apple TV or any Google TV-based device like the ~$30 [Onn 4K](https://www.amazon.com/dp/B0B75QMC7X) for the best experience, but use whatever you've got!
 3. Set up your app
    1. **[Update the quality settings](Guides/QualitySettings.md)** in your app.
       * The default settings in Plex apps are pretty low and will result in a poor-quality experience.
