@@ -17,7 +17,7 @@ The Plex app on any Client device understands the device's capabilities: what ki
 🟠 If the Client can't handle something, it will **Transcode** the file to something it _does_ support. This creates some work for the Server since it has to re-create the file on-the-fly, and may result in some buffering.
 
 > [!NOTE]
-> This is why it's important to [update the quality settings](https://mediaclients.wiki/en/Plex#streaming-clients) for your device — so Plex doesn't have to send you a low-quality transcoded video.
+> This is why it's important to [update the quality settings](QualitySettings.md) for your device — so Plex doesn't have to send you a low-quality transcoded video.
 
 ### Common Reasons for Transcoding:
 * Your setup doesn't support surround sound, so Plex is transcoding the audio to a stereo mix.
