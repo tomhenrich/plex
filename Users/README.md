@@ -11,14 +11,11 @@
 Three quick steps:
 
 1. From the invitation email you received, click the link to **create a Plex account** on the official Plex website.
-2. **Install the Plex app** on [your streaming device of choice](https://www.plex.tv/apps-devices/) and sign in.
-   * I highly recommend an Apple TV or any Google TV-based device like the ~$30 [Onn 4K](https://www.amazon.com/dp/B0B75QMC7X) for the best experience, but use whatever you've got!
-3. Set up your app
-   1. **[Update the quality settings](Guides/QualitySettings.md)** in your app.
-      * The default settings in Plex apps are pretty low and will result in a poor-quality experience.
-   2. **[Pin my content to your navigation](https://support.plex.tv/articles/customizing-the-apps/#toc-0)** and remove their default streaming garbage.
-      * This looks a little different on each device, but generally: open the navigation, select "More", find whatever I've shared with you, and pin them for quick access.
-      * You will see my server named `Scylla` with the content you have access to.
+2. **Install the Plex app** on [your streaming device of choice](https://www.plex.tv/apps-devices/) and sign in. [^1]
+3. Set up your app:
+   1. **[Update the quality settings](Guides/QualitySettings.md)** in your app. (The default settings are very low quality.)
+   2. **[Save my content to your navigation](https://support.plex.tv/articles/customizing-the-apps/#toc-0)** and remove their default streaming garbage.
+      * This looks a little different on each device, but generally: open the navigation, select "More", find whatever I've shared with you (you'll see my server `Scylla`), and pin them for quick access.
 
 That's it! You're in and can start looking for something to watch.
 
@@ -36,23 +33,17 @@ An analogy I like: **my server is like a backyard pool shared with friends.**
 * Giving your key to someone else will get you kicked out.
 
 ## Using Plex
-The **Home Screen** shows what has recently been added to my Server and anything you're in the middle of watching.
+The **Home Screen** shows what has recently been added and anything you're in the middle of watching.
 
-Plex is organized into **Libraries** that contain either Movies or TV Shows. You can browse a specific Library or you can use search.
-
-Movies that are part of a series (e.g. all the James Bond movies) are grouped into **Collections**.
-  * Any franchise of 2 or more movies gets condensed into a Collection, so you don't see 25+ James Bond movies in a row.
-  * I also have some custom Collections like "movies based on Stephen King books" that show up _in addition to_ the individual movies.
+Plex is organized into **Libraries** that contain either Movies or TV Shows. You can browse a specific Library or you can use search. Franchises with multiple movies are condensed into **Collections** (e.g. all the James Bond movies).
 
 Once you decide on something to watch, **just click Play**. You can change your settings at any time — enable subtitles, adjust streaming quality, or change audio tracks (if available).
 
 > [!TIP]
-> **Subtitles:** You can [update your account settings](Guides/AccountSettings.md) to enable subtitles without having to select them every time you start watching something.
-> Note that subtitles labeled "Forced" _only_ contain foreign-language dialogue, like if someone speaks a few lines of French in an otherwise English-language movie.
-
+> **Subtitles:** You can [update your account settings](Guides/AccountSettings.md) to enable subtitles without having to select them every time you start watching.
 
 > [!NOTE]
-> If you ever see ads, you're watching something from Plex's own streaming service. You will never see ads while watching anything from my server.
+> If you ever see ads, you're watching something from Plex's own service. You will _never_ see ads while watching anything from my server.
 
 -----
 
@@ -61,3 +52,5 @@ Once you decide on something to watch, **just click Play**. You can change your 
 * [Mediaclients.wiki](https://mediaclients.wiki/en/Plex) has a bunch of useful info and guides
 * [Plexplainers](https://web.archive.org/web/20250317201942/http://plxplainers.xyz/) is a good resource with screenshots from various app platforms (archived on Wayback Machine as the original has disappeared)
 
+
+[^1]: I highly recommend an Apple TV or any Google TV-based device like the ~$30 [Onn 4K](https://www.amazon.com/dp/B0B75QMC7X) for the best experience, but use whatever you've got!
