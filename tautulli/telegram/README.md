@@ -1,4 +1,4 @@
-# Tautulli notification templates
+# Tautulli: Telegram notification templates
 In order to inform you about any Plex library changes through a Telegram channel or group.
 
 Each of them should be added in the Notification Agents settings. 
