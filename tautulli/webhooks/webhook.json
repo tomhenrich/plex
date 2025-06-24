@@ -1,0 +1,24 @@
+{
+	"server": "{server_name}",
+	"action": "{action}",
+	"timestamp": "{timestamp}",
+	"who": {
+		"user": "{user}",
+		"player": "{player}"
+	},
+	"what": {
+		"type": "{media_type}",
+		"title": "<movie>{title}</movie><episode>{show_name} - S{season_num00}E{episode_num00} - {episode_name}</episode>",
+		"year": "{year}"
+	},
+	"stream": {
+		"local": "{stream_local}"
+	},
+	"transcode": {
+		"transcode_decision": "{transcode_decision}"
+	},
+	"progress": {
+		"time": "{progress_time}",
+		"percent": "{progress_percent}"
+	}
+}
