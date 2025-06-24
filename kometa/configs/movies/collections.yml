@@ -1,0 +1,384 @@
+templates:
+  tmdb:
+    optional:
+      - collection
+      - movie
+      - company
+      - tmdb_summary
+      - summary
+      - order
+    tmdb_collection_details: <<collection>>
+    tmdb_movie: <<movie>>
+    tmdb_company: <<company>>
+    tmdb_summary: <<tmdb_summary>>
+    summary: <<summary>>
+    sync_mode: sync
+    collection_order: release
+    move_prefix: The,A
+
+  Actor:
+    plex_search:
+      all:
+        actor: tmdb
+    tmdb_person: <<person>>
+    sync_mode: sync
+
+#
+# CURATED COLLECTIONS
+# Curated -- either not official TMDB collections, or specific combinations of movies
+#
+
+collections:
+
+  Cloverfield:
+    template:
+      name: tmdb
+      movie: 
+        - 7191    # Cloverfield
+        - 333371  # 10 Cloverfield Lane
+        - 384521  # Cloverfield Paradox
+    collection_order: release
+
+  Cornetto Trilogy:
+    template:
+      name: tmdb
+      movie:
+        - 747     # Shaun of the Dead
+        - 4638    # Hot Fuzz
+        - 107985  # The World's End
+    summary: The Three Flavours Cornetto trilogy is an anthology series of British comedies by Edgar Wright and Simon Pegg, starring Pegg and Nick Frost. 
+    name_mapping: Cornetto
+    minimum_items: 3
+    collection_order: release
+    collection_mode: show_items
+
+  Daredevil:
+    template:
+      name: tmdb
+      movie:
+        - 9480  # Daredevil
+        - 9947  # Elektra
+    collection_order: release
+    collection_mode: hide
+
+  Eastrail 177:
+    template:
+      name: tmdb
+      movie: 
+        - 9741    # Unbreakable
+        - 381288  # Split
+        - 450465  # Glass
+    summary: "A superhero thriller and psychological horror film series involving the derailment of the fictitious Eastrail 177 train."
+    collection_order: release
+    collection_mode: show_items
+
+  Galaxy Quest:
+    template:
+      name: tmdb
+      movie:
+        - 926 # Galaxy Quest
+        - 637963 # Documentary
+    collection_order: release
+    collection_mode: hide
+
+  Gamera:
+    template:
+      name: tmdb
+      movie:
+        - 60160   # Gamera the Brave
+        - 664048  # 2015 short
+    summary: "Gamera is a giant turtle Kaiju created by Daiei Motion Picture Company in 1965 to rival the success of Toho Studios' Godzilla franchise."
+    collection_order: release
+    sort_title: Gamera 2006
+
+  "Godzilla (Reiwa)":
+    template:
+      name: tmdb
+      movie:
+        - 315011  # Shin Godzilla
+        - 940721  # Minus One
+      collection:
+        - 1437740 # Minus One Collection
+    collection_order: release
+    sort_title: Godzilla 2016
+    summary: "Toho's Japanese-language Godzilla movies resumed in 2016, running concurrently with the American MonsterVerse series."
+
+  I Am Legend:
+    template:
+      name: tmdb
+      movie:
+        - 21159 # The Last Man on Earth
+        - 11234 # Omega Man
+        - 6479  # I Am Legend
+    collection_order: release
+    collection_mode: hide
+    summary: "Films adapted from the novel I AM LEGEND by Richard Matheson."
+
+  Italian Job:
+    template:
+      name: tmdb
+      movie:
+        - 10536 # 1969
+        - 9654  # 2003
+    summary: "A team of criminals risk shifting allegiances and double-crosses to take on a daring heist."
+    collection_order: release
+
+  King Kong:
+    template:
+      name: tmdb
+      collection:
+        - 135495  # 1930+
+        - 135498  # 1976-1986
+      movie:
+        - 254     # 2005 Peter Jackson
+        - 39276   # King Kong Escapes (1967)
+    collection_order: release
+
+  Middle Earth:
+    template:
+      name: tmdb
+      collection:
+        - 119     # LOTR
+        - 121938  # Hobbit
+    item_label.append: Middle Earth
+    summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins."
+    collection_order: release
+
+  Serenity:
+    template:
+      name: tmdb
+      movie: 16320
+    minimum_items: 1
+    collection_mode: hide
+
+  Star Trek:
+    template:
+      name: tmdb
+      collection:
+        - 151     # The Original Series
+        - 115570  # The Next Generation
+        - 115575  # Kelvin/Alternate Reality
+      movie:
+        - 1114894     # Section 31
+    item_label.append: Star Trek
+    summary: "All films from the iconic Star Trek franchise."
+    collection_order: release
+
+  Studio Ghibli:
+    template:
+      name: tmdb
+      movie:
+        - 81  # Nausicaa
+      company:
+        - 10342
+    collection_order: release
+    collection_mode: show_items
+
+  Three Mothers:
+    template:
+      name: tmdb
+      movie:
+        - 11906 # Suspiria
+        - 16395 # Inferno
+        - 15206 # Mother of Tears
+    summary: "Dario Argento's Italian supernatural horror saga that deals with a triumvirate of ancient witches whose powerful magic allows them to manipulate world events on a global scale."
+    collection_order: release
+    collection_mode: show_items
+
+  Vengeance Trilogy:
+    template:
+      name: tmdb
+      movie:
+        - 4689  # Sympathy for Mr Vengeance
+        - 670   # Oldboy
+        - 4550  # Lady Vengeance
+    summary: "Park Chan-wook's Vengeance Trilogy proves revenge is a lot more than a dish best served cold."
+    collection_order: release
+    collection_mode: show_items
+
+  Wizarding World:
+    template:
+      name: tmdb
+      collection:
+        - 1241    # Harry Potter
+        - 435259  # Fantastic Beasts
+    collection_order: release
+
+  The Chocolate Factory:
+    template:
+      name: tmdb
+      movie:
+        - 252     # Willie Wonka (1971)
+        - 118     # Charlie and the Chocolate Factory (2005)
+        - 787699  # Wonka (2023)
+    summary: "Come with me... and you'll be... in a world of pure imagination..."
+    collection_order: release
+    collection_mode: show_items
+    name_mapping: Wonka
+
+
+########################################
+# Marvel/DC Movies
+########################################
+
+  Marvel Cinematic Universe:
+    tmdb_keyword: 180547
+    smart_label:
+      all:
+        label: <<smart_label>>
+      sort_by: release.asc
+
+  Marvel Extended Universe:
+    trakt_list:
+      - https://trakt.tv/users/tomhenrich/lists/mceu
+    smart_label:
+      all:
+        label: <<smart_label>>
+      sort_by: release.asc
+    summary: Movies based on Marvel properties but not officially part of the Marvel Cinematic Universe.
+
+  DC Universe:
+    trakt_list: 
+      - https://trakt.tv/users/tomhenrich/lists/dc-universe
+    smart_label:
+      all:
+        label: <<smart_label>>
+      sort_by: release.asc
+    minimum_items: 1
+
+
+########################################
+# OTHER
+########################################
+
+  "Sarah's Watchlist":
+    trakt_list: 
+      - https://trakt.tv/users/tomhenrich/lists/sarah-s-watchlist?display=movie
+      - https://trakt.tv/users/nursesawa/watchlist?display=movie
+    smart_label:
+      all:
+        label: <<smart_label>>
+        unplayed: true
+      sort_by: title.asc
+    sort_title: "!Sarahs Watchlist"
+    name_mapping: Sarahs Watchlist
+    label: noshare
+    minimum_items: 1
+
+  "Tom's Watchlist":
+    trakt_list: https://trakt.tv/users/tomhenrich/watchlist?display=movie
+    smart_label:
+      all:
+        label: <<smart_label>>
+        unplayed: true
+      sort_by: title.asc
+    sort_title: "!Toms Watchlist"
+    name_mapping: Toms Watchlist
+    label: noshare
+    minimum_items: 1
+
+  Unwatched:
+    smart_filter:
+      all:
+        unplayed: true
+      sort_by: duration.asc
+    sort_title: "!Unwatched"
+    collection_filtering: user
+
+  Non-English:
+    smart_filter:
+      any:
+        audio_language.not: English
+      sort_by: title.asc
+    sort_title: "zzzNon-English"
+    summary: "You're gonna need to be okay with subtitles."
+
+  Gotham:
+    smart_filter:
+      any:
+        title:
+          - Batman
+          - Dark Knight
+      sort_by: release.asc
+    collection_mode: hide
+    sort_title: "Batman(All)"
+
+  Hitchcock:
+    smart_filter:
+      all:
+        director: Alfred Hitchcock
+      sort_by: release.asc
+
+  Kurosawa Samurai:
+    template:
+      name: tmdb
+      movie:
+        - 548 # Rashomon
+        - 346 # Seven Samurai
+        - 3777 # Throne of Blood
+        - 1059 # The Hidden Fortress
+        - 11878 # Yojimbo
+        - 11712 # Sanjuro
+        - 11953 # Kagemusha
+        - 11645 # Ran
+    summary: "Samurai films by the legendary Japanese director, Akira Kurosawa."
+    item_label: Samurai
+    collection_mode: show_items
+    sort_title: Samurai Kurosawa
+
+  MonsterVerse:
+    smart_filter:
+      all:
+        label: MonsterVerse
+      sort_by: release.asc
+
+  Stephen King:
+    trakt_list: https://trakt.tv/users/hawque/lists/stephen-king?display=movie
+    smart_label:
+      all:
+        label: <<smart_label>>
+      sort_by: release.asc
+    summary: "Movies adapted from Stephen King novels."
+
+  Toho Kaiju:
+    trakt_list: https://trakt.tv/users/tomhenrich/lists/toho-kaiju
+    smart_label:
+      all:
+        label: <<smart_label>>
+      sort_by: release.asc
+
+  Universal Classic Monsters:
+    trakt_list: https://trakt.tv/users/tomhenrich/lists/universal-monsters?sort=released,desc
+    smart_label:
+      all:
+        label: <<smart_label>>
+      sort_by: release.asc
+    summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
+
+  Choice Fatigue:
+    smart_filter:
+      limit: 5
+      all:
+        unplayed: true
+        audio_language: English
+        release: 3650
+        audience_rating.gte: 6
+        genre.not:
+          - Horror
+          - Short
+      sort_by: random
+    sort_title: "!Choice Fatigue"
+    collection_filtering: user
+    summary: "Can't decide what to watch? Here are a few popular selections released in the last decade."
+
+  Recently Added to Plex:
+    smart_filter:
+      limit: 100
+      all:
+        added: 60    # added within this many days
+        label.not:
+          - "Exclude From Recent"
+      sort_by: added.desc
+    sort_title: "zzRecent"
+    summary: "Here's what's been added to Plex within the last couple months."
+    collection_mode: hide
