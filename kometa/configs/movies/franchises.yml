@@ -1,0 +1,265 @@
+templates:
+  collection:
+    default:
+      collection_order: release
+      minimum_items: 2
+    optional:
+      - collection
+      - movie
+      - name_mapping
+      - sort_title
+      - build_collection
+      - item_label
+      - summary
+      - collection_mode
+    cache_builders: 1
+    minimum_items: <<minimum_items>>
+    tmdb_collection_details: <<value>>
+    tmdb_movie: <<movie>>
+    name_mapping: <<name_mapping>>
+    sort_title: <<sort_title>>
+    build_collection: <<build_collection>>
+    sync_mode: sync
+    collection_order: <<collection_order>>
+    collection_mode: <<collection_mode>>
+    item_label: <<item_label>>
+    summary: <<summary>>
+
+dynamic_collections:
+  TMDb Collections:
+    type: tmdb_collection
+    remove_prefix: The
+    remove_suffix: Collection
+    template: collection
+    sync: true
+
+    exclude:
+      - 945984  # I Am Legend (Will Smith)
+      - 627389  # Yojimbo/Sanjuro
+      - 151    # Star Trek TOS
+      - 115570 # Star Trek TNG
+      - 115575 # Star Trek KEL
+      - 721111 # The Fugitive/US Marshals
+      - 531242 # Suicide Squad
+      ## Kaiju Series
+      - 813157  # Godzilla (American re-releases)
+      - 1474814 # Godzilla Reiwa
+      - 1437740 # Godzilla Minus One
+      - 135495  # King Kong 1930+
+      - 135498  # King Kong 1976+
+      - 1474869 # Kong (MonsterVerse)
+      ## Removed from TMDB:
+      - 1072931 # Shin Japan Heroes
+      - 1282917 # Unbreakable/Eastrail
+      - 1313932 # Studio Ghibli
+      - 995464 # Moon/Mute
+      - 1326786 # Wolfs
+      - 1229144 # Three Mothers
+      - 1403306 # Wallace & Gromit
+      - 1478536 # Wallace & Gromit
+      - 1326214 # Godzilla Reiwa
+      - 1437740 # Godzilla Minus One
+      - 524837 # Atomic Blonde
+      - 1402107 # Barbie
+      - 939352 # Transformers Rise of the Beasts
+      - 1036499 # Hancock
+      
+
+    addons: # combine collections
+      8091:       # Alien
+        - 135416    #+ Prometheus
+        - 1434946   #+ Romulus
+      86066:      # Despicable Me
+        - 544669    #+ Minions
+      17255:      # Resident Evil
+        - 133352    #+ Animated
+      10:         # Star Wars
+        - 392331    #+ LEGO Star Wars
+        - 1004630   #+ LEGO Star Wars (Seasonal)
+      1582:       # TMNT
+        - 1156855   #+ Animated TMNT
+        - 401562    #+ Reboot TMNT
+      748:        # X-Men
+        - 453993    #+ The Wolverine
+
+    title_override:
+      1733: The Mummy # 1999 cinematic masterpiece
+      304: "Ocean's Heists"
+      2794: The Chronicles of Riddick
+      325470: LEGO Movies
+      119: The Lord of the Rings
+      535313: "Godzilla (MonsterVerse)"
+      535790: "Godzilla (Anime)"
+      948485: The Batman
+      9485: The Fast and the Furious
+      121938: The Hobbit
+      479888: The Thing
+      758369: The Craft
+      464577: The Croods
+      468222: The Incredibles
+      9649: El Mariachi
+      2344: The Matrix
+      573436: "Spider-Verse"
+      259401: "Invisible Man (Universal)"
+      259027: "Wolf Man (Universal)"
+      1079486: "Winnie the Pooh: Blood & Honey"
+      4438: "2001/2010"
+      123726: Quatermass
+      575987: "The Girl with the Dragon Tattoo (American)"
+      44215: Stargate
+
+    template_variables:
+
+      movie: # what movies should be part of collections but TMDB doesn't agree?
+        10:         # Star Wars
+          - 330459    # Rogue One
+          - 348350    # Solo
+          - 74849     # Holiday Special
+          - 765673    # Disturbance in the Force
+          - 732670    # LEGO Holiday Special
+          - 12180     # The Clone Wars animated movie
+          - 765673    # Holiday Special Documentary
+        8091:       # Alien
+          - 945961    # Romulus
+        521226:     # A Quiet Place
+          - 762441    #+ Day One
+        9436:       # The Crow
+          - 957452    #+ 2024 remake
+        2980:       # Ghostbusters
+          - 43074     #+ Ghostbusters 2016
+        374509:     # Godzilla Showa
+          - 18983     # Godzilla, King of the Monsters (US)
+          - 329237    # Gigantis the Fire Monster (US Version of Godzilla Raids Again)
+          - 686487    # King Kong vs Godzilla (US)
+        374511:     # Godzilla (Heisei)
+          - 39256     #+ Godzilla 1985 (US Version)
+        535313:     # Godzilla (MonsterVerse)
+          - 823464    #+ Godzilla x Kong 
+        328:        # Jurassic Park
+          - 630322    #+ Battle at Big Rock
+        645:        # James Bond
+          - 12208     #+ Casino Royale 1967
+        325470:     # LEGO Movies
+          - 324849    #+ LEGO Batman Movie
+        86055:      # Men in Black
+          - 479455    #+ MIB International
+        304:        # Oceans Heists
+          - 402900    #+ Oceans 8
+          - 299       #+ 1960 original
+        399:        # Predator
+          - 1376434   #+ Killer of Killers
+        2794:       # Riddick
+          - 2791      #+ Dark Fury
+        5547:       # Robocop
+          - 97020     #+ 2014 Reboot
+        8650:       # Transformers
+          - 424783    #+ Bumblebee
+          - 698687    #+ Transformers One
+          - 667538    #+ Rise of the Beasts
+        529:        # Wallace & Gromit
+          - 533       #+ Curse of the Were-Rabbit
+          - 929204    #+ Vengeance Most Fowl
+        748:        # X-Men
+          - 340102    #+ New Mutants
+        2344:       # The Matrix
+          - 55931     #+ Animatrix
+        259027:     # Wolf Man
+          - 27970     #+ Wolf Man of London
+        105995:     # Anaconda
+          - 336560    #+ Lake Placid vs Anaconda
+        448150:     # Deadpool
+          - 567604    #+ Once Upon a Deadpool
+        17235:  # Hellboy (Ron Perlman)
+          - 456740  #+ David Harbour
+          - 1087822 #+ Crooked Man (2024)
+        44215:  # Stargate SG-1
+          - 2164    #+ Stargate (1994)
+        10455:  # Childs Play
+          - 533642 # 2019
+        192492:  # Jack Ryan
+          - 4614 # Sum of All Fears
+          - 137094 # Shadow Recruit
+        479888: # The Thing
+          - 10785 # Thing from Another World (1951)
+        1709: # Planet of the Apes
+          - 17244 # Behind the POTA (Documentary)
+        256377: # The Muppets
+          - 11176 # The Muppet Movie
+          - 14900 # The Great Muppet Caper
+          - 11899 # The Muppets Take Manhattan
+          - 10437 # Muppet Christmas Carol
+          - 10874 # Muppet Treasure Island
+          - 10208 # Muppets from Space
+          - 13352 # Very Merry Christmas
+          - 20910 # Wizard of Oz
+          - 27190 # Letters to Santa
+          - 45731 # John Denver & The Muppets
+
+      name_mapping: # provide the folder name if it's not identical to the collection name
+                    # include any folders where title_override value specifies that it starts with "The"
+        1565: 28 Days Later
+        948485: The Batman
+        91697: Battlestar Galactica
+        2794: Chronicles of Riddick
+        758369: Craft
+        464577: Croods
+        263: Dark Knight
+        9485: Fast and Furious
+        535313: Godzilla (MonsterVerse)
+        535790: Godzilla (Anime)
+        121938: Hobbit
+        468222: Incredibles
+        259401: Invisible Man (Universal)
+        1280074: Kong (MonsterVerse)
+        325470: LEGO Movies
+        119: Lord of the Rings
+        9649: Mariachi
+        2344: Matrix
+        1733: Mummy # the 1999 cinematic masterpiece
+        304: Oceans
+        4438: Space Odyssey
+        479888: Thing
+        529: Wallace and Gromit
+        1079486: Winnie-the-Pooh (Horror)
+        123726: Quatermass
+        575987: The Girl - Millennium
+        44215: Stargate
+
+      item_label:
+        435259: Wizarding World
+        535313: MonsterVerse
+        1280074: MonsterVerse
+
+      collection_order:
+        10: alpha     # Star Wars
+        2344: alpha   # The Matrix
+        2794: alpha   # Riddick
+
+      collection_mode:
+        192492: hide # Jack Ryan
+        386534: show_items # [Olympus/London/Angel] Has Fallen
+
+      minimum_items:
+        912503: 1     # Shang-Chi
+        44215: 1      # Stargate (to connect with TV shows)
+
+      sort_title:
+        115762: Alien vs Predator
+        263: Batman Dark Knight
+        948485: Batman Pattinson
+        374509: Godzilla 1954 # Showa
+        374511: Godzilla 1984 # Heisei
+        374512: Godzilla 1999 # Millennium
+        535313: Godzilla 2014 # Monsterverse
+        535790: Godzilla 2017 # Anime
+        4438: 2001 A Space Odyssey
+        161766: Gamera 1965
+        657313: Gamera 1997
+
+      summary:
+        2344: "A cyberpunk story of the technological fall of humanity, in which the creation of artificial intelligence led the way to a race of machines that imprisoned mankind in a virtual reality system — the Matrix."
+        374509: "The original! The first era of Godzilla movies, from 1954 through 1975. Godzilla emerges as terror incarnate, and evolves over the series into a benevolent (but still destructive) protector of Earth."
+        374511: "After a hiatus, Toho relaunched the Godzilla franchise in 1984 with a new continuity, ignoring the Showa era titles except for the 1954 original."
+        374512: "Toho brought Godzilla back for the new millennium, re-asserting Godzilla as a terrifying force of nature. Each movie in this series disregards all prior movies (with the exception of 'MechaGodzilla' being followed by 'Tokyo S.O.S.')."
+        1582: "Heroes in a half-shell!"
+        123726: "Professor Bernard Quatermass is a fictional scientist originally created for BBC Television – a pioneer of the British space program who finds himself confronting sinister forces."
