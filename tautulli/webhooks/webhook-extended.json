@@ -1,0 +1,48 @@
+{
+	"server": "{server_name}",
+	"action": "{action}",
+	"timestamp": "{timestamp}",
+	"who": {
+		"user": "{user}",
+		"player": "{player}"
+	},
+	"what": {
+		"type": "{media_type}",
+		"title": "<movie>{title}</movie><episode>{show_name} - S{season_num00}E{episode_num00} - {episode_name}</episode>",
+		"year": "{year}"
+	},
+	"source": {
+		"container": "{container}",
+		"bitrate": "{bitrate}",
+		"resolution": "{video_resolution}",
+		"video_codec": "{video_codec}",
+		"audio_codec": "{audio_codec}",
+		"sub_container": "{subtitle_container}",
+		"sub_format": "{subtitle_format}"
+	},
+	"stream": {
+		"quality_profile": "{quality_profile}",
+		"local": "{stream_local}",
+		"container": "{stream_container}",
+		"video_resolution": "{stream_video_resolution}",
+		"video_codec": "{stream_video_codec}",
+		"audio_codec": "{stream_audio_codec}",
+		"audio_channels": "{stream_audio_channels}",
+		"sub_container": "{stream_subtitle_container}",
+		"sub_format": "{stream_subtitle_format}"
+	},
+	"transcode": {
+		"transcode_decision": "{transcode_decision}",
+		"video_decision": "{video_decision}",
+		"audio_decision": "{audio_decision}",
+		"subtitle_decision": "{subtitle_decision}",
+		"container": "{transcode_container}",
+		"video_codec": "{transcode_video_codec}",
+		"audio_codec": "{transcode_audio_codec}",
+		"audio_channels": "{transcode_audio_channels}"
+	},
+	"progress": {
+		"time": "{progress_time}",
+		"percent": "{progress_percent}"
+	}
+}
