@@ -1,0 +1,41 @@
+metadata:
+  The Fellowship of the Ring:
+    match:
+      mapping_id: 120
+    original_title: "The Lord of the Rings: The Fellowship of the Ring"
+    summary: "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle Earth from the Dark Lord Sauron."
+    sort_title: LOTR 1
+  The Two Towers:
+    match:
+      mapping_id: 121
+    original_title: "The Lord of the Rings: The Two Towers"
+    summary: "While Frodo and Sam edge closer to Mordor with the help of Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman."
+    sort_title: LOTR 2
+  The Return of the King:
+    match:
+      mapping_id: 122
+    original_title: "The Lord of the Rings: The Return of the King"
+    summary: "Gandalf and Aragorn lead the world of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
+    sort_title: LOTR 3
+  The Matrix:
+    match:
+      mapping_id: 603
+    sort_title: Matrix 1
+  Godzilla2014:
+    match:
+      mapping_id: 124905
+    title: Godzilla
+    sort_title: Godzilla MV 2014
+    label: MonsterVerse
+  GodzillaKOTM:
+    match:
+      mapping_id: 373571
+    title: "Godzilla: King of the Monsters"
+    sort_title: Godzilla MV 2019
+    label: MonsterVerse
+  GodzillaKong2021:
+    match:
+      mapping_id: 399566
+    title: "Godzilla vs. Kong"
+    sort_title: Godzilla MV 2021
+    label: MonsterVerse
