@@ -24,7 +24,7 @@
 * Encode to `H.265 (x265)` with the framerate set to `Same as source` and `Variable framerate`
 * Encoder Preset: `Medium` (typically requires 2-3 hours for an average movie)
   * If possible, set to `Slow` but this usually means 8+ hours to encode an average movie
-* Quality Level: set to `18` for most movies
+* Quality Level: default to `18` for most movies
   * Can be set to `20` for older, lower-quality movies
   * Set to `16` for particularly high-profile, visually-impressive movies – or consider just keeping the original remuxed source file instead of encoding at all
 
@@ -33,9 +33,9 @@
 * Keep only the original audio associated with the title
   * Discard dubbed language tracks – if the movie was meant to have Japanese audio, it will be kept in Japanese
   * Discard any "Audio Description" or Commentary tracks
-* Prefer DTS-HD or DTS format, encode to AAC otherwise – do not keep TrueHD, AC3, EAC3, FLAC, or other formats when encoding from Blu-ray sources
-  * Passthrough the best-available DTS format when possible
-  * Otherwise, convert the highest-quality track to AAC
+* Prefer the original audio format directly from the disc
+  * Passthrough the best-available format
+  * If keeping a TrueHD format (only for exceptionally high-quality movies), add a more compatible format as the default track
     * Maintain the highest available channel mix (e.g. if the source is 7.1, keep that intact)
     * Maximum bitrate: 512 kbps or the original track's value, whichever is lower (do not upscale)
 
@@ -53,7 +53,7 @@
 * Keep Forced Subtitle tracks when applicable
 * Prefer SDH subtitles when available
   * If both SDH and non-SDH are available, keep only SDH
-* Keep only image-based subtitles
+* Keep only image-based subtitles within the file
   * Text-based formats (SRT or SSA/ASS) should be extracted from the source file and stored alongside the output file
 * Never burn subtitles into the video
 
