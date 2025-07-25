@@ -30,14 +30,14 @@
 
 ### Audio
 #### Track selection
-* Keep only the original audio associated with the title
-  * Discard dubbed language tracks – if the movie was meant to have Japanese audio, it will be kept in Japanese
-  * Discard any "Audio Description" or Commentary tracks
-* Prefer the original audio format directly from the disc
-  * Passthrough the best-available format
-  * If keeping a TrueHD format (only for exceptionally high-quality movies), add a more compatible format as the default track
-    * Maintain the highest available channel mix (e.g. if the source is 7.1, keep that intact)
+* **Keep only the original language audio** associated with the title
+  * Discard dubbed language tracks, "Audio Description", or Commentary tracks
+* **Prefer passing through the original audio format** directly from the source, rather than converting to a different format
+  * Keep only the first matching DTS-HD, DTS, or AC3 track where available
+  * If none of those formats are available, convert the highest-quality source track to AAC
+    * Maintain the existing channel mix (e.g. if the source is 7.1, keep that as is)
     * Maximum bitrate: 512 kbps or the original track's value, whichever is lower (do not upscale)
+  * Only for exceptionally high-quality movies where a TrueHD track is available: it can be kept but should be secondary to a more widely compatible track following the above rules (i.e. keep or add a DTS or AAC track as the default)
 
 #### Track naming
 * Label tracks according to their channel availability, not their format:
@@ -47,7 +47,7 @@
 #### Track selection
 * Keep only English subtitles
 * Keep only subtitles for the actual content of the media
-  * Discard Commentary subtitles
+  * Discard Commentary subtitles (unless keeping Commentary audio for some reason)
   * Discard trivia popups or other non-dialogue tracks
 * Check the "Default" checkbox for the primary subtitle track and ensure it is listed first in the track order
 * Keep Forced Subtitle tracks when applicable
