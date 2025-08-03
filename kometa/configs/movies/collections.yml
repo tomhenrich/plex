@@ -339,12 +339,15 @@ collections:
       sort_by: audience_rating.desc
 
   Stephen King:
-    trakt_list: https://trakt.tv/users/hawque/lists/stephen-king?display=movie
+    trakt_list:
+      - https://trakt.tv/users/tomhenrich/lists/stephen-king?sort=released,asc
+      - https://trakt.tv/users/hawque/lists/stephen-king?display=movie
     smart_label:
-      all:
+      any:
         label: <<smart_label>>
+        writer: Stephen King
       sort_by: release.asc
-    summary: "Movies adapted from Stephen King novels."
+    summary: "Movies adapted from Stephen King works."
 
   Toho Kaiju:
     trakt_list: https://trakt.tv/users/tomhenrich/lists/toho-kaiju
