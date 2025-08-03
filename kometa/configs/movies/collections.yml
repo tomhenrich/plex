@@ -336,7 +336,7 @@ collections:
     smart_filter:
       all:
         actor: Nicolas Cage
-      sort_by: release.asc
+      sort_by: audience_rating.desc
 
   Stephen King:
     trakt_list: https://trakt.tv/users/hawque/lists/stephen-king?display=movie
