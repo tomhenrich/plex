@@ -332,6 +332,12 @@ collections:
         label: MonsterVerse
       sort_by: release.asc
 
+  Nic Cage:
+    smart_filter:
+      all:
+        actor: Nicolas Cage
+      sort_by: release.asc
+
   Stephen King:
     trakt_list: https://trakt.tv/users/hawque/lists/stephen-king?display=movie
     smart_label:
