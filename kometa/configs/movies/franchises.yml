@@ -65,6 +65,8 @@ dynamic_collections:
       - 1036499 # Hancock
       - 1512465 # Three Flavours Cornetto
       - 1506082 # Vengeance Trilogy (keeps being added)
+      - 1494663 # Ballerina (John Wick)
+      - 1500403 # Dog Man
       
 
     addons: # combine collections
@@ -266,8 +268,8 @@ dynamic_collections:
         4438: 2001 A Space Odyssey
         161766: Gamera 1965
         657313: Gamera 1997
-        24761: The Girl with the Dragon Tattoo 2009
-        575987: The Girl with the Dragon Tattoo 2011
+        24761: Girl with the Dragon Tattoo 2009
+        575987: Girl with the Dragon Tattoo 2011
 
       summary:
         2344: "A cyberpunk story of the technological fall of humanity, in which the creation of artificial intelligence led the way to a race of machines that imprisoned mankind in a virtual reality system — the Matrix."
