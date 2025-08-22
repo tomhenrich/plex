@@ -332,6 +332,13 @@ collections:
         label: MonsterVerse
       sort_by: release.asc
 
+  Musicals:
+    smart_filter:
+      all:
+        genre:
+          - Musical
+      sort_by: title.asc
+
   Nic Cage:
     smart_filter:
       all:
