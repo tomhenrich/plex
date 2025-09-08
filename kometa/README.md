@@ -31,15 +31,12 @@ This command will create and/or update only the collections you specifically lis
 
 Replace `Collection Name` with a pipe-separated list of the actual collection names you want to process. This can be any manually-defined or automatically-generated collection.
 
-`python kometa.py --run-collections "Alien"`
-
-or
-
-`python kometa.py --run-collections "Godzilla (Showa)|Godzilla (Heisei)|Godzilla (Millennium)"`
+`python kometa.py --run-collections "Alien"` or `python kometa.py --run-collections "Alien|Predator"`
 
 ### Only run specific configuration files
 There are multiple individual config files for each library:
 1. `metadata.yml` to override specific attributes of individual items, like title, description, year, labels, etc
+    - The metadata file is not generally necessary, but would be useful if setting up a completely fresh Plex installation. It is currently disabled via the Kometa config file.
 2. `franchises.yml` to automatically create collections based on data from TheMovieDB.org (TMDB)
 3. `collections.yml` to create manually-defined collections
     - TMDB has specific rules about what constitutes a collection, which generally do not allow for thematic/universe collections (like "Marvel Cinematic Universe") or loosely-related items
