@@ -12,12 +12,3 @@ Once you get them, fill in the blur fields:
 ![](assets/tautulli-telegram-setup.jpg?raw=True "Telegram bots setup")
 
 Select what you want to receive in your Telegram channel using the **Trigger** tab and then fill in the options in **Text** tab.
-
-Check all the available templates [here](templates).
-
-* [Playback start](templates/playback-start)
-* [Playback stop](templates/playback-stop)
-* [Playback pause](templates/playback-pause)
-* [Playback resume](templates/playback-resume)
-* [Watched](templates/watched)
-* [Recently added](templates/recently-added)
