@@ -345,6 +345,15 @@ collections:
         actor: Nicolas Cage
       sort_by: audience_rating.desc
 
+  Peanuts:
+    trakt_list:
+      - https://trakt.tv/lists/official/snoopy-peanuts-collection
+    smart_label:
+      any:
+        label: <<smart_label>>
+      sort_by: release.asc
+
+
   Stephen King:
     trakt_list:
       - https://trakt.tv/users/tomhenrich/lists/stephen-king?sort=released,asc
