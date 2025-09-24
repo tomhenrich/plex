@@ -250,7 +250,8 @@ dynamic_collections:
 
       collection_mode:
         192492: hide # Jack Ryan
-        386534: show_items # [Olympus/London/Angel] Has Fallen
+        386534: show_items # Olympus/London/Angel Has Fallen
+        9743: show_items # Hannibal Lecter
 
       minimum_items:
         912503: 1     # Shang-Chi
