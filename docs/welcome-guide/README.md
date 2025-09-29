@@ -9,7 +9,7 @@ From the invitation email, click the link to **create a free account** on the of
 2. **Get the Plex App:**  
 Install the app on your streaming device of choice and sign in.
 3. **Update the Quality Settings:** _(optional but important)_  
-In your app's Settings menu, look for the "Quality" or "Video" section and [set the quality](/plex/quality-settings) to "Original" or "Maximum", otherwise you're not going to get the best experience.
+In your app's Settings menu, look for the "Quality" or "Video" section and [set the quality](/plex/welcome-guide/quality-settings) to "Original" or "Maximum", otherwise you're not going to get the best experience.
 4. **Pin My Server**:  
 This looks a little different on each device, but generally: open the navigation, select "More", find whatever I've shared with you and [pin that content for quick access](https://support.plex.tv/articles/customizing-the-apps/#toc-0), and unpin Plex's default "Movies & Shows" and "Live TV" links.
 
@@ -40,7 +40,7 @@ From the side navigation, pick either Movies or TV Shows to browse for something
 Remember, as with any streaming service, **Plex uses your internet.** If you have unlimited data like me, go nuts. If you have a monthly cap, just be mindful.
 
 > [!TIP]
-> **Subtitles:** You can [update your account settings](/plex/account-settings) online to enable subtitles without having to select them every time you start watching.
+> **Subtitles:** You can [update your account settings](/plex/welcome-guide/account-settings) online to enable subtitles without having to select them every time you start watching.
 
 > [!NOTE]
 > If you ever see ads, you're watching something from Plex's own ad-supported service. You will _never_ see ads while watching anything from my server.
@@ -48,7 +48,7 @@ Remember, as with any streaming service, **Plex uses your internet.** If you hav
 -----
 
 ## Helpful Links
-* **If you're curious**, you can check out [how Plex streaming works](/plex/faqs) and why updating the quality settings matters
+* **If you're curious**, you can check out [how Plex streaming works](/plex/welcome-guide/faqs) and why updating the quality settings matters
 * [Mediaclients.wiki](https://mediaclients.wiki/en/Plex) has a bunch of useful info and guides
 * [Plexplainers](https://web.archive.org/web/20250317201942/http://plxplainers.xyz/) is a good resource with screenshots from various app platforms (archived on Wayback Machine as the original has disappeared)
 
