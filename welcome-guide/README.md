@@ -35,7 +35,7 @@ It's very similar to Netflix or other services you've seen. The Home Screen show
 
 From the side navigation, pick either Movies or TV Shows to browse for something to watch, or use search if you have something specific in mind. (Search results may include stuff from both my server and Plex's ad-supported streaming service. Content available from me will say it's on `Scylla`.)
 
-**Just click Play** to start watching. You can change your stream settings at any time — enable subtitles, adjust quality, switch audio tracks (if there are more than one), etc. Most things should have trailers
+**Just click Play** to start watching. You can change your stream settings at any time — enable subtitles, adjust quality, switch audio tracks (if there are more than one), etc. Most things should have trailers if you want a taste before committing.
 
 Remember, as with any streaming service, **Plex uses your internet.** If you have unlimited data like me, go nuts. If you have a monthly cap, just be mindful.
 
