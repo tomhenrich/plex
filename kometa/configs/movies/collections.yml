@@ -293,6 +293,23 @@ collections:
     sort_title: "zzzNon-English"
     summary: "You're gonna need to be okay with subtitles."
 
+  The Conjuring Universe:
+    # 1. Define a builder (e.g., a Trakt list).
+    #    Kometa finds every movie in this list.
+    tmdb_collection:
+      - 313086
+      - 402074
+      - 968052
+    
+    # 2. Tell Kometa to apply a label instead of making a manual collection.
+    smart_label:
+      # Use a smart filter to create the smart collection.
+      # The <<smart_label>> variable refers to the label applied in the previous step.
+      # This is the search criteria Plex will use for the collection.
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+
   Gotham:
     smart_filter:
       any:
