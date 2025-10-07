@@ -10,7 +10,7 @@ From the invitation email, click the link to **create a free account** on the of
 Install the app on your streaming device of choice and sign in.
 3. **Update the Quality Settings:** _(optional but important)_  
 In your app's Settings menu, look for the "Quality" or "Video" section and [set the quality](quality-settings.md) to "Original" or "Maximum", otherwise you're not going to get the best experience.
-4. **Pin My Server**:  
+4. **Pin My Server:**  
 This looks a little different on each device, but generally: open the navigation, select "More", find whatever I've shared with you and [pin that content for quick access](https://support.plex.tv/articles/customizing-the-apps/#toc-0), and unpin Plex's default "Movies & Shows" and "Live TV" links.
 
 That's it! You're in and can start looking for something to watch.
@@ -31,18 +31,20 @@ An analogy I like: **my server is like a backyard pool shared with friends.**
 If you have any questions or need any help, just ask!
 
 ## Using Plex
-It's very similar to Netflix or other services you've seen. The Home Screen shows anything you're in the middle of watching, whatever has recently been added, and new releases.
+It's very similar to Netflix or other services you've used before.
 
-From the side navigation, pick either Movies or TV Shows to browse for something to watch, or use search if you have something specific in mind. (Search results may include stuff from both my server and Plex's ad-supported streaming service. Content available from me will say it's on `Scylla`.)
+The _Home Screen_ shows whatever you're currently watching, plus recent additions and new releases.
 
-**Just click Play** to start watching. You can change your stream settings at any time — enable subtitles, adjust quality, switch audio tracks (if there are more than one), etc. Most things should have trailers if you want a taste before committing.
+From the side navigation, pick _Movies_ or _TV Shows_ to browse for something to watch, or use Search. (Search may include results from both my content and Plex's ad-supported streaming service. My content will show as being on `Scylla`.)
+
+**Just click Play** to start watching. to start watching. You can change your settings at any time.
 
 Remember, as with any streaming service, **Plex uses your internet.** If you have unlimited data like me, go nuts. If you have a monthly cap, just be mindful.
 
-> [!TIP]
-> **Subtitles:** You can [update your account settings](account-settings.md) online to enable subtitles without having to select them every time you start watching.
+> **TIP**  
+> You can [update your account settings](account-settings.md) online to enable subtitles without having to select them every time you start watching.
 
-> [!NOTE]
+> **NOTE**  
 > If you ever see ads, you're watching something from Plex's own ad-supported service. You will _never_ see ads while watching anything from my server.
 
 -----
