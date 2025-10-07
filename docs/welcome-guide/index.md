@@ -1,6 +1,6 @@
 # Welcome to Plex
 
-[Plex](https://www.plex.tv/) is a company that lets people create their own streaming service. I can host my collection of movies and TV shows on a computer at home and play that content anywhere, like my own personal Netflix.
+[Plex](https://www.plex.tv/) lets people create their own streaming service. I host my collection of movies and TV shows on a computer at home and can play that content anywhere, like my own personal Netflix.
 
 ## Getting Started
 
