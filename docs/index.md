@@ -1,5 +1,6 @@
+---
 title: Plex Documentation
-description: My own personal documentation for maintaining a Plex server.
+description: My own personal documentation for running my Plex server.
 ---
 This is intended to be my own personal documentation for maintaining a Plex server.
 
