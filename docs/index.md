@@ -4,7 +4,7 @@ description: How to sign up, get into Plex, and connect to shared libraries.
 nav_order: 1
 ---
 # Welcome to Plex
-[Plex](https://www.plex.tv/){:target="_blank"} lets people create their own streaming service. I host my collection of movies and TV shows on a computer at home and can play that content anywhere, like my own personal Netflix.
+[Plex](https://www.plex.tv/{target=_blank}) lets people create their own streaming service. I host my collection of movies and TV shows on a computer at home and can play that content anywhere, like my own personal Netflix.
 
 ## Getting Started
 
@@ -15,7 +15,7 @@ Install the app on your streaming device of choice and sign in.
 3. **Update the Quality Settings:** _(optional but important)_  
 In your app's Settings menu, look for the "Quality" or "Video" section and [set the quality](quality-settings.md) to "Original" or "Maximum", otherwise you're not going to get the best experience.
 4. **Pin My Server:**  
-This looks a little different on each device, but generally: open the navigation, select "More", find whatever I've shared with you and [pin that content for quick access](https://support.plex.tv/articles/customizing-the-apps/#toc-0){:target="_blank"}, and unpin Plex's default "Movies & Shows" and "Live TV" links.
+This looks a little different on each device, but generally: open the navigation, select "More", find whatever I've shared with you and <a href="https://support.plex.tv/articles/customizing-the-apps/#toc-0" target="_blank">pin that content for quick access</a>, and unpin Plex's default "Movies & Shows" and "Live TV" links.
 
 That's it! You're in and can start looking for something to watch.
 
@@ -57,6 +57,6 @@ Remember, as with any streaming service, **Plex uses your internet.** If you hav
 
 ## Helpful Links
 * **If you're curious**, you can check out [how Plex streaming works](faqs.md) and why updating the quality settings matters
-* [Mediaclients.wiki](https://mediaclients.wiki/en/Plex){:target="_blank"} has a bunch of useful info and guides
-* [Plexplainers](https://web.archive.org/web/20250317201942/http://plxplainers.xyz/){:target="_blank"} is a good resource with screenshots from various app platforms (archived on Wayback Machine as the original has disappeared)
+* <a href="https://mediaclients.wiki/en/Plex" target="_blank">MediaClients.wiki</a> has a bunch of useful info and guides
+* <a href="https://web.archive.org/web/20250317201942/http://plxplainers.xyz/" target="_blank">Plexplainers</a> is a good resource with screenshots from various app platforms (archived on Wayback Machine as the original has disappeared)
 
