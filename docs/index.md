@@ -45,11 +45,13 @@ From the side navigation, pick _Movies_ or _TV Shows_ to browse for something to
 
 Remember, as with any streaming service, **Plex uses your internet.** If you have unlimited data like me, go nuts. If you have a monthly cap, just be mindful.
 
-> **TIP**  
-> You can [update your account settings](account-settings.md) online to enable subtitles without having to select them every time you start watching.
+<div class="alert alert-info">
+  You can [update your account settings](account-settings.md) online to enable subtitles without having to select them every time you start watching.
+</div>
 
-> **NOTE**  
-> If you ever see ads, you're watching something from Plex's own ad-supported service. You will _never_ see ads while watching anything from my server.
+<div class="alert alert-warning">
+  If you ever see ads, you're watching something from Plex's own ad-supported service. You will _never_ see ads while watching anything from my server.
+</div>
 
 -----
 
