@@ -14,20 +14,24 @@ Plex is a _completely free service._
 The host (me) obviously has to have a capable computer and storage space, and I paid for a Plex Pass to get some additional features, but otherwise Plex itself is free to use.  
 **There is no charge to you for using my Plex.**
 
-> **NOTE**  
-> The company also offers [their own ad-supported streaming content](https://watch.plex.tv/on-demand) — this is _completely separate_ from whatever might be hosted by individual server owners, but it's still free.
+> **NOTE:** The company also offers <a href="https://watch.plex.tv/on-demand" target="_blank">their own ad-supported streaming content</a> — this is _completely separate_ from whatever might be hosted by individual server owners, but it's still free.
 
-### Q: Do I need anything to use Plex?
+### Q: Do I need anything in order to use Plex?
 
 All you need is a free Plex account and an internet-connected player device that can run the Plex app.  
-I recommend something like an Apple TV, [Google TV Streamer](https://store.google.com/product/google_tv_streamer), or an [Onn Streaming Device](https://www.amazon.com/dp/B0B75QMC7X), but whatever you have is probably fine.
+I recommend something like an Apple TV, <a href="https://store.google.com/product/google_tv_streamer" target="_blank">Google TV Streamer</a>, or an <a href="https://www.amazon.com/dp/B0B75QMC7X" target="_blank">Onn Streaming Device</a>, but whatever you have is probably fine.
 
 ### Q: How does it work?
 
-The Plex app on any Client device understands the device's capabilities: what file formats are supported, what its internet connection looks like, etc. Plex will then deliver media to that device in a format it can handle.
+I have a computer ("Server") in my home holding files from my media collection.  
+Plex runs on that server, gets information about the files (like titles, plot summaries, ratings, etc), and creates a streaming service from those libraries.  
+This just means I can watch what I want, when I want, without having to be home to get a disc off a shelf.
 
-🟢 If the Client is _100% compatible_ with every aspect of the source file, it will **Direct Play**, streaming the file exactly as-is.  
-🟡 If the Client can't handle something, it will **Transcode** to something it _does_ support. This creates some work for the Server since it has to re-create the file on-the-fly, and may result in some buffering.
+The Plex app on any player device ("Client") understands that device's capabilities: what file formats it supports, what its internet connection looks like, etc.  
+Plex delivers media to that device in a format it can handle.
+
+🟢 If the Client is _100% compatible_ with the source file, it will just stream the file exactly as-is. This is called **Direct Play**.  
+🟡 If the Client can't handle something, it will convert to something it _does_ support. This is called **Transcoding** — the Server has to re-create the content on-the-go in a format your player can handle, which may result in some buffering.
 
 #### Common Reasons for Transcoding:
 * Your player or TV doesn't have surround sound, so Plex will convert the surround audio to stereo.
@@ -36,3 +40,7 @@ The Plex app on any Client device understands the device's capabilities: what fi
   * This may result in buffering, since it's working to create a new video on-the-fly.
 * Your quality settings are set to something other than "Original", so Plex is converting to a lower-quality version.
 * The network connection speed is not fast enough, so Plex is transcoding to a lower-bandwidth version.
+
+Transcoding isn't _bad_ but obviously it's better if Plex can just play the original file without having to convert anything.
+
+
