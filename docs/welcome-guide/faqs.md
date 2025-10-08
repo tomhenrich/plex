@@ -1,3 +1,6 @@
+---
+permalink: /faqs
+---
 # Frequently Asked Questions
 
 ### Q: What is Plex?
@@ -8,7 +11,7 @@ I have a significant collection of Blu-rays and DVDs which have been copied to m
 ### Q: Is Plex free?
 
 Plex is a _completely free service._  
-The host (me) obviously has to have a capable computer and storage space, and I paid for a Plex Pass which unlocks some additional features, but otherwise Plex itself is free to use.  
+The host (me) obviously has to have a capable computer and storage space, and I paid for a Plex Pass to get some additional features, but otherwise Plex itself is free to use.  
 There is no charge to you for using my Plex.
 
 > **NOTE**
