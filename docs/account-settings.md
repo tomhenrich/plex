@@ -1,3 +1,6 @@
+---
+permalink: /account-settings
+---
 # Account Settings
 
 You can log into your Plex account on the web to update various settings. I recommend _at least_ updating your language and subtitle settings.
