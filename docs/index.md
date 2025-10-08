@@ -1,5 +1,7 @@
 ---
-title: "Welcome to Plex"
+title: Getting Started with Plex
+description: How to sign up, get into Plex, and connect to shared libraries.
+nav_order: 1
 ---
 # Welcome to Plex
 [Plex](https://www.plex.tv/) lets people create their own streaming service. I host my collection of movies and TV shows on a computer at home and can play that content anywhere, like my own personal Netflix.
