@@ -1,3 +1,5 @@
+permalink: /quality-settings
+---
 # Updating Quality Settings
 
 It's important to update the quality settings in your Plex app(s) to make sure you get the best streaming experience.
