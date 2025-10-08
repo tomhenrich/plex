@@ -12,9 +12,9 @@ I have a significant collection of Blu-rays and DVDs which have been copied to m
 
 Plex is a _completely free service._  
 The host (me) obviously has to have a capable computer and storage space, and I paid for a Plex Pass to get some additional features, but otherwise Plex itself is free to use.  
-There is no charge to you for using my Plex.
+**There is no charge to you for using my Plex.**
 
-> **NOTE**
+> **NOTE**  
 > The company also offers [their own ad-supported streaming content](https://watch.plex.tv/on-demand) — this is _completely separate_ from whatever might be hosted by individual server owners, but it's still free.
 
 ### Q: Do I need anything to use Plex?
