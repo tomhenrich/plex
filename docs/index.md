@@ -44,7 +44,7 @@ From the side navigation, pick _Movies_ or _TV Shows_ to browse for something to
 Remember, as with any streaming service, **Plex uses your internet.** If you have unlimited data like me, go nuts. If you have a monthly cap, just be mindful.
 
 > **TIP**  
-> You can [update your account settings](account-settings.md) online to enable subtitles without having to select them every time you start watching.
+> You can [update your account settings](/account-settings) online to enable subtitles without having to select them every time you start watching.
 
 > **NOTE**  
 > If you ever see ads, you're watching something from Plex's own ad-supported service. You will _never_ see ads while watching anything from my server.
@@ -52,7 +52,7 @@ Remember, as with any streaming service, **Plex uses your internet.** If you hav
 -----
 
 ## Helpful Links
-* **If you're curious**, you can check out [how Plex streaming works](faqs.md) and why updating the quality settings matters
+* **If you're curious**, you can check out [how Plex streaming works](/faqs) and why updating the quality settings matters
 * [Mediaclients.wiki](https://mediaclients.wiki/en/Plex) has a bunch of useful info and guides
 * [Plexplainers](https://web.archive.org/web/20250317201942/http://plxplainers.xyz/) is a good resource with screenshots from various app platforms (archived on Wayback Machine as the original has disappeared)
 
