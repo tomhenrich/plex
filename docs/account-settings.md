@@ -29,4 +29,4 @@ If you prefer to use subtitles, you can set that option in your account instead 
 
 You can always change your subtitle selection for any given content while you're watching it.
 
-![Subtitle settings: English, Always Enabled, Prefer SDH, and Prefer Forced](https://raw.githubusercontent.com/tomhenrich/plex/main/assets/subtitle-settings.png)
+![Subtitle settings: English, Always Enabled, Prefer SDH, and Prefer Forced](assets/images/subtitle-settings.png)
