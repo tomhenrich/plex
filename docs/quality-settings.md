@@ -1,3 +1,4 @@
+---
 permalink: /quality-settings
 ---
 # Updating Quality Settings
