@@ -4,7 +4,7 @@ description: How to sign up, get into Plex, and connect to shared libraries.
 nav_order: 1
 ---
 # Welcome to Plex
-[Plex](https://www.plex.tv/) lets people create their own streaming service. I host my collection of movies and TV shows on a computer at home and can play that content anywhere, like my own personal Netflix.
+[Plex](https://www.plex.tv/){:target="_blank"} lets people create their own streaming service. I host my collection of movies and TV shows on a computer at home and can play that content anywhere, like my own personal Netflix.
 
 ## Getting Started
 
@@ -15,9 +15,11 @@ Install the app on your streaming device of choice and sign in.
 3. **Update the Quality Settings:** _(optional but important)_  
 In your app's Settings menu, look for the "Quality" or "Video" section and [set the quality](quality-settings.md) to "Original" or "Maximum", otherwise you're not going to get the best experience.
 4. **Pin My Server:**  
-This looks a little different on each device, but generally: open the navigation, select "More", find whatever I've shared with you and [pin that content for quick access](https://support.plex.tv/articles/customizing-the-apps/#toc-0), and unpin Plex's default "Movies & Shows" and "Live TV" links.
+This looks a little different on each device, but generally: open the navigation, select "More", find whatever I've shared with you and [pin that content for quick access](https://support.plex.tv/articles/customizing-the-apps/#toc-0){:target="_blank"}, and unpin Plex's default "Movies & Shows" and "Live TV" links.
 
 That's it! You're in and can start looking for something to watch.
+
+---
 
 ## Basic Intro
 My Plex server is running from a computer in my home and has content I've personally curated. As such:
@@ -34,6 +36,8 @@ An analogy I like: **my server is like a backyard pool shared with friends.**
 
 If you have any questions or need any help, just ask!
 
+---
+
 ## Using Plex
 It's very similar to Netflix or other services you've used before.
 
@@ -45,18 +49,14 @@ From the side navigation, pick _Movies_ or _TV Shows_ to browse for something to
 
 Remember, as with any streaming service, **Plex uses your internet.** If you have unlimited data like me, go nuts. If you have a monthly cap, just be mindful.
 
-<div class="alert alert-info">
-  You can [update your account settings](account-settings.md) online to enable subtitles without having to select them every time you start watching.
-</div>
+> **TIP:** You can [update your account settings](account-settings.md) online to enable subtitles without having to select them every time you start watching.
 
-<div class="alert alert-warning">
-  If you ever see ads, you're watching something from Plex's own ad-supported service. You will _never_ see ads while watching anything from my server.
-</div>
+> **NOTE:** If you ever see ads, you're watching something from Plex's own ad-supported service. You will _never_ see ads while watching anything from my server.
 
 -----
 
 ## Helpful Links
 * **If you're curious**, you can check out [how Plex streaming works](faqs.md) and why updating the quality settings matters
-* [Mediaclients.wiki](https://mediaclients.wiki/en/Plex) has a bunch of useful info and guides
-* [Plexplainers](https://web.archive.org/web/20250317201942/http://plxplainers.xyz/) is a good resource with screenshots from various app platforms (archived on Wayback Machine as the original has disappeared)
+* [Mediaclients.wiki](https://mediaclients.wiki/en/Plex){:target="_blank"} has a bunch of useful info and guides
+* [Plexplainers](https://web.archive.org/web/20250317201942/http://plxplainers.xyz/){:target="_blank"} is a good resource with screenshots from various app platforms (archived on Wayback Machine as the original has disappeared)
 
