@@ -24,9 +24,10 @@
 * Encode to `H.265 (x265)` with the framerate set to `Same as source` and `Variable framerate`
 * Encoder Preset: `Medium` (typically requires 2-3 hours for an average movie)
   * If possible, set to `Slow` but this usually means 8+ hours to encode an average movie
-* Quality Level: default to `18` for most movies
-  * Can be set to `20` for older, lower-quality movies
-  * Set to `16` for particularly high-profile, visually-impressive movies – or consider just keeping the original remuxed source file instead of encoding at all
+* Quality Level: default to `20` for most movies
+  * Can be set to `22` for older, lower-quality movies
+  * Can be set to `24` for TV episodes
+  * Set to `18` for particularly high-profile, visually-impressive movies – or consider just keeping the original remuxed source file instead of encoding at all
 
 ### Audio
 #### Track selection
