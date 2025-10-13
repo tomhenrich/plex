@@ -56,7 +56,7 @@ Remember, as with any streaming service, **Plex uses your internet.** If you hav
 -----
 
 ## Helpful Links
-* **If you're curious**, you can check out [how Plex streaming works](faqs.md)
+* **[Frequently Asked Questions](faqs.md)**
 * <a href="https://mediaclients.wiki/en/Plex" target="_blank">MediaClients.wiki</a> has a bunch of useful info and guides
 * <a href="https://web.archive.org/web/20250317201942/http://plxplainers.xyz/" target="_blank">Plexplainers</a> is a good resource with screenshots from various app platforms (archived on Wayback Machine as the original has disappeared)
 
