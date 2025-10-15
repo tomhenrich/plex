@@ -258,6 +258,7 @@ dynamic_collections:
       minimum_items:
         912503: 1     # Shang-Chi
         44215: 1      # Stargate (to connect with TV shows)
+        976903: 1     # Knights of Sidonia
 
       sort_title:
         115762: Alien vs Predator
