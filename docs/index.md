@@ -21,7 +21,7 @@ That's it! You're in and can start looking for something to watch.
 
 ---
 
-## Basic Intro
+## Quick Overview
 My Plex server is running from a computer in my home and has content I've personally curated. As such:
 
 1. **It's not meant to be a full replacement for every possible streaming subscription.**
@@ -35,6 +35,10 @@ An analogy I like: **my server is like a backyard pool shared with friends.**
 * Giving your key to someone else will get you kicked out.
 
 If you have any questions or need any help, just ask!
+
+> **NOTE:** I do not control how the app looks or works, I only control what media is available to watch.  
+> The actual app itself is owned, maintained, and updated by the company Plex.  
+> If a button changes color or something moves around, I can't do anything about that.
 
 ---
 
