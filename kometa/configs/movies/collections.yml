@@ -229,17 +229,46 @@ collections:
       sort_by: release.asc
 
   Marvel Extended Universe:
-    trakt_list:
-      - https://trakt.tv/users/tomhenrich/lists/mceu
+    template:
+      name: tmdb
+			collection_order: release
+      collection:
+        - 735  # Blade
+				- 748  # X-Men
+				- 556  # Spider-Man (Tobey Maguire)
+				- 125574  # Amazing Spider-Man
+				- 9744 # Fantastic Four
+				- 90306  # Ghost Rider
+				- 635362  # Punisher
+				- 453993  # Wolverine
+				- 448150  # Deadpool
+				- 573436  # Spider-Verse
+			movie:
+				- 10658 # Howard the Duck
+				- 22059 # Fantastic Four (1994)
+				- 26623 # Generation X
+				- 27460 # Nick Fury Agent of Shield
+				- 1927  # Hulk
+				- 9480 # Daredevil
+				- 9947 # Elektra
+				- 166424 # Fantastic Four (2015)
+				- 567604 # Once Upon a Deadpool
+				- 340102 # New Mutants
+				- 634492 # Madame Web
+				- 526896 # Morbius
+				- 539972 # Kraven
     smart_label:
       all:
         label: <<smart_label>>
       sort_by: release.asc
     summary: Movies based on Marvel properties but not officially part of the Marvel Cinematic Universe.
 
-  DC Universe:
-    trakt_list: 
-      - https://trakt.tv/users/tomhenrich/lists/dc-universe
+  DC Comics:
+    tmdb_keyword:
+      - 312528 # DC Universe
+      - 229266 # DC Extended Universe
+    tmdb_list:
+      - https://www.themoviedb.org/list/8572330-dc-universe
     smart_label:
       all:
         label: <<smart_label>>
