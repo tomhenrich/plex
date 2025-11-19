@@ -385,8 +385,11 @@ collections:
       sort_by: audience_rating.desc
 
   Peanuts:
-    trakt_list:
-      - https://trakt.tv/lists/official/snoopy-peanuts-collection
+    tmdb_movie:
+      - 227973 # Peanuts Movie
+	  - 13353 # Great Pumpkin
+	  - 13479 # Thanksgiving
+	  - 13187 # Charlie Brown Christmas
     smart_label:
       any:
         label: <<smart_label>>
@@ -394,9 +397,12 @@ collections:
 
 
   Stephen King:
-    trakt_list:
-      - https://trakt.tv/users/tomhenrich/lists/stephen-king?sort=released,asc
-      - https://trakt.tv/users/hawque/lists/stephen-king?display=movie
+    tmdb_director:
+	  - 3027
+    tmdb_writer:
+	  - 3027
+    tmdb_producer:
+	  - 3027
     smart_label:
       any:
         label: <<smart_label>>
@@ -404,15 +410,23 @@ collections:
       sort_by: release.asc
     summary: "Movies adapted from Stephen King works."
 
-  Toho Kaiju:
-    trakt_list: https://trakt.tv/users/tomhenrich/lists/toho-kaiju
-    smart_label:
-      all:
-        label: <<smart_label>>
-      sort_by: release.asc
-
   Universal Classic Monsters:
-    trakt_list: https://trakt.tv/users/tomhenrich/lists/universal-monsters?sort=released,desc
+    template:
+      name: tmdb
+			collection_order: release
+      collection:
+        - 221539  # Dracula
+        - 218406  # Frankenstein
+				- 221544  # The Mummy
+				- 259401  # Invisible Man
+				- 221537  # Creature from the Black Lagoon
+				- 259027  # Wolf Man
+			movie:
+				- 18987 # Hunchback of Notre Dame (1923)
+				- 964 # Phantom of the Opera (1925)
+				- 27970 # Werewolf of London (1935)
+				- 15855 # Phantom of the Opera (1943)
+				- 45322 # She-Wolf of London (1946)
     smart_label:
       all:
         label: <<smart_label>>
