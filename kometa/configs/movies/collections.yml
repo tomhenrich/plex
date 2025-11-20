@@ -231,32 +231,32 @@ collections:
   Marvel Extended Universe:
     template:
       name: tmdb
-			collection_order: release
+      collection_order: release
       collection:
         - 735  # Blade
-				- 748  # X-Men
-				- 556  # Spider-Man (Tobey Maguire)
-				- 125574  # Amazing Spider-Man
-				- 9744 # Fantastic Four
-				- 90306  # Ghost Rider
-				- 635362  # Punisher
-				- 453993  # Wolverine
-				- 448150  # Deadpool
-				- 573436  # Spider-Verse
-			movie:
-				- 10658 # Howard the Duck
-				- 22059 # Fantastic Four (1994)
-				- 26623 # Generation X
-				- 27460 # Nick Fury Agent of Shield
-				- 1927  # Hulk
-				- 9480 # Daredevil
-				- 9947 # Elektra
-				- 166424 # Fantastic Four (2015)
-				- 567604 # Once Upon a Deadpool
-				- 340102 # New Mutants
-				- 634492 # Madame Web
-				- 526896 # Morbius
-				- 539972 # Kraven
+        - 748  # X-Men
+        - 556  # Spider-Man (Tobey Maguire)
+        - 125574  # Amazing Spider-Man
+        - 9744 # Fantastic Four
+        - 90306  # Ghost Rider
+        - 635362  # Punisher
+        - 453993  # Wolverine
+        - 448150  # Deadpool
+        - 573436  # Spider-Verse
+      movie:
+        - 10658 # Howard the Duck
+        - 22059 # Fantastic Four (1994)
+        - 26623 # Generation X
+        - 27460 # Nick Fury Agent of Shield
+        - 1927  # Hulk
+        - 9480 # Daredevil
+        - 9947 # Elektra
+        - 166424 # Fantastic Four (2015)
+        - 567604 # Once Upon a Deadpool
+        - 340102 # New Mutants
+        - 634492 # Madame Web
+        - 526896 # Morbius
+        - 539972 # Kraven
     smart_label:
       all:
         label: <<smart_label>>
@@ -387,9 +387,9 @@ collections:
   Peanuts:
     tmdb_movie:
       - 227973 # Peanuts Movie
-	  - 13353 # Great Pumpkin
-	  - 13479 # Thanksgiving
-	  - 13187 # Charlie Brown Christmas
+    - 13353 # Great Pumpkin
+    - 13479 # Thanksgiving
+    - 13187 # Charlie Brown Christmas
     smart_label:
       any:
         label: <<smart_label>>
@@ -398,11 +398,11 @@ collections:
 
   Stephen King:
     tmdb_director:
-	  - 3027
+    - 3027
     tmdb_writer:
-	  - 3027
+    - 3027
     tmdb_producer:
-	  - 3027
+    - 3027
     smart_label:
       any:
         label: <<smart_label>>
@@ -413,20 +413,20 @@ collections:
   Universal Classic Monsters:
     template:
       name: tmdb
-			collection_order: release
+      collection_order: release
       collection:
         - 221539  # Dracula
         - 218406  # Frankenstein
-				- 221544  # The Mummy
-				- 259401  # Invisible Man
-				- 221537  # Creature from the Black Lagoon
-				- 259027  # Wolf Man
-			movie:
-				- 18987 # Hunchback of Notre Dame (1923)
-				- 964 # Phantom of the Opera (1925)
-				- 27970 # Werewolf of London (1935)
-				- 15855 # Phantom of the Opera (1943)
-				- 45322 # She-Wolf of London (1946)
+        - 221544  # The Mummy
+        - 259401  # Invisible Man
+        - 221537  # Creature from the Black Lagoon
+        - 259027  # Wolf Man
+      movie:
+        - 18987 # Hunchback of Notre Dame (1923)
+        - 964 # Phantom of the Opera (1925)
+        - 27970 # Werewolf of London (1935)
+        - 15855 # Phantom of the Opera (1943)
+        - 45322 # She-Wolf of London (1946)
     smart_label:
       all:
         label: <<smart_label>>
