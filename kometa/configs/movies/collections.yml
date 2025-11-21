@@ -387,9 +387,9 @@ collections:
   Peanuts:
     tmdb_movie:
       - 227973 # Peanuts Movie
-    - 13353 # Great Pumpkin
-    - 13479 # Thanksgiving
-    - 13187 # Charlie Brown Christmas
+      - 13353 # Great Pumpkin
+      - 13479 # Thanksgiving
+      - 13187 # Charlie Brown Christmas
     smart_label:
       any:
         label: <<smart_label>>
