@@ -231,7 +231,6 @@ collections:
   Marvel Extended Universe:
     template:
       name: tmdb
-      collection_order: release
       collection:
         - 735  # Blade
         - 748  # X-Men
@@ -413,7 +412,6 @@ collections:
   Universal Classic Monsters:
     template:
       name: tmdb
-      collection_order: release
       collection:
         - 221539  # Dracula
         - 218406  # Frankenstein
