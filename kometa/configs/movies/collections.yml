@@ -397,11 +397,14 @@ collections:
 
   Stephen King:
     tmdb_director:
-    - 3027
+      - 3027
     tmdb_writer:
-    - 3027
+      - 3027
     tmdb_producer:
-    - 3027
+      - 3027
+    trakt_list:
+      - https://trakt.tv/users/tomhenrich/lists/stephen-king?sort=released,asc
+      - https://trakt.tv/users/hawque/lists/stephen-king?display=movie
     smart_label:
       any:
         label: <<smart_label>>
