@@ -25,8 +25,8 @@ I recommend something like an Apple TV, <a href="https://store.google.com/produc
 
 I have a computer ("Server") with files from my media collection. Plex runs on that computer, gets information like titles, plot summaries, and trailers, and creates a streaming service to play them.  
 
-The Plex app on your player device ("Client") understands that device's abilities: what files it supports, what its internet connection looks like, etc.  
-Plex then streams media to that device in a format it can handle.
+The Plex app on your device ("Client") understands that device's abilities: what formats it supports, what its internet connection looks like, etc.  
+Plex then streams media to that device in a format it can handle, converting to new formats if needed.
 
 🟢 If the Client is _100% compatible_ with the source file, it will just stream the file exactly as-is. This is called **Direct Play**.  
 🟡 If the Client can't handle something, the Server will convert the file to something the Client _does_ support. This is called **Transcoding** — the content has to be re-created in realtime in a format your player can handle, which may result in some buffering.
