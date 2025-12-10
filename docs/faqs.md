@@ -6,27 +6,27 @@ permalink: /faqs
 ### Q: What is Plex?
 
 The simple version is that it's _my own personal Netflix._  
-I have a significant collection of Blu-rays and DVDs which have been copied to my computer. Plex organizes that content and lets me watch it from anywhere.
+I have a significant collection of Blu-rays and DVDs which I've copied to my computer. Plex organizes them and lets me watch from anywhere.  
+This means I can watch what I want, when I want, without having to get a movie off a shelf or hope that Netflix hasn't removed my favorite movies.
 
 ### Q: Is Plex free?
 
-Plex is a _completely free service._  
-The host (me) obviously has to have a capable computer and storage space, and I paid for a Plex Pass to get some additional features, but otherwise Plex itself is free to use.  
-**There is no charge to you for using my Plex.**
+**There is no charge to you for using my Plex.**  
+It's a hobby that I've put some money into, but it is a free service.
 
-> **NOTE:** The company also offers <a href="https://watch.plex.tv/on-demand" target="_blank">their own ad-supported streaming content</a> — this is _completely separate_ from whatever might be hosted by individual server owners, but it's still free.
+> **NOTE:** The company also offers <a href="https://watch.plex.tv/on-demand" target="_blank">their own ad-supported streaming content</a> and a handful of titles you can pay to rent — this is _completely separate_ from whatever might be hosted by individual server owners.
 
 ### Q: Do I need anything in order to use Plex?
 
-All you need is a free Plex account and an internet-connected player device that can run the Plex app.  
+All you need is a free Plex account and an internet-connected device that can run the Plex app.  
 I recommend something like an Apple TV, <a href="https://store.google.com/product/google_tv_streamer" target="_blank">Google TV Streamer</a>, or an <a href="https://www.amazon.com/dp/B0B75QMC7X" target="_blank">Onn Streaming Device</a>, but whatever you have is probably fine.
 
 ### Q: How does it work?
 
-I have a computer ("Server") in my home holding files from my media collection. Plex runs on that server, gets information about the files (like titles, plot summaries, ratings, etc), and creates a streaming service from those libraries.  
-This just means I can watch what I want, when I want, without having to be home to get a disc off a shelf.
+I have a computer ("Server") with files from my media collection. Plex runs on that computer, gets information like titles, plot summaries, and trailers, and creates a streaming service to play them.  
 
-The Plex app on any player device ("Client") understands that device's capabilities: what file formats it supports, what its internet connection looks like, etc. Plex delivers media to that device in a format it can handle.
+The Plex app on your player device ("Client") understands that device's abilities: what files it supports, what its internet connection looks like, etc.  
+Plex then streams media to that device in a format it can handle.
 
 🟢 If the Client is _100% compatible_ with the source file, it will just stream the file exactly as-is. This is called **Direct Play**.  
 🟡 If the Client can't handle something, the Server will convert the file to something the Client _does_ support. This is called **Transcoding** — the content has to be re-created in realtime in a format your player can handle, which may result in some buffering.
