@@ -21,18 +21,17 @@ That's it! You can start looking for something to watch.
 
 ---
 
-## Quick reminders
+## Quick notes
 
-1. **I can't realistically have every movie or show ever made.**
+1. **Do not share your account with someone else.**
+   * If you think someone would enjoy access, let me know and I can choose whether to invite them. Don't just give them your password.
+2. **I can't realistically have every movie or show ever made.**
    * Let me know if there's something you'd like to see and I'll try to find it!
    * My goal is to reduce the need for multiple streaming services, but Plex can't fully replace every possible service.
-2. **Do not share your account with someone else.**
-   * If you think someone would enjoy access, let me know and I can choose whether to invite them. Don't just give them your password.
+3. **I do not control the app itself, just the content.**
+   * The app is owned and updated by the _company_ Plex. If a button stops working, that's on them.
 
 If you have any questions or need any help, just ask!
-
-> **NOTE:** I do not control how the app looks or works, I only control what media is available to watch.  
-> The actual app itself is owned and updated by the company Plex.  
 
 ---
 
