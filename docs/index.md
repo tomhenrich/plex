@@ -8,13 +8,13 @@ nav_order: 1
 
 ## Get started
 
-1. **Accept the Invitation:**  
+1. **Accept the invitation:**  
 From the email, **create a free account** on the Plex.tv site or sign into your account if you have one.
-2. **Get the Plex App:**  
+2. **Get the Plex app:**  
 Install the app on your streaming device and sign in.
-3. **Update the Quality Settings:** _(optional but important)_  
+3. **Update the quality settings:** _(optional but important)_  
 In the app's Settings, look for "Quality" or "Video" and [set the quality to "Original" or "Maximum"](quality-settings.md) — otherwise you'll get low-resolution video.
-4. **Pin My Server** for quick access:  
+4. **Pin my server** for quick access:  
 This is a little different on each device, but generally: open the navigation, select "More", and <a href="https://support.plex.tv/articles/customizing-the-apps/#toc-0" target="_blank">pin my libraries</a>.
 
 That's it! You can start looking for something to watch.
@@ -24,12 +24,11 @@ That's it! You can start looking for something to watch.
 ## Quick notes
 
 1. **Do not share your account with someone else.**
-   * If you think someone would enjoy access, let me know and I can choose whether to invite them. Don't just give them your password.
-2. **I can't realistically have every movie or show ever made.**
-   * Let me know if there's something you'd like to see and I'll try to find it!
-   * My goal is to reduce the need for multiple streaming services, but Plex can't fully replace every possible service.
+   * Let me know if you'd like someone to have access. Don't just give them your password.
+2. **Let me know if there's something you want to see!**
+   * I can't realistically have everything ever made, but I'll do what I can to find it.
 3. **I do not control the app itself, just the content.**
-   * The app is owned and updated by the _company_ Plex. If a button stops working, that's on them.
+   * The app is owned and updated by the _company_ Plex.
 
 If you have any questions or need any help, just ask!
 
@@ -38,11 +37,12 @@ If you have any questions or need any help, just ask!
 ## Using Plex
 It's just like Netflix or other streaming services you've used before.
 
-The _Home Screen_ lists anything you're currently watching, recent additions, and new releases. In the side nav, pick _Movies_ or _TV Shows_ to browse, or use Search. (Search may include results from both my content and Plex's ad-supported streaming service. My content will show as being on `Scylla`.)
+From the side nav, pick _Movies_ or _TV Shows_ to browse, or use Search.  
+Search may include results both from my content (shown as being on `Scylla`) and from Plex's ad-supported streaming service.
 
-**Just click Play** to start watching. You can change your audio or subtitle settings at any time.
+**Just click Play** to start watching. You can change audio or subtitle settings at any time.
 
-Remember, as with any streaming service, **Plex uses your internet.** If you have unlimited data like me, go nuts. If you have a monthly cap, just be mindful.
+As with any streaming service, **Plex uses your internet.** If you have unlimited data like me, go nuts. If you have a monthly cap, just be mindful.
 
 > **TIP:** You can [update your account settings](account-settings.md) online to enable subtitles without having to select them every time you start watching.
 
