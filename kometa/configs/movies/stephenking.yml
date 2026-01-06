@@ -1,0 +1,91 @@
+collections:
+  Stephen King:
+    tmdb_director:
+      - 3027
+    tmdb_writer:
+      - 3027
+    tmdb_producer:
+      - 3027
+		tmdb_collection:
+			- 530064  # The Shining
+			- 107725  # Creepshow
+			- 115225  # Children of the Corn
+			- 10789		# Pet Sematary (1989-1992)
+			- 830781	# Pet Sematary (2019-2023)
+			- 168545  # Sometimes They Come Back
+			- 124935  # The Lawnmower Man
+			- 374418  # The Mangler
+			- 477962  # It (2017-2019)
+		tmdb_movie:
+			- 7340  # Carrie (1976)
+			- 10489  # Cujo (1983)
+			- 11336  # The Dead Zone (1983)
+			- 8769  # Christine (1983)
+			- 11495  # Firestarter (1984)
+			- 10552  # Cat's Eye (1985)
+			- 17898  # Silver Bullet (1985)
+			- 9980  # Maximum Overdrive (1986)
+			- 235  # Stand by Me (1986)
+			- 27740  # A Return to Salem's Lot (1987)
+			- 226252  # The Talisman (1987)
+			- 865  # The Running Man (1987)
+			- 20701  # Tales from the Darkside: The Movie (1990)
+			- 19158  # Graveyard Shift (1990)
+			- 285798  # Tales from the Darkside (1990)
+			- 1700  # Misery (1990)
+			- 10349  # The Dark Half (1993)
+			- 10657  # Needful Things (1993)
+			- 278  # The Shawshank Redemption (1994)
+			- 11929  # Dolores Claiborne (1995)
+			- 10280  # Thinner (1996)
+			- 26215  # Quicksilver Highway (1997)
+			- 17100  # Trucks (1997)
+			- 12238  # The Night Flier (1997)
+			- 9445  # Apt Pupil (1998)
+			- 7341  # The Rage: Carrie 2 (1999)
+			- 497  # The Green Mile (1999)
+			- 11313  # Hearts in Atlantis (2001)
+			- 7342  # Carrie (2002)
+			- 6171  # Dreamcatcher (2003)
+			- 16175  # The Diary of Ellen Rimbauer (2003)
+			- 1586  # Secret Window (2004)
+			- 12483  # Riding the Bullet (2004)
+			- 10004  # Desperation (2006)
+			- 3021  # 1408 (2007)
+			- 5876  # The Mist (2007)
+			- 25754  # Children of the Corn (2009)
+			- 19823  # Dolan's Cadillac (2009)
+			- 133805  # Carrie (2013)
+			- 288281  # A Good Marriage (2014)
+			- 180305  # Mercy (2014)
+			- 297961  # Big Driver (2014)
+			- 168098  # Cell (2016)
+			- 353491  # The Dark Tower (2017)
+			- 343674  # Gerald's Game (2017)
+			- 452507  # 1922 (2017)
+			- 523139  # In the Tall Grass (2019)
+			- 701121  # Children of the Corn (2020)
+			- 756747  # A Creepshow Animated Special (2020)
+			- 532710  # Firestarter (2022)
+			- 723419  # Mr. Harrigan's Phone (2022)
+			- 532408  # The Boogeyman (2023)
+			- 748230  # Salem's Lot (2024)
+			- 1124620  # The Monkey (2025)
+			- 604079  # The Long Walk (2025)
+			- 798645  # The Running Man (2025)
+			- 703776  # Throttle
+			- 701783  # Revival
+			- 873325  # Mile 81
+			- 873323  # The Little Green God of Agony
+			- 625121  # The Girl Who Loved Tom Gordon
+			- 618349  # From a Buick 8
+			- 860484  # Elevation
+			- 838481  # Christine
+			- 780605  # The Breathing Method
+    smart_label:
+      any:
+        label: <<smart_label>>
+        writer: Stephen King
+      sort_by: release.asc
+    summary: "Movies adapted from Stephen King works."
+		
