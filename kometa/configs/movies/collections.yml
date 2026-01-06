@@ -232,47 +232,37 @@ collections:
     template:
       name: tmdb
       collection:
-        - 735  # Blade
-        - 748  # X-Men
-        - 556  # Spider-Man (Tobey Maguire)
         - 125574  # Amazing Spider-Man
-        - 9744 # Fantastic Four
-        - 90306  # Ghost Rider
-        - 635362  # Punisher
-        - 453993  # Wolverine
+        - 735     # Blade
         - 448150  # Deadpool
+        - 9744    # Fantastic Four
+        - 90306   # Ghost Rider
+        - 635362  # Punisher
+        - 556     # Spider-Man (Tobey Maguire)
         - 573436  # Spider-Verse
+        - 453993  # Wolverine
+        - 558216  # Venom
+        - 748     # X-Men
       movie:
-        - 10658 # Howard the Duck
-        - 22059 # Fantastic Four (1994)
-        - 26623 # Generation X
-        - 27460 # Nick Fury Agent of Shield
-        - 1927  # Hulk
-        - 9480 # Daredevil
-        - 9947 # Elektra
-        - 166424 # Fantastic Four (2015)
-        - 567604 # Once Upon a Deadpool
-        - 340102 # New Mutants
-        - 634492 # Madame Web
-        - 526896 # Morbius
-        - 539972 # Kraven
+        - 9480    # Daredevil
+        - 9947    # Elektra
+        - 22059   # Fantastic Four (1994)
+        - 166424  # Fantastic Four (2015)
+        - 26623   # Generation X
+        - 10658   # Howard the Duck
+        - 1927    # Hulk (2003)
+        - 539972  # Kraven
+        - 634492  # Madame Web
+        - 526896  # Morbius
+        - 27460   # Nick Fury Agent of Shield
+        - 340102  # New Mutants
+        - 567604  # Once Upon a Deadpool
     smart_label:
       all:
         label: <<smart_label>>
+        label.not: Marvel Cinematic Universe
       sort_by: release.asc
     summary: Movies based on Marvel properties but not officially part of the Marvel Cinematic Universe.
-
-  DC Comics:
-    tmdb_keyword:
-      - 312528 # DC Universe
-      - 229266 # DC Extended Universe
-    tmdb_list:
-      - https://www.themoviedb.org/list/8572330-dc-universe
-    smart_label:
-      all:
-        label: <<smart_label>>
-      sort_by: release.asc
-    minimum_items: 1
 
 
 ########################################
@@ -292,6 +282,7 @@ collections:
     name_mapping: Sarahs Watchlist
     label: noshare
     minimum_items: 1
+    collection_filtering: user
 
   "Tom's Watchlist":
     trakt_list: https://trakt.tv/users/tomhenrich/watchlist?display=movie
@@ -304,6 +295,7 @@ collections:
     name_mapping: Toms Watchlist
     label: noshare
     minimum_items: 1
+    collection_filtering: user
 
   Unwatched:
     smart_filter:
@@ -330,16 +322,6 @@ collections:
       sort_by: release.asc
       all:
         label: <<smart_label>>
-
-  Gotham:
-    smart_filter:
-      any:
-        title:
-          - Batman
-          - Dark Knight
-      sort_by: release.asc
-    collection_mode: hide
-    sort_title: "Batman(All)"
 
   Hitchcock:
     smart_filter:
@@ -395,22 +377,22 @@ collections:
       sort_by: release.asc
 
 
-  Stephen King:
-    tmdb_director:
-      - 3027
-    tmdb_writer:
-      - 3027
-    tmdb_producer:
-      - 3027
-    trakt_list:
-      - https://trakt.tv/users/tomhenrich/lists/stephen-king?sort=released,asc
-      - https://trakt.tv/users/hawque/lists/stephen-king?display=movie
-    smart_label:
-      any:
-        label: <<smart_label>>
-        writer: Stephen King
-      sort_by: release.asc
-    summary: "Movies adapted from Stephen King works."
+  # Stephen King:
+  #   tmdb_director:
+  #     - 3027
+  #   tmdb_writer:
+  #     - 3027
+  #   tmdb_producer:
+  #     - 3027
+  #   trakt_list:
+  #     - https://trakt.tv/users/tomhenrich/lists/stephen-king?sort=released,asc
+  #     - https://trakt.tv/users/hawque/lists/stephen-king?display=movie
+  #   smart_label:
+  #     any:
+  #       label: <<smart_label>>
+  #       writer: Stephen King
+  #     sort_by: release.asc
+  #   summary: "Movies adapted from Stephen King works."
 
   Universal Classic Monsters:
     template:
