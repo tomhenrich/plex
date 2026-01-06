@@ -101,7 +101,6 @@ collections:
     smart_label:
       any:
         label: <<smart_label>>
-        writer: Stephen King
         actor: Stephen King
         director: Stephen King
       sort_by: release.asc
