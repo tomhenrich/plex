@@ -1,0 +1,134 @@
+libraries: # the names of libraries in your Plex
+  Movies:
+    schedule: weekly(sunday)
+    remove_overlays: false
+#    metadata_files:
+#      - repo: kometa/configs/movies/metadata
+    collection_files:
+			- repo: kometa/configs/movies/franchises
+			- repo: kometa/configs/movies/collections.yml
+			- repo: kometa/configs/movies/stephenking.yml
+    settings:
+      asset_directory:
+				- S:\Movies
+				- S:\Movies\00 Collections
+    operations:
+      delete_collections:
+        managed: false
+        less: 1
+  Movies (4K):
+    schedule: weekly(sunday)
+    remove_overlays: false
+    metadata_files:
+			- repo: kometa/configs/movies4k/metadata
+    collection_files:
+			- repo: kometa/configs/movies4k/franchises
+    settings:
+      asset_directory:
+				- S:\Movies4K
+				- S:\Movies4K\Collections
+    operations:
+      delete_collections:
+        managed: false
+        less: 1
+  TV Shows:
+    schedule: weekly(sunday)
+    remove_overlays: false
+    metadata_files:
+			- repo: kometa/configs/tv/metadata
+    collection_files:
+			- repo: kometa/configs/tv/collections
+    settings:
+      asset_directory:
+				- S:\TV
+				- S:\TV\Collections
+  Sarah's Weird Horror:
+    schedule: monthly(1)
+    remove_overlays: false
+    collection_files:
+			- repo: kometa/configs/weird-horror/collections
+    settings:
+      asset_directory:
+				- S:\Movies\Collections\Weird Horror
+settings:
+  run_order:
+		- operations
+		- metadata
+		- collections
+		- overlays
+  cache: true
+  cache_expiration: 30
+  asset_directory:
+  asset_folders: true
+  asset_depth: 2
+  assets_for_all: true
+  create_asset_folders: false
+  prioritize_assets: true
+  dimensional_asset_rename: false
+  download_url_assets: false
+  show_missing_season_assets: false
+  show_missing_episode_assets: false
+  show_asset_not_needed: false
+  sync_mode: sync
+  minimum_items: 2
+  default_collection_order: release
+  delete_below_minimum: true
+  delete_not_scheduled: false
+  run_again_delay: 2
+  missing_only_released: true
+  only_filter_missing: true
+  show_unmanaged: false
+  show_unconfigured: false
+  show_filtered: false
+  show_unfiltered: false
+  show_options: true
+  show_missing: false
+  show_missing_assets: true
+  save_report: false
+  tvdb_language: eng
+  ignore_ids:
+  ignore_imdb_ids: 
+  item_refresh_delay: 0
+  playlist_sync_to_users: all
+  playlist_exclude_users:
+  playlist_report: false
+  verify_ssl: true
+  custom_repo: https://github.com/tomhenrich/plex/tree/main/
+  overlay_artwork_filetype: jpg
+  overlay_artwork_quality: 75
+webhooks:
+  error: 
+  version:
+  run_start: 
+  run_end: 
+  changes: 
+  delete:
+plex: # can be specified per library; REQUIRED for the script to run
+  url: http://localhost:32400
+  token: ##########
+  timeout: 60
+  db_cache:
+  clean_bundles: false
+  empty_trash: false
+  optimize: false
+  verify_ssl:
+tmdb: # REQUIRED for the script to run
+  apikey: ##########
+  language: en
+  cache_expiration: 60
+  region:
+tautulli: # can be individually specified per library
+  url: http://192.168.1.201:8181
+  apikey: ##########
+trakt:
+  client_id: ##########
+  client_secret: ##########
+  authorization:
+    access_token: ##########
+    token_type: Bearer
+    expires_in: 604800
+    refresh_token: ##########
+    scope: public
+    created_at: ##########
+  pin:
+  force_refresh:
