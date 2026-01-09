@@ -44,33 +44,14 @@ dynamic_collections:
       ## Kaiju Series
       - 813157  # Godzilla (American re-releases)
       - 1474814 # Godzilla Reiwa
-      - 135495  # King Kong 1930+
-      - 135498  # King Kong 1976+
-      - 1474869 # Kong (MonsterVerse)
       - 1518331 # Shin Godzilla collection (rumored)
       - 1326214 # Godzilla Reiwa
       - 1474814 # Godzilla Minus
+      - 135495  # King Kong 1930+
+      - 135498  # King Kong 1976+
+      - 1474869 # Kong (MonsterVerse)
       ## Removed from TMDB:
-      - 1072931 # Shin Japan Heroes
-      - 1282917 # Unbreakable/Eastrail
-      - 1313932 # Studio Ghibli
-      - 995464 # Moon/Mute
-      - 1326786 # Wolfs
-      - 1229144 # Three Mothers
-      - 1403306 # Wallace & Gromit
-      - 1478536 # Wallace & Gromit
-      - 524837 # Atomic Blonde
-      - 1402107 # Barbie
-      - 1120657 # Cliffhanger
-      - 939352 # Transformers Rise of the Beasts
-      - 1036499 # Hancock
-      - 1512465 # Three Flavours Cornetto
-      - 1506082 # Vengeance Trilogy (keeps being added)
-      - 1494663 # Ballerina (John Wick)
-      - 1500403 # Dog Man
-      - 627517 # Oz
-      - 726865 # Baby Driver
-      
+      # - placeholder line
 
     addons: # combine collections
       8091:       # Alien
@@ -84,28 +65,18 @@ dynamic_collections:
         - 392331    #+ LEGO Star Wars
         - 1004630   #+ LEGO Star Wars (Seasonal)
       1582:       # TMNT
-        - 1156855   #+ Animated TMNT
         - 401562    #+ Reboot TMNT
+        - 1156855   #+ Animated TMNT
       748:        # X-Men
         - 453993    #+ The Wolverine
 
     title_override:
-      1733: The Mummy # 1999 cinematic masterpiece
       304: "Ocean's Heists"
-      2794: The Chronicles of Riddick
       325470: LEGO Movies
       119: The Lord of the Rings
       535313: "Godzilla (MonsterVerse)"
       535790: "Godzilla (Anime)"
       948485: The Batman
-      9485: The Fast and the Furious
-      121938: The Hobbit
-      479888: The Thing
-      758369: The Craft
-      464577: The Croods
-      468222: The Incredibles
-      2344: The Matrix
-      968052: The Nun
       573436: "Spider-Verse"
       259401: "Invisible Man (Universal)"
       259027: "Wolf Man (Universal)"
@@ -118,7 +89,7 @@ dynamic_collections:
 
     template_variables:
 
-      movie: # what movies should be part of collections but TMDB doesn't agree?
+      movie: # what movies should be part of a collection but TMDB doesn't agree?
         10:         # Star Wars
           - 330459    # Rogue One
           - 348350    # Solo
@@ -147,7 +118,7 @@ dynamic_collections:
         535313:     # Godzilla (MonsterVerse)
           - 823464    #+ Godzilla x Kong
         131635:     # Hunger Games
-          - 695721    #+ Ballad
+          - 695721    #+ Ballad of Songbirds & Snakes
         404609:     # John Wick
           - 541671    #+ Ballerina
         328:        # Jurassic Park
@@ -195,57 +166,44 @@ dynamic_collections:
         44215:  # Stargate SG-1
           - 2164    #+ Stargate (1994)
         10455:  # Childs Play
-          - 533642 # 2019
+          - 533642 #+ 2019
         192492:  # Jack Ryan
-          - 4614 # Sum of All Fears
-          - 137094 # Shadow Recruit
+          - 4614 #+ Sum of All Fears
+          - 137094 #+ Shadow Recruit
         479888: # The Thing
-          - 10785 # Thing from Another World (1951)
+          - 10785 #+ Thing from Another World (1951)
         1709: # Planet of the Apes
-          - 17244 # Behind the POTA (Documentary)
+          - 17244 #+ Behind the POTA (Documentary)
         256377: # The Muppets
-          - 11176 # The Muppet Movie
-          - 14900 # The Great Muppet Caper
-          - 11899 # The Muppets Take Manhattan
-          - 10437 # Muppet Christmas Carol
-          - 10874 # Muppet Treasure Island
-          - 10208 # Muppets from Space
-          - 13352 # Very Merry Christmas
-          - 20910 # Wizard of Oz
-          - 27190 # Letters to Santa
-          - 45731 # John Denver & The Muppets
+          - 11176 #+ The Muppet Movie
+          - 14900 #+ The Great Muppet Caper
+          - 11899 #+ The Muppets Take Manhattan
+          - 10437 #+ Muppet Christmas Carol
+          - 10874 #+ Muppet Treasure Island
+          - 10208 #+ Muppets from Space
+          - 13352 #+ Very Merry Christmas
+          - 20910 #+ Wizard of Oz
+          - 27190 #+ Letters to Santa
+          - 45731 #+ John Denver & The Muppets
 
       name_mapping: # provide the folder name if it's not identical to the collection name
                     # include any folders where title_override value specifies that it starts with "The"
         1565: 28 Days Later
         948485: The Batman
         91697: Battlestar Galactica
-        2794: Chronicles of Riddick
-        758369: Craft
-        464577: Croods
-        263: Dark Knight
-        9485: Fast and Furious
         24761: Girl with the Dragon Tattoo
+        575987: Girl with the Dragon Tattoo (US) # US movies
         535313: Godzilla (MonsterVerse)
         535790: Godzilla (Anime)
-        121938: Hobbit
-        468222: Incredibles
         259401: Invisible Man (Universal)
         1280074: Kong (MonsterVerse)
         325470: LEGO Movies
-        119: Lord of the Rings
-        2344: Matrix
-        968052: Nun
-        1733: Mummy # the 1999 cinematic masterpiece
         304: Oceans
         4438: Space Odyssey
         479888: Thing
         529: Wallace and Gromit
         1079486: Winnie-the-Pooh (Horror)
-        123726: Quatermass
-        575987: The Girl - Millennium
-        44215: Stargate
-        458558: Mamma Mia
+        458558: Mamma Mia # no exclamation point
 
       item_label:
         435259: Wizarding World
