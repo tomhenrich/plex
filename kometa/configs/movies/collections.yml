@@ -299,7 +299,7 @@ collections:
     smart_filter:
       all:
         unplayed: true
-      sort_by: duration.asc
+      sort_by: title.asc
     sort_title: "!Unwatched"
     collection_filtering: user
 
