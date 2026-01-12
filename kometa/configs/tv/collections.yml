@@ -111,13 +111,8 @@ collections:
     collection_order: release
 
   Star Wars:
-    tmdb_show:
-      - https://www.themoviedb.org/tv/83867-andor
-      - https://www.themoviedb.org/tv/92830-obi-wan-kenobi
-      - https://www.themoviedb.org/tv/82856-the-mandalorian
-      - https://www.themoviedb.org/tv/114479-the-acolyte
-      - https://www.themoviedb.org/tv/115036-the-book-of-boba-fett
-      - https://www.themoviedb.org/tv/114461-ahsoka
+    tmdb_list:
+      - https://www.themoviedb.org/list/8216924-star-wars
     plex_search:
       type: show
       title.begins: Star Wars
