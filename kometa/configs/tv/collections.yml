@@ -111,8 +111,13 @@ collections:
     collection_order: release
 
   Star Wars:
-    tmdb_list:
-      - https://www.themoviedb.org/list/8216924-star-wars
+    tmdb_show:
+      - 82856 # the-mandalorian
+      - 115036 # the-book-of-boba-fett
+      - 92830 # obi-wan-kenobi
+      - 83867 # star-wars-andor
+      - 114461 # ahsoka
+      - 114479 # the-acolyte
     plex_search:
       type: show
       title.begins: Star Wars
