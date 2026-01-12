@@ -82,22 +82,6 @@ collections:
       - 860484  # Elevation
       - 838481  # Christine
       - 780605  # The Breathing Method
-    tmdb_show:
-      - 16118  # Salem's Lot (1979)
-      - 19614  # Stephen King's It (1990)
-      - 16089  # The Tommyknockers (1993)
-      - 9045  # The Stand (1994)
-      - 18197  # The Langoliers (1995)
-      - 1867  # The Shining (1997)
-      - 19531  # Salem's Lot (2004)
-      - 39758  # Bag of Bones (2011)
-      - 64464  # 11.22.63 (2016)
-      - 70485  # Mr. Mercedes (2017)
-      - 84661  # The Outsider (2020)
-      - 86382  # The Stand (2020)
-      - 95839  # Lisey's Story (2021)
-      - 126118  # Chapelwaite (2021)
-      - 253372  # The Institute (2025)
     smart_label:
       any:
         label: <<smart_label>>
