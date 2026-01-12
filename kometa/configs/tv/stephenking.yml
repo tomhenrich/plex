@@ -35,8 +35,6 @@ collections:
     smart_label:
       any:
         label: <<smart_label>>
-        actor: Stephen King
-        director: Stephen King
       sort_by: release.asc
     summary: "Adapted from Stephen King stories."
     
