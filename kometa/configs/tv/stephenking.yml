@@ -1,0 +1,42 @@
+collections:
+  Stephen King:
+    tmdb_director:
+      - 3027
+    tmdb_writer:
+      - 3027
+    tmdb_producer:
+      - 3027
+    tmdb_collection:
+      - 530064  # The Shining
+      - 107725  # Creepshow
+      - 115225  # Children of the Corn
+      - 10789    # Pet Sematary (1989-1992)
+      - 830781  # Pet Sematary (2019-2023)
+      - 168545  # Sometimes They Come Back
+      - 124935  # The Lawnmower Man
+      - 374418  # The Mangler
+      - 477962  # It (2017-2019)
+    tmdb_show:
+      - 16118  # Salem's Lot (1979)
+      - 19614  # Stephen King's It (1990)
+      - 16089  # The Tommyknockers (1993)
+      - 9045  # The Stand (1994)
+      - 18197  # The Langoliers (1995)
+      - 1867  # The Shining (1997)
+      - 19531  # Salem's Lot (2004)
+      - 39758  # Bag of Bones (2011)
+      - 64464  # 11.22.63 (2016)
+      - 70485  # Mr. Mercedes (2017)
+      - 84661  # The Outsider (2020)
+      - 86382  # The Stand (2020)
+      - 95839  # Lisey's Story (2021)
+      - 126118  # Chapelwaite (2021)
+      - 253372  # The Institute (2025)
+    smart_label:
+      any:
+        label: <<smart_label>>
+        actor: Stephen King
+        director: Stephen King
+      sort_by: release.asc
+    summary: "Adapted from Stephen King stories."
+    
