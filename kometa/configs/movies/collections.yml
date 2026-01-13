@@ -426,6 +426,6 @@ collections:
   Asylum:
     smart_filter:
       all:
-        studio: The Asylum
+        studio.is: "The Asylum"
       sort_by: title.asc
     summary: "Cinematic masterpieces produced by low-budget powerhouse studio 'The Asylum'. So bad it's... still bad."
