@@ -421,3 +421,11 @@ collections:
     sort_title: "zzRecent"
     summary: "Here's what's been added to Plex within the last couple months."
     collection_mode: hide
+
+
+  Asylum:
+    smart_filter:
+      all:
+        studio: The Asylum
+      sort_by: title.asc
+    summary: "Cinematic masterpieces produced by low-budget powerhouse studio 'The Asylum'. So bad it's... still bad."
