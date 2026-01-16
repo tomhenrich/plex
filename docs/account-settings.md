@@ -22,8 +22,9 @@ If you prefer to use subtitles, you can set that option in your account instead 
      1. Next to "AUDIO & SUBTITLE SETTINGS" click "Edit"
      2. Select the checkbox for "Automatically select audio and subtitle tracks"
      3. Set your preferred language for audio and subtitles
+        * I suggest leaving the audio selection empty — I tend to only keep the original language audio anyway
      4. Select "Auto-Select Subtitle Mode" to "Always Enabled"
-     5. The last two boxes are up to you — they only apply if something on Plex doesn't already have subtitles and you use its built-in search tool to find some
+     5. The last two boxes are up to you — they only apply if something on Plex *doesn't already have subtitles* and you use its built-in search tool to find some
         * I suggest "Prefer SDH subtitles" (the kind with effects like `[melancholy music]`) and "Prefer non-forced subtitles" ("forced" means foreign dialogue in an otherwise all-English movie)
      6. Select "Save Changes"
 
