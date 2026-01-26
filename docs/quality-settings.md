@@ -21,6 +21,7 @@ It's important to update the quality settings in your Plex app(s) to make sure y
 2. In the "Video" section:
    * "Auto Adjust Quality" (if present): `Off`
    * "Local Quality" and "Remote Quality": `Original`
+     * On Roku devices you likely need to **uncheck the "Quality Suggestion" checkbox** first
    * "Allow Direct Play": `On`
    * "Allow Direct Stream": `On`
 
