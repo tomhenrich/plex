@@ -24,7 +24,7 @@ That's it! You can start looking for something to watch.
 
 1. **Do not share your account with someone else.**  
    Let me know if you'd like someone to have access. Don't just give them your password.
-2. **Let me know if there's something you want to see!**  
+2. **If there's something you'd like to be added, just ask!**  
    I can't realistically have everything ever made, but I'll do what I can to find it.
 
 If you have any questions or need any help, just ask!
