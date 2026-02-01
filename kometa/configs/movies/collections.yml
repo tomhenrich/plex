@@ -426,6 +426,10 @@ collections:
     imdb_list: 
       list_id: ls4159173469
       limit: 200
+    smart_label:
+      all:
+        label: <<smart_label>>
+        unplayed: true
       sort_by: title.asc
     collection_order: custom
     sync_mode: sync
