@@ -22,8 +22,8 @@ That's it! You can start looking for something to watch.
 
 ## Quick notes
 
-1. **Do not share your account with someone else.**  
-   Let me know if you'd like someone to have access. Don't just give them your password.
+1. **Do not share your account with someone else outside your home.**  
+   Let me know if you think someone would like access. Don't just give them your password.
 2. **If there's something you'd like to be added, just ask!**  
    I can't realistically have everything ever made, but I'll do what I can to find it.
 
