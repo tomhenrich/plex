@@ -422,6 +422,15 @@ collections:
     summary: "Here's what's been added to Plex within the last couple months."
     collection_mode: hide
 
+  Recommendations:
+    imdb_list: 
+      list_id: ls4159173469
+      limit: 200
+      sort_by: title.asc
+    collection_order: custom
+    sync_mode: sync
+    sort_title: "!Recommendations"
+    summary: "An assortment of movies I highly recommend to others, regardless of genre."
 
   Asylum:
     smart_filter:
