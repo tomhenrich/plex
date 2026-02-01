@@ -410,7 +410,7 @@ collections:
     collection_filtering: user
     summary: "Can't decide what to watch? Here are a few popular selections released in the last decade."
 
-  Recently Added to Plex:
+  Recently Added Movies:
     smart_filter:
       limit: 100
       all:
