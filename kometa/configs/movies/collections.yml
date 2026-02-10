@@ -311,6 +311,26 @@ collections:
     sort_title: "zzzNon-English"
     summary: "You're gonna need to be okay with subtitles."
 
+
+  Brat Pack:
+    tmdb_movie:
+      - https://www.themoviedb.org/movie/227-the-outsiders
+      - https://www.themoviedb.org/movie/21500-class
+      - https://www.themoviedb.org/movie/15144-sixteen-candles
+      - https://www.themoviedb.org/movie/30231-oxford-blues
+      - https://www.themoviedb.org/movie/2108-the-breakfast-club
+      - https://www.themoviedb.org/movie/11557-st-elmo-s-fire
+      - https://www.themoviedb.org/movie/11522-pretty-in-pink
+      - https://www.themoviedb.org/movie/83078-blue-city
+      - https://www.themoviedb.org/movie/18169-about-last-night
+      - https://www.themoviedb.org/movie/41090-wisdom
+      - https://www.themoviedb.org/movie/38982-fresh-horses
+      - https://www.themoviedb.org/movie/18913-betsy-s-wedding
+    smart_label:
+      any:
+        label: <<smart_label>>
+      sort_by: release.asc
+
   The Conjuring Universe:
     tmdb_collection:
       - 313086
