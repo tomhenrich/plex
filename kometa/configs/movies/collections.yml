@@ -456,7 +456,7 @@ collections:
     summary: "An assortment of movies I highly recommend to others, regardless of genre."
 
 
-  Walt Disney Animation:
+  Disney Animation:
     smart_filter:
       all:
         studio: "Walt Disney"
