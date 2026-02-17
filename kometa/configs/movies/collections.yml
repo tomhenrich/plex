@@ -457,10 +457,10 @@ collections:
 
 
   Disney Animation:
-    smart_filter:
+    tmdb_company: 171657
+    smart_label:
       all:
-        studio: "Walt Disney"
-        genre: Animation
+        label: <<smart_label>>
       sort_by: release.asc
 
   Asylum:
