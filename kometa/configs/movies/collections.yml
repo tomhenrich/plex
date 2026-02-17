@@ -457,7 +457,8 @@ collections:
 
 
   Disney Animation:
-    tmdb_company: 171657
+    tmdb_list:
+      - https://www.themoviedb.org/list/8634494-walt-disney-animation
     smart_label:
       all:
         label: <<smart_label>>
