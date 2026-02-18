@@ -43,15 +43,10 @@ dynamic_collections:
       - 531242 # Suicide Squad
       ## Kaiju Series
       - 813157  # Godzilla (American re-releases)
-      - 1474814 # Godzilla Reiwa
-      - 1518331 # Shin Godzilla collection (rumored)
-      - 1326214 # Godzilla Reiwa
       - 1474814 # Godzilla Minus
       - 135495  # King Kong 1930+
       - 135498  # King Kong 1976+
       - 1474869 # Kong (MonsterVerse)
-      ## Removed from TMDB:
-      # - placeholder line
 
     addons: # combine collections
       8091:       # Alien
@@ -69,23 +64,24 @@ dynamic_collections:
         - 1156855   #+ Animated TMNT
       748:        # X-Men
         - 453993    #+ The Wolverine
+      535313:     # Godzilla (MonsterVerse)
+        - 1539140   #+ Godzilla x Kong
 
     title_override:
       304: "Ocean's Heists"
-      325470: LEGO Movies
-      119: The Lord of the Rings
+      325470: "LEGO Movies"
       535313: "Godzilla (MonsterVerse)"
       535790: "Godzilla (Anime)"
-      948485: The Batman
+      948485: "The Batman"
       573436: "Spider-Verse"
       259401: "Invisible Man (Universal)"
       259027: "Wolf Man (Universal)"
       1079486: "Winnie the Pooh: Blood & Honey"
       4438: "2001/2010"
-      123726: Quatermass
-      24761: The Girl with the Dragon Tattoo
+      123726: "Quatermass"
+      24761: "The Girl with the Dragon Tattoo"
       575987: "The Girl with the Dragon Tattoo (American)"
-      44215: Stargate
+      44215: "Stargate"
 
     template_variables:
 
@@ -115,10 +111,9 @@ dynamic_collections:
           - 686487    # King Kong vs Godzilla (US)
         374511:     # Godzilla (Heisei)
           - 39256     #+ Godzilla 1985 (US Version)
-        535313:     # Godzilla (MonsterVerse)
-          - 823464    #+ Godzilla x Kong
         131635:     # Hunger Games
           - 695721    #+ Ballad of Songbirds & Snakes
+          - 1300968   #+ Sunrise on the Reaping
         404609:     # John Wick
           - 541671    #+ Ballerina
         328:        # Jurassic Park
@@ -208,7 +203,6 @@ dynamic_collections:
       item_label:
         435259: Wizarding World
         535313: MonsterVerse
-        1280074: MonsterVerse
 
       collection_order:
         10: alpha     # Star Wars
