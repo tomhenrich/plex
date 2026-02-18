@@ -346,7 +346,7 @@ collections:
         - 118       # Charlie and the Chocolate Factory (2005)
         - 787699    # Wonka (2023)
     summary: "Come with me... and you'll be... in a world of pure imagination..."
-		collection_order: release
+    collection_order: release
     collection_mode: show_items
     name_mapping: Wonka
     sort_title: Wonka Chocolate Factory
