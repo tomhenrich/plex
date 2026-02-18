@@ -278,32 +278,35 @@ collections:
     collection_order: release
 
   Studio Ghibli:
-    tmdb_movie:
-      - 81          # Nausicaä of the Valley of the Wind
-      - 10515       # Castle in the Sky
-      - 12477       # Grave of the Fireflies
-      - 8392        # My Neighbor Totoro
-      - 16859       # Kiki's Delivery Service
-      - 15080       # Only Yesterday
-      - 11621       # Porco Rosso
-      - 21057       # Ocean Waves
-      - 15283       # Pom Poko
-      - 37797       # Whisper of the Heart
-      - 128         # Princess Mononoke
-      - 16198       # My Neighbors the Yamadas
-      - 129         # Spirited Away
-      - 15370       # The Cat Returns
-      - 4935        # Howl's Moving Castle
-      - 37933       # Tales from Earthsea
-      - 12429       # Ponyo
-      - 51739       # The Secret World of Arrietty
-      - 83389       # From Up on Poppy Hill
-      - 149870      # The Wind Rises
-      - 149871      # The Tale of The Princess Kaguya
-      - 242828      # When Marnie Was There
-      - 508883      # The Boy and the Heron
+    template:
+      name: tmdb
+      movie:
+        - 81        # Nausicaä of the Valley of the Wind
+        - 10515     # Castle in the Sky
+        - 12477     # Grave of the Fireflies
+        - 8392      # My Neighbor Totoro
+        - 16859     # Kiki's Delivery Service
+        - 15080     # Only Yesterday
+        - 11621     # Porco Rosso
+        - 21057     # Ocean Waves
+        - 15283     # Pom Poko
+        - 37797     # Whisper of the Heart
+        - 128       # Princess Mononoke
+        - 16198     # My Neighbors the Yamadas
+        - 129       # Spirited Away
+        - 15370     # The Cat Returns
+        - 4935      # Howl's Moving Castle
+        - 37933     # Tales from Earthsea
+        - 12429     # Ponyo
+        - 51739     # The Secret World of Arrietty
+        - 83389     # From Up on Poppy Hill
+        - 149870    # The Wind Rises
+        - 149871    # The Tale of The Princess Kaguya
+        - 242828    # When Marnie Was There
+        - 508883    # The Boy and the Heron
     collection_order: release
     collection_mode: show_items
+    item_label.append: Studio Ghibli
 
   Three Mothers:
     template:
