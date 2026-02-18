@@ -87,6 +87,8 @@ collections:
       movie:
         - 60160   # Gamera the Brave
         - 664048  # 2015 short
+        - 734649 # 1999 documentary about the making of Gamera 3
+        - 1369172 # "Gamera 4: Truth" independent sequel to Gamera 3
     summary: "Gamera is a giant turtle Kaiju created by Daiei Motion Picture Company in 1965 to rival the success of Toho Studios' Godzilla franchise."
     collection_order: release
     sort_title: Gamera 2006
@@ -96,9 +98,8 @@ collections:
       name: tmdb
       movie:
         - 315011  # Shin Godzilla
-        - 940721  # Minus One
       collection:
-        - 1474814 # Reiwa/Minus One Collection
+        - 1474814 # Minus One Collection
     collection_order: release
     sort_title: Godzilla 2016
     summary: "Toho's Japanese-language Godzilla movies resumed in 2016, running concurrently with the American MonsterVerse series."
@@ -111,7 +112,7 @@ collections:
         - 11234 # Omega Man
         - 6479  # I Am Legend
     collection_order: release
-    collection_mode: hide
+    collection_mode: show_items
     summary: "Films adapted from the novel I AM LEGEND by Richard Matheson."
 
   Italian Job:
@@ -165,12 +166,8 @@ collections:
     collection_order: release
 
   Studio Ghibli:
-    template:
-      name: tmdb
-      movie:
-        - 81  # Nausicaa
-      company:
-        - 10342
+    tmdb_list:
+      - https://www.themoviedb.org/list/8634599-studio-ghibli
     collection_order: release
     collection_mode: show_items
 
@@ -192,7 +189,7 @@ collections:
         - 4689  # Sympathy for Mr Vengeance
         - 670   # Oldboy
         - 4550  # Lady Vengeance
-    summary: "Park Chan-wook's Vengeance Trilogy proves revenge is a lot more than a dish best served cold."
+    summary: "Park Chan-wook's Vengeance Trilogy proves revenge is more than a dish best served cold."
     collection_order: release
     collection_mode: show_items
 
@@ -241,6 +238,9 @@ collections:
       - 453993  # Wolverine
       - 558216  # Venom
       - 748     # X-Men
+      ###
+      - 197476  # Captain America 1970s
+      - 225941  # Spider-Man 1970s TV Movies
     tmdb_movie:
       - 9480    # Daredevil
       - 9947    # Elektra
@@ -255,6 +255,11 @@ collections:
       - 27460   # Nick Fury Agent of Shield
       - 340102  # New Mutants
       - 567604  # Once Upon a Deadpool
+      ###
+      - 106355  # Captain America (1944)
+      - 50468   # Dr Strange (1978)
+      - 26881   # Incredible Hulk Returns (1988)
+
     smart_label:
       all:
         label: <<smart_label>>
@@ -442,20 +447,6 @@ collections:
     summary: "Here's what's been added to Plex within the last couple months."
     collection_mode: hide
 
-  Recommendations:
-    imdb_list: 
-      list_id: ls4159173469
-      limit: 200
-    smart_label:
-      all:
-        label: <<smart_label>>
-        unplayed: true
-      sort_by: title.asc
-    sync_mode: sync
-    sort_title: "!Recommendations"
-    summary: "An assortment of movies I highly recommend to others, regardless of genre."
-
-
   Disney Animation:
     tmdb_list:
       - https://www.themoviedb.org/list/8634494-walt-disney-animation
@@ -463,6 +454,7 @@ collections:
       all:
         label: <<smart_label>>
       sort_by: release.asc
+    summary: "The 'Disney Animated Canon' – animated feature films produced and/or released by The Walt Disney Company or its predecessor, Walt Disney Productions. Does not include Pixar, Marvel, or live-action movies, with some exceptions. Compiled from disney.fandom.com."
 
   Asylum:
     smart_filter:
