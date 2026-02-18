@@ -25,27 +25,56 @@ templates:
 
 #
 # CURATED COLLECTIONS
-# Curated -- either not official TMDB collections, or specific combinations of movies
+# Either not official TMDB collections, or specific combinations of movies
 #
 
 collections:
+
+  Brat Pack:
+    tmdb_movie:
+      - 227         # the-outsiders
+      - 21500       # class
+      - 15144       # sixteen-candles
+      - 30231       # oxford-blues
+      - 2108        # the-breakfast-club
+      - 11557       # st-elmo-s-fire
+      - 11522       # pretty-in-pink
+      - 83078       # blue-city
+      - 18169       # about-last-night
+      - 41090       # wisdom
+      - 38982       # fresh-horses
+      - 18913       # betsy-s-wedding
+    smart_label:
+      any:
+        label: <<smart_label>>
+      sort_by: release.asc
 
   Cloverfield:
     template:
       name: tmdb
       movie: 
-        - 7191    # Cloverfield
-        - 333371  # 10 Cloverfield Lane
-        - 384521  # Cloverfield Paradox
+        - 7191      # Cloverfield
+        - 333371    # 10 Cloverfield Lane
+        - 384521    # Cloverfield Paradox
     collection_order: release
+
+  The Conjuring Universe:
+    tmdb_collection:
+      - 313086      # Conjuring
+      - 402074      # Annabelle
+      - 968052      # The Nun
+    smart_label:
+      sort_by: release.asc
+      all:
+        label: <<smart_label>>
 
   Cornetto Trilogy:
     template:
       name: tmdb
       movie:
-        - 747     # Shaun of the Dead
-        - 4638    # Hot Fuzz
-        - 107985  # The World's End
+        - 747       # Shaun of the Dead
+        - 4638      # Hot Fuzz
+        - 107985    # The World's End
     summary: The Three Flavours Cornetto trilogy is an anthology series of British comedies by Edgar Wright and Simon Pegg, starring Pegg and Nick Frost. 
     name_mapping: Cornetto
     minimum_items: 3
@@ -56,18 +85,27 @@ collections:
     template:
       name: tmdb
       movie:
-        - 9480  # Daredevil
-        - 9947  # Elektra
+        - 9480      # Daredevil
+        - 9947      # Elektra
     collection_order: release
     collection_mode: hide
+
+  Disney Animation:
+    tmdb_list:
+      - https://www.themoviedb.org/list/8634494-walt-disney-animation
+    smart_label:
+      all:
+        label: <<smart_label>>
+      sort_by: release.asc
+    summary: "The 'Disney Animated Canon' – animated feature films produced and/or released by The Walt Disney Company or its predecessor, Walt Disney Productions. Does not include Pixar, Marvel, or live-action movies, with some exceptions. Compiled from disney.fandom.com."
 
   Eastrail 177:
     template:
       name: tmdb
       movie: 
-        - 9741    # Unbreakable
-        - 381288  # Split
-        - 450465  # Glass
+        - 9741      # Unbreakable
+        - 381288    # Split
+        - 450465    # Glass
     summary: "A superhero thriller and psychological horror film series involving the derailment of the fictitious Eastrail 177 train."
     collection_order: release
     collection_mode: show_items
@@ -76,8 +114,8 @@ collections:
     template:
       name: tmdb
       movie:
-        - 926 # Galaxy Quest
-        - 637963 # Documentary
+        - 926       # Galaxy Quest
+        - 637963    # Documentary
     collection_order: release
     collection_mode: hide
 
@@ -85,10 +123,10 @@ collections:
     template:
       name: tmdb
       movie:
-        - 60160   # Gamera the Brave
-        - 664048  # 2015 short
-        - 734649 # 1999 documentary about the making of Gamera 3
-        - 1369172 # "Gamera 4: Truth" independent sequel to Gamera 3
+        - 60160     # Gamera the Brave
+        - 664048    # 2015 short
+        - 734649    # 1999 documentary about the making of Gamera 3
+        - 1369172   # "Gamera 4: Truth" independent sequel to Gamera 3
     summary: "Gamera is a giant turtle Kaiju created by Daiei Motion Picture Company in 1965 to rival the success of Toho Studios' Godzilla franchise."
     collection_order: release
     sort_title: Gamera 2006
@@ -97,9 +135,9 @@ collections:
     template:
       name: tmdb
       movie:
-        - 315011  # Shin Godzilla
+        - 315011    # Shin Godzilla
       collection:
-        - 1474814 # Minus One Collection
+        - 1474814   # Minus One Collection
     collection_order: release
     sort_title: Godzilla 2016
     summary: "Toho's Japanese-language Godzilla movies resumed in 2016, running concurrently with the American MonsterVerse series."
@@ -108,9 +146,9 @@ collections:
     template:
       name: tmdb
       movie:
-        - 21159 # The Last Man on Earth
-        - 11234 # Omega Man
-        - 6479  # I Am Legend
+        - 21159     # The Last Man on Earth
+        - 11234     # Omega Man
+        - 6479      # I Am Legend
     collection_order: release
     collection_mode: show_items
     summary: "Films adapted from the novel I AM LEGEND by Richard Matheson."
@@ -119,8 +157,8 @@ collections:
     template:
       name: tmdb
       movie:
-        - 10536 # 1969
-        - 9654  # 2003
+        - 10536     # 1969
+        - 9654      # 2003
     summary: "A team of criminals risk shifting allegiances and double-crosses to take on a daring heist."
     collection_order: release
 
@@ -128,22 +166,96 @@ collections:
     template:
       name: tmdb
       collection:
-        - 135495  # 1930+
-        - 135498  # 1976-1986
+        - 135495    # 1930+
+        - 135498    # 1976-1986
       movie:
-        - 254     # 2005 Peter Jackson
-        - 39276   # King Kong Escapes (1967)
+        - 254       # 2005 Peter Jackson
+        - 39276     # King Kong Escapes (1967)
     collection_order: release
+
+  Kurosawa Samurai:
+    template:
+      name: tmdb
+      movie:
+        - 548       # Rashomon
+        - 346       # Seven Samurai
+        - 3777      # Throne of Blood
+        - 1059      # The Hidden Fortress
+        - 11878     # Yojimbo
+        - 11712     # Sanjuro
+        - 11953     # Kagemusha
+        - 11645     # Ran
+    summary: "Samurai films by the legendary Japanese director, Akira Kurosawa."
+    item_label: Samurai
+    collection_mode: show_items
+    sort_title: Samurai Kurosawa
+
+  Marvel Cinematic Universe:
+    tmdb_keyword: 180547
+    smart_label:
+      all:
+        label: <<smart_label>>
+      sort_by: release.asc
+
+  Marvel Extended Universe:
+    tmdb_collection:
+      - 125574      # Amazing Spider-Man
+      - 735         # Blade
+      - 448150      # Deadpool
+      - 9744        # Fantastic Four
+      - 90306       # Ghost Rider
+      - 635362      # Punisher
+      - 556         # Spider-Man (Tobey Maguire)
+      - 573436      # Spider-Verse
+      - 453993      # Wolverine
+      - 558216      # Venom
+      - 748         # X-Men
+      - 197476      # Captain America 1970s
+      - 225941      # Spider-Man 1970s TV Movies
+    tmdb_movie:
+      - 9480        # Daredevil
+      - 9947        # Elektra
+      - 22059       # Fantastic Four (1994)
+      - 166424      # Fantastic Four (2015)
+      - 26623       # Generation X
+      - 10658       # Howard the Duck
+      - 1927        # Hulk (2003)
+      - 539972      # Kraven
+      - 634492      # Madame Web
+      - 526896      # Morbius
+      - 27460       # Nick Fury Agent of Shield
+      - 340102      # New Mutants
+      - 567604      # Once Upon a Deadpool
+      - 106355      # Captain America (1944)
+      - 50468       # Dr Strange (1978)
+      - 26881       # Incredible Hulk Returns (1988)
+    smart_label:
+      all:
+        label: <<smart_label>>
+        label.not: Marvel Cinematic Universe
+      sort_by: release.asc
+    summary: Movies based on Marvel properties but not officially part of the Marvel Cinematic Universe.
 
   Middle Earth:
     template:
       name: tmdb
       collection:
-        - 119     # LOTR
-        - 121938  # Hobbit
+        - 119       # LOTR
+        - 121938    # Hobbit
     item_label.append: Middle Earth
     summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins."
     collection_order: release
+
+  Peanuts:
+    tmdb_movie:
+      - 227973      # Peanuts Movie
+      - 13353       # Great Pumpkin
+      - 13479       # Thanksgiving
+      - 13187       # Charlie Brown Christmas
+    smart_label:
+      any:
+        label: <<smart_label>>
+      sort_by: release.asc
 
   Serenity:
     template:
@@ -156,18 +268,40 @@ collections:
     template:
       name: tmdb
       collection:
-        - 151     # The Original Series
-        - 115570  # The Next Generation
-        - 115575  # Kelvin/Alternate Reality
+        - 151       # The Original Series
+        - 115570    # The Next Generation
+        - 115575    # Kelvin/Alternate Reality
       movie:
-        - 1114894     # Section 31
+        - 1114894   # Section 31
     item_label.append: Star Trek
     summary: "All films from the iconic Star Trek franchise."
     collection_order: release
 
   Studio Ghibli:
-    tmdb_list:
-      - https://www.themoviedb.org/list/8634599-studio-ghibli
+    tmdb_movie:
+      - 81          # Nausicaä of the Valley of the Wind
+      - 10515       # Castle in the Sky
+      - 12477       # Grave of the Fireflies
+      - 8392        # My Neighbor Totoro
+      - 16859       # Kiki's Delivery Service
+      - 15080       # Only Yesterday
+      - 11621       # Porco Rosso
+      - 21057       # Ocean Waves
+      - 15283       # Pom Poko
+      - 37797       # Whisper of the Heart
+      - 128         # Princess Mononoke
+      - 16198       # My Neighbors the Yamadas
+      - 129         # Spirited Away
+      - 15370       # The Cat Returns
+      - 4935        # Howl's Moving Castle
+      - 37933       # Tales from Earthsea
+      - 12429       # Ponyo
+      - 51739       # The Secret World of Arrietty
+      - 83389       # From Up on Poppy Hill
+      - 149870      # The Wind Rises
+      - 149871      # The Tale of The Princess Kaguya
+      - 242828      # When Marnie Was There
+      - 508883      # The Boy and the Heron
     collection_order: release
     collection_mode: show_items
 
@@ -175,9 +309,9 @@ collections:
     template:
       name: tmdb
       movie:
-        - 11906 # Suspiria
-        - 16395 # Inferno
-        - 15206 # Mother of Tears
+        - 11906     # Suspiria
+        - 16395     # Inferno
+        - 15206     # Mother of Tears
     summary: "Dario Argento's Italian supernatural horror saga that deals with a triumvirate of ancient witches whose powerful magic allows them to manipulate world events on a global scale."
     collection_order: release
     collection_mode: show_items
@@ -186,9 +320,9 @@ collections:
     template:
       name: tmdb
       movie:
-        - 4689  # Sympathy for Mr Vengeance
-        - 670   # Oldboy
-        - 4550  # Lady Vengeance
+        - 4689      # Sympathy for Mr Vengeance
+        - 670       # Oldboy
+        - 4550      # Lady Vengeance
     summary: "Park Chan-wook's Vengeance Trilogy proves revenge is more than a dish best served cold."
     collection_order: release
     collection_mode: show_items
@@ -197,80 +331,49 @@ collections:
     template:
       name: tmdb
       collection:
-        - 1241    # Harry Potter
-        - 435259  # Fantastic Beasts
+        - 1241      # Harry Potter
+        - 435259    # Fantastic Beasts
     collection_order: release
 
   The Chocolate Factory:
     template:
       name: tmdb
       movie:
-        - 252     # Willie Wonka (1971)
-        - 118     # Charlie and the Chocolate Factory (2005)
-        - 787699  # Wonka (2023)
+        - 252       # Willie Wonka (1971)
+        - 118       # Charlie and the Chocolate Factory (2005)
+        - 787699    # Wonka (2023)
     summary: "Come with me... and you'll be... in a world of pure imagination..."
-    collection_order: release
+		collection_order: release
     collection_mode: show_items
     name_mapping: Wonka
+    sort_title: Wonka Chocolate Factory
 
-
-########################################
-# Marvel/DC Movies
-########################################
-
-  Marvel Cinematic Universe:
-    tmdb_keyword: 180547
-    smart_label:
-      all:
-        label: <<smart_label>>
-      sort_by: release.asc
-
-  Marvel Extended Universe:
+  Universal Classic Monsters:
     tmdb_collection:
-      - 125574  # Amazing Spider-Man
-      - 735     # Blade
-      - 448150  # Deadpool
-      - 9744    # Fantastic Four
-      - 90306   # Ghost Rider
-      - 635362  # Punisher
-      - 556     # Spider-Man (Tobey Maguire)
-      - 573436  # Spider-Verse
-      - 453993  # Wolverine
-      - 558216  # Venom
-      - 748     # X-Men
-      ###
-      - 197476  # Captain America 1970s
-      - 225941  # Spider-Man 1970s TV Movies
+      - 221539      # Dracula
+      - 218406      # Frankenstein
+      - 221544      # The Mummy
+      - 259401      # Invisible Man
+      - 221537      # Creature from the Black Lagoon
+      - 259027      # Wolf Man
     tmdb_movie:
-      - 9480    # Daredevil
-      - 9947    # Elektra
-      - 22059   # Fantastic Four (1994)
-      - 166424  # Fantastic Four (2015)
-      - 26623   # Generation X
-      - 10658   # Howard the Duck
-      - 1927    # Hulk (2003)
-      - 539972  # Kraven
-      - 634492  # Madame Web
-      - 526896  # Morbius
-      - 27460   # Nick Fury Agent of Shield
-      - 340102  # New Mutants
-      - 567604  # Once Upon a Deadpool
-      ###
-      - 106355  # Captain America (1944)
-      - 50468   # Dr Strange (1978)
-      - 26881   # Incredible Hulk Returns (1988)
-
+      - 18987       # Hunchback of Notre Dame (1923)
+      - 964         # Phantom of the Opera (1925)
+      - 27970       # Werewolf of London (1935)
+      - 15855       # Phantom of the Opera (1943)
+      - 45322       # She-Wolf of London (1946)
     smart_label:
       all:
         label: <<smart_label>>
-        label.not: Marvel Cinematic Universe
       sort_by: release.asc
-    summary: Movies based on Marvel properties but not officially part of the Marvel Cinematic Universe.
+    summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
 
 
-########################################
-# OTHER
-########################################
+
+## Smart Filters/Builders
+## Dynamically generated rather than defined lists of specific titles
+
+
 
   "Sarah's Watchlist":
     trakt_list: 
@@ -300,6 +403,22 @@ collections:
     minimum_items: 1
     collection_filtering: user
 
+  Choice Fatigue:
+    smart_filter:
+      limit: 5
+      all:
+        unplayed: true
+        audio_language: English
+        release: 3650
+        audience_rating.gte: 6
+        genre.not:
+          - Horror
+          - Short
+      sort_by: random
+    sort_title: "!Choice Fatigue"
+    collection_filtering: user
+    summary: "Can't decide what to watch? Here are a few popular English-language selections released in the last decade."
+
   Unwatched:
     smart_filter:
       all:
@@ -315,59 +434,33 @@ collections:
       sort_by: title.asc
     sort_title: "zzzNon-English"
     summary: "You're gonna need to be okay with subtitles."
-
-
-  Brat Pack:
-    tmdb_movie:
-      - https://www.themoviedb.org/movie/227-the-outsiders
-      - https://www.themoviedb.org/movie/21500-class
-      - https://www.themoviedb.org/movie/15144-sixteen-candles
-      - https://www.themoviedb.org/movie/30231-oxford-blues
-      - https://www.themoviedb.org/movie/2108-the-breakfast-club
-      - https://www.themoviedb.org/movie/11557-st-elmo-s-fire
-      - https://www.themoviedb.org/movie/11522-pretty-in-pink
-      - https://www.themoviedb.org/movie/83078-blue-city
-      - https://www.themoviedb.org/movie/18169-about-last-night
-      - https://www.themoviedb.org/movie/41090-wisdom
-      - https://www.themoviedb.org/movie/38982-fresh-horses
-      - https://www.themoviedb.org/movie/18913-betsy-s-wedding
-    smart_label:
-      any:
-        label: <<smart_label>>
-      sort_by: release.asc
-
-  The Conjuring Universe:
-    tmdb_collection:
-      - 313086
-      - 402074
-      - 968052
-    smart_label:
-      sort_by: release.asc
+  Recently Added Movies:
+    smart_filter:
+      limit: 100
       all:
-        label: <<smart_label>>
+        added: 60      # added within this many days
+        label.not:
+          - "Exclude From Recent"
+      sort_by: added.desc
+    sort_title: "zzRecent"
+    summary: "Here's what's been added to Plex within the last couple months."
+    collection_mode: hide
+
+
+####
+
+  Asylum:
+    smart_filter:
+      all:
+        studio.is: "The Asylum"
+      sort_by: title.asc
+    summary: "Cinematic masterpieces produced by low-budget powerhouse studio 'The Asylum'. So bad it's... still bad."
 
   Hitchcock:
     smart_filter:
       all:
         director: Alfred Hitchcock
       sort_by: release.asc
-
-  Kurosawa Samurai:
-    template:
-      name: tmdb
-      movie:
-        - 548 # Rashomon
-        - 346 # Seven Samurai
-        - 3777 # Throne of Blood
-        - 1059 # The Hidden Fortress
-        - 11878 # Yojimbo
-        - 11712 # Sanjuro
-        - 11953 # Kagemusha
-        - 11645 # Ran
-    summary: "Samurai films by the legendary Japanese director, Akira Kurosawa."
-    item_label: Samurai
-    collection_mode: show_items
-    sort_title: Samurai Kurosawa
 
   MonsterVerse:
     smart_filter:
@@ -388,77 +481,3 @@ collections:
         actor: Nicolas Cage
       sort_by: audience_rating.desc
 
-  Peanuts:
-    tmdb_movie:
-      - 227973 # Peanuts Movie
-      - 13353 # Great Pumpkin
-      - 13479 # Thanksgiving
-      - 13187 # Charlie Brown Christmas
-    smart_label:
-      any:
-        label: <<smart_label>>
-      sort_by: release.asc
-
-  Universal Classic Monsters:
-    tmdb_collection:
-      - 221539  # Dracula
-      - 218406  # Frankenstein
-      - 221544  # The Mummy
-      - 259401  # Invisible Man
-      - 221537  # Creature from the Black Lagoon
-      - 259027  # Wolf Man
-    tmdb_movie:
-      - 18987 # Hunchback of Notre Dame (1923)
-      - 964 # Phantom of the Opera (1925)
-      - 27970 # Werewolf of London (1935)
-      - 15855 # Phantom of the Opera (1943)
-      - 45322 # She-Wolf of London (1946)
-    smart_label:
-      all:
-        label: <<smart_label>>
-      sort_by: release.asc
-    summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
-
-  Choice Fatigue:
-    smart_filter:
-      limit: 5
-      all:
-        unplayed: true
-        audio_language: English
-        release: 3650
-        audience_rating.gte: 6
-        genre.not:
-          - Horror
-          - Short
-      sort_by: random
-    sort_title: "!Choice Fatigue"
-    collection_filtering: user
-    summary: "Can't decide what to watch? Here are a few popular selections released in the last decade."
-
-  Recently Added Movies:
-    smart_filter:
-      limit: 100
-      all:
-        added: 60    # added within this many days
-        label.not:
-          - "Exclude From Recent"
-      sort_by: added.desc
-    sort_title: "zzRecent"
-    summary: "Here's what's been added to Plex within the last couple months."
-    collection_mode: hide
-
-  Disney Animation:
-    tmdb_list:
-      - https://www.themoviedb.org/list/8634494-walt-disney-animation
-    smart_label:
-      all:
-        label: <<smart_label>>
-      sort_by: release.asc
-    summary: "The 'Disney Animated Canon' – animated feature films produced and/or released by The Walt Disney Company or its predecessor, Walt Disney Productions. Does not include Pixar, Marvel, or live-action movies, with some exceptions. Compiled from disney.fandom.com."
-
-  Asylum:
-    smart_filter:
-      all:
-        studio.is: "The Asylum"
-      sort_by: title.asc
-    summary: "Cinematic masterpieces produced by low-budget powerhouse studio 'The Asylum'. So bad it's... still bad."
