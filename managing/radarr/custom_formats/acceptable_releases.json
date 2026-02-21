@@ -1,0 +1,33 @@
+{
+  "name": "Acceptable Releases",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Tigole",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(Tigole)"
+      }
+    },
+    {
+      "name": "Kingdom",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(Kingdom)"
+      }
+    },
+    {
+      "name": "Bone",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(Bone)"
+      }
+    }
+  ]
+}
