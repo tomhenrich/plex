@@ -1,0 +1,33 @@
+{
+  "name": "Avoided Release Groups",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "BEN THE MEN",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(BEN[ ._-]THE[ ._-]MEN|BTM)\\b"
+      }
+    },
+    {
+      "name": "GalaxyRG",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(GalaxyRG)\\b"
+      }
+    },
+    {
+      "name": "SWTYBLZ",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(SWTYBLZ)$"
+      }
+    }
+  ]
+}
