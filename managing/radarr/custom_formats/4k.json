@@ -1,0 +1,24 @@
+{
+  "name": "4K",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "2160",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 2160
+      }
+    },
+    {
+      "name": "2160p",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "2160p"
+      }
+    }
+  ]
+}
