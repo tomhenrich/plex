@@ -1,0 +1,33 @@
+{
+  "name": "Preferred Release Groups",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "PSA",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(PSA)"
+      }
+    },
+    {
+      "name": "Elite",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(Elite)"
+      }
+    },
+    {
+      "name": "Vyndros",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(Vyndros)"
+      }
+    }
+  ]
+}
