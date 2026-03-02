@@ -121,6 +121,8 @@ dynamic_collections:
           - 12208     #+ Casino Royale 1967
         325470:     # LEGO Movies
           - 324849    #+ LEGO Batman Movie
+        119:        # Lord of the Rings
+          - 839033    #+ War of the Rohirrim
         86055:      # Men in Black
           - 479455    #+ MIB International
         37139:      # The Naked Gun
@@ -202,6 +204,8 @@ dynamic_collections:
       item_label:
         435259: Wizarding World
         535313: MonsterVerse
+        119: Middle Earth
+        121938: Middle Earth
 
       collection_order:
         10: alpha     # Star Wars
