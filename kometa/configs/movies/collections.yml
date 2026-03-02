@@ -242,6 +242,8 @@ collections:
       collection:
         - 119       # LOTR
         - 121938    # Hobbit
+      movie:
+        - 839033    # War of the Rohirrim
     item_label.append: Middle Earth
     summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins."
     collection_order: release
