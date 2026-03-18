@@ -13,6 +13,7 @@
 * Primary client devices support x265 video and DTS audio
   * If not, the server is sufficiently capable of transcoding these
   * Primary supported client devices:
+    * iOS (iPhone, iPad)
     * Google TV
     * Roku
 
@@ -21,7 +22,7 @@
 ### Format and dimensions
 
 * Output to MKV format
-* Do not crop video, even to remove black bars – maintain original video dimensions and aspect ratio
+* Do not crop video – maintain original video dimensions and aspect ratio
 
 ### Video
 
@@ -30,9 +31,13 @@
 * Encoder Preset: `Medium` (typically requires 2-3 hours for an average movie)
   * If possible, set to `Slow` but this usually means 8+ hours to encode an average movie
 * Quality Level: default to `20` for most movies
-  * Can be set to `22` for older, lower-quality movies
-  * Can be set to `24` for TV episodes
-  * Set to `18` for particularly high-profile, visually-impressive movies – or consider just keeping the original remuxed source file instead of encoding at all
+
+| Content Type | Quality Level |
+| :----------- | :------------ |
+| High-profile, visually-impressive content | 18 |
+| Default | 20 |
+| Old, low-quality content | 22 |
+| Most TV episodes | 24 |
 
 ### Audio
 
@@ -43,11 +48,12 @@
 * **Prefer passing through the original audio format** directly from the source, rather than converting to a different format
   * Keep only the first matching `DTS-HD`, `DTS`, or `AC3` track where available
     * `DTS-HD` is preferred when the audio quality is extra important
-    * `DTS` core is acceptable for most movies (significant file size savings compared to `DTS-HD`)
+    * `DTS` core is acceptable for the majority of movies (significant file size savings compared to `DTS-HD`)
+    * `AC3` is common from Blu-ray sources that otherwise use TrueHD as the primary track
   * If none of those formats are available, convert the highest-quality source track to `AAC`
-    * Maintain the existing channel mix (e.g. if the source is 7.1, keep that as is)
+    * Maintain the existing channel mix (e.g. if the source is 7.1, keep that)
     * Maximum bitrate: 512 kbps or the original track's value, whichever is lower (do not upscale)
-  * Only for _exceptionally_ high-quality movies where a TrueHD track is available: it can be kept but must be secondary to a more widely compatible track following the above rules (i.e. keep or add a `DTS` or `AAC` track as the default)
+  * Only for _exceptionally_ high-quality movies where a TrueHD track is available: it can be kept but must be secondary to a more compatible track following the above rules (i.e. keep or add a `DTS` or `AAC` track as the default)
 
 #### Track naming
 * Label tracks according to their channel availability, not their format:
@@ -58,7 +64,7 @@
 #### Track selection
 
 > [!NOTE]
-> Extract subtitle tracks using mkvExtractGUI prior to running Handbrake, in order to identify which tracks contain what content.
+> Prior to running Handbrake, use mkvExtractGUI to extract subtitles to identify which tracks contain what content.
 
 * Keep only English subtitles
 * Keep only subtitles for the actual content of the media
