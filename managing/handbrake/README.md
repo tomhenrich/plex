@@ -51,6 +51,10 @@
     * Maximum bitrate: 512 kbps or the original track's value, whichever is lower (do not upscale)
   * TrueHD track may be kept for _exceptionally_ high-quality movies but must be secondary to a more compatible track
 
+> [!NOTE]
+> Handbrake cannot do this kind of selection logic itself.
+> It can choose what to do with all tracks as a whole but cannot do "Ignore DTS-HD and skip to a DTS track" etc.
+
 #### Track naming
 * Label tracks according to their channel availability, not their format:
   * e.g. `Surround 5.1` or `Stereo`, not `DTS Surround` or `AAC for Roku`
