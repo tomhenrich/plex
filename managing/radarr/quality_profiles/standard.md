@@ -14,17 +14,22 @@
  
 ## Custom Formats
 | Custom Format | Score |
-| :-- | --: |
+| :------------------------ | ---: |
 | Preferred Release Groups  | 100  |
-| Acceptable Release Groups | 40   |
 | DTS Audio                 | 30   |
 | x265                      | 30   |
+| 4K Remaster               | 20   |
+| Acceptable Release Groups | 20   |
+| IMAX                      | 20   |
+| Proper/Repack             | 20   |
+| Surround Audio            | 20   |
+| Criterion Collection      | 10   |
 | English                   | 0    |
 | Stereo Audio              | 0    |
 | x264                      | 0    |
 | 720p                      | -20  |
 | WebRip                    | -20  |
-| Avoided Release Groups    | -60  |
+| Avoided Release Groups    | -40  |
 | Too Small for 1080p       | -60  |
 | 4K                        | -500 |
 | Avoided Sources           | -500 |
