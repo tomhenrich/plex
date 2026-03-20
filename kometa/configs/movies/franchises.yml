@@ -71,14 +71,12 @@ dynamic_collections:
       304: "Ocean's Heists"
       325470: "LEGO Movies"
       535313: "Godzilla (MonsterVerse)"
-      535790: "Godzilla (Anime)"
       948485: "The Batman"
       573436: "Spider-Verse"
       259401: "Invisible Man (Universal)"
       259027: "Wolf Man (Universal)"
       1079486: "Winnie the Pooh: Blood & Honey"
       4438: "2001/2010"
-      123726: "Quatermass"
       24761: "The Girl with the Dragon Tattoo"
       575987: "The Girl with the Dragon Tattoo (American)"
       44215: "Stargate"
@@ -191,7 +189,6 @@ dynamic_collections:
         24761: Girl with the Dragon Tattoo
         575987: Girl with the Dragon Tattoo (US) # US movies
         535313: Godzilla (MonsterVerse)
-        535790: Godzilla (Anime)
         259401: Invisible Man (Universal)
         1280074: Kong (MonsterVerse)
         325470: LEGO Movies
@@ -244,4 +241,3 @@ dynamic_collections:
         374511: "After a hiatus, Toho relaunched the Godzilla franchise in 1984 with a new continuity, ignoring the Showa era titles except for the 1954 original."
         374512: "Toho brought Godzilla back for the new millennium, re-asserting Godzilla as a terrifying force of nature. Each movie in this series disregards all prior movies (with the exception of 'MechaGodzilla' being followed by 'Tokyo S.O.S.')."
         1582: "Heroes in a half-shell!"
-        123726: "Professor Bernard Quatermass is a fictional scientist originally created for BBC Television – a pioneer of the British space program who finds himself confronting sinister forces."
