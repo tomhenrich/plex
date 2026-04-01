@@ -139,11 +139,17 @@ collections:
       - 83867 # star-wars-andor
       - 114461 # ahsoka
       - 114479 # the-acolyte
-      - 205955 # Icons Unearthed
-    plex_search:
-      type: show
-      all:
-        title.begins: Star Wars
+      - 114478 # star-wars-visions
+      - 4194 # star-wars-the-clone-wars
+      - 60554 # star-wars-rebels
+      - 79093 # star-wars-resistance
+      - 105971 # star-wars-the-bad-batch
+      - 3122 # star-wars-clone-wars 2003
+      - 202879 # star-wars-skeleton-crew
+      - 251091 # tales-of-the-empire
+      - 203085 # star-wars-tales-of-the-jedi
+      - 289219 # maul-shadow-lord
+      - 205955 # icons unearthed documentary miniseries
     summary: "Stories from a galaxy far, far away."
     minimum_items: 1
     collection_order: release
