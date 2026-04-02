@@ -467,6 +467,13 @@ collections:
         director: Alfred Hitchcock
       sort_by: release.asc
 
+  Horror:
+    smart_filter:
+      all:
+        genre:
+          - Horror
+      sort_by: title.asc
+
   MonsterVerse:
     smart_filter:
       all:
