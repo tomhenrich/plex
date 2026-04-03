@@ -36,10 +36,10 @@
 		"local": "{stream_local}"
 	},
 	"transcode": {
-		"transcode_decision": "{transcode_decision}",
-		"video_decision": "{video_decision}",
-		"audio_decision": "{audio_decision}",
-		"subtitle_decision": "{subtitle_decision}",
+		"transcode_decision": "{transcode_decision!u}",
+		"video_decision": "{video_decision!u}",
+		"audio_decision": "{audio_decision!u}",
+		"subtitle_decision": "{subtitle_decision!u}",
 		"container": "{transcode_container}",
 		"video_codec": "{transcode_video_codec!u}",
 		"audio_codec": "{transcode_audio_codec!u}",
