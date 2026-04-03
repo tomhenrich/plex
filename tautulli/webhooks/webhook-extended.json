@@ -21,8 +21,8 @@
 		"resolution": "{video_resolution}p",
 		"video_codec": "{video_codec!u}",
 		"audio_codec": "{audio_codec!u}",
-		"audio_channels": "{audio_channels}"
-		"subtitle_format": "{subtitle_format!u}"
+		"audio_channels": "{audio_channels}",
+		"subtitle_format": "{subtitle_format!u}",
 		"subtitle_codec": "{subtitle_codec!u}"
 	},
 	"stream": {
