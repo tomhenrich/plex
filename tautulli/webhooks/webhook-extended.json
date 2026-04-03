@@ -4,45 +4,46 @@
 	"timestamp": "{timestamp}",
 	"who": {
 		"user": "{user}",
-		"player": "{player}"
+		"device": "{device}",
+		"player": "{player}",
+		"platform": "{platform}",
+		"machine_id": "{machine_id}"
 	},
 	"what": {
 		"type": "{media_type}",
-		"title": "<movie>{title}</movie><episode>{show_name} - S{season_num00}E{episode_num00} - {episode_name}</episode>",
+		"title": "<movie>{title}</movie><episode>{show_name}</episode>",
+		"episode": "<episode>S{season_num00}E{episode_num00} - {episode_name}</episode>",
 		"year": "{year}"
 	},
 	"source": {
 		"container": "{container}",
 		"bitrate": "{bitrate}",
-		"resolution": "{video_resolution}",
-		"video_codec": "{video_codec}",
-		"audio_codec": "{audio_codec}",
-		"sub_container": "{subtitle_container}",
-		"sub_format": "{subtitle_format}"
+		"resolution": "{video_resolution}p",
+		"video_codec": "{video_codec!u}",
+		"audio_codec": "{audio_codec!u}",
+		"audio_channels": "{audio_channels}"
+		"subtitle_format": "{subtitle_format!u}"
+		"subtitle_codec": "{subtitle_codec!u}"
 	},
 	"stream": {
-		"quality_profile": "{quality_profile}",
-		"local": "{stream_local}",
 		"container": "{stream_container}",
-		"video_resolution": "{stream_video_resolution}",
-		"video_codec": "{stream_video_codec}",
-		"audio_codec": "{stream_audio_codec}",
+		"video_resolution": "{stream_video_resolution}p",
+		"video_codec": "{stream_video_codec!u}",
+		"audio_codec": "{stream_audio_codec!u}",
 		"audio_channels": "{stream_audio_channels}",
-		"sub_container": "{stream_subtitle_container}",
-		"sub_format": "{stream_subtitle_format}"
+		"subtitle_format": "{stream_subtitle_format!u}",
+		"quality_profile": "{quality_profile}",
+		"local": "{stream_local}"
 	},
 	"transcode": {
-		"transcode_decision": "{transcode_decision}",
-		"video_decision": "{video_decision}",
-		"audio_decision": "{audio_decision}",
-		"subtitle_decision": "{subtitle_decision}",
-		"container": "{transcode_container}",
-		"video_codec": "{transcode_video_codec}",
-		"audio_codec": "{transcode_audio_codec}",
-		"audio_channels": "{transcode_audio_channels}"
-	},
-	"progress": {
-		"time": "{progress_time}",
-		"percent": "{progress_percent}"
+		"transcode_decision": "{transcode_decision!l}",
+		"video_decision": "{video_decision!l}",
+		"audio_decision": "{audio_decision!l}",
+		"subtitle_decision": "{subtitle_decision!l}",
+		"container": "{transcode_container!l}",
+		"video_codec": "{transcode_video_codec!u}",
+		"audio_codec": "{transcode_audio_codec!u}",
+		"audio_channels": "{transcode_audio_channels}",
+		"hardware": "{transcode_hw_requested}"
 	}
 }
