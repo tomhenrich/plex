@@ -18,18 +18,18 @@
 	"source": {
 		"container": "{container}",
 		"bitrate": "{bitrate}",
-		"resolution": "{video_resolution}p",
-		"video_codec": "{video_codec}",
-		"audio_codec": "{audio_codec}",
+		"resolution": "{video_resolution}",
+		"video_codec": "{video_codec!u}",
+		"audio_codec": "{audio_codec!u}",
 		"audio_channels": "{audio_channels}",
 		"subtitle_format": "{subtitle_format}",
-		"subtitle_codec": "{subtitle_codec}"
+		"subtitle_codec": "{subtitle_codec!u}"
 	},
 	"stream": {
 		"container": "{stream_container}",
-		"video_resolution": "{stream_video_resolution}p",
-		"video_codec": "{stream_video_codec}",
-		"audio_codec": "{stream_audio_codec}",
+		"video_resolution": "{stream_video_resolution}",
+		"video_codec": "{stream_video_codec!u}",
+		"audio_codec": "{stream_audio_codec!u}",
 		"audio_channels": "{stream_audio_channels}",
 		"subtitle_format": "{stream_subtitle_format}",
 		"quality_profile": "{quality_profile}",
@@ -41,8 +41,8 @@
 		"audio_decision": "{audio_decision}",
 		"subtitle_decision": "{subtitle_decision}",
 		"container": "{transcode_container}",
-		"video_codec": "{transcode_video_codec}",
-		"audio_codec": "{transcode_audio_codec}",
+		"video_codec": "{transcode_video_codec!u}",
+		"audio_codec": "{transcode_audio_codec!u}",
 		"audio_channels": "{transcode_audio_channels}",
 		"hardware": "{transcode_hw_requested}"
 	}
