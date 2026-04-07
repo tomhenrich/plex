@@ -1,14 +1,16 @@
 {
-	"server": "{server_name}",
 	"action": "{action}",
 	"timestamp": "{timestamp}",
+	"session_id": "{session_id}",
+	"session_key": "{session_key}",
 	"who": {
 		"user": "{user}",
 		"player": "{player}"
 	},
 	"what": {
 		"type": "{media_type}",
-		"title": "<movie>{title}</movie><episode>{show_name} - S{season_num00}E{episode_num00} - {episode_name}</episode>",
+		"title": "<movie>{title}</movie><episode>{show_name}</episode>",
+		"episode": "<episode>S{season_num00}E{episode_num00} - {episode_name}</episode>",
 		"year": "{year}"
 	},
 	"stream": {
@@ -16,9 +18,5 @@
 	},
 	"transcode": {
 		"transcode_decision": "{transcode_decision}"
-	},
-	"progress": {
-		"time": "{progress_time}",
-		"percent": "{progress_percent}"
 	}
 }
