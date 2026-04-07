@@ -2,6 +2,8 @@
 	"server": "{server_name}",
 	"action": "{action}",
 	"timestamp": "{timestamp}",
+	"session_id": "{session_id}",
+	"session_key": "{session_key}",
 	"who": {
 		"user": "{user}",
 		"device": "{device}",
