@@ -1,61 +1,57 @@
 libraries: # the names of libraries in your Plex
   Movies:
-    schedule: weekly(sunday)
+    schedule: never
     remove_overlays: false
-#    metadata_files:
-#      - repo: kometa/configs/movies/metadata
     collection_files:
-			- repo: kometa/configs/movies/franchises
-			- repo: kometa/configs/movies/collections.yml
-			- repo: kometa/configs/movies/stephenking.yml
+    - repo: kometa/configs/movies/franchises
+    - repo: kometa/configs/movies/collections
+    - repo: kometa/configs/movies/stephenking
     settings:
       asset_directory:
-				- S:\Movies
-				- S:\Movies\00 Collections
+      - S:\Movies
+      - S:\Movies\00 Collections
     operations:
       delete_collections:
         managed: false
         less: 1
   Movies (4K):
-    schedule: weekly(sunday)
+    schedule: never
     remove_overlays: false
     metadata_files:
-			- repo: kometa/configs/movies4k/metadata
+    - repo: kometa/configs/movies4k/metadata
     collection_files:
-			- repo: kometa/configs/movies4k/franchises
+    - repo: kometa/configs/movies4k/franchises
     settings:
       asset_directory:
-				- S:\Movies4K
-				- S:\Movies4K\Collections
+      - S:\Movies4K
+      - S:\Movies4K\Collections
     operations:
       delete_collections:
         managed: false
         less: 1
   TV Shows:
-    schedule: weekly(sunday)
+    schedule: never
     remove_overlays: false
-    metadata_files:
-			- repo: kometa/configs/tv/metadata
     collection_files:
-			- repo: kometa/configs/tv/collections
+    - repo: kometa/configs/tv/collections
     settings:
       asset_directory:
-				- S:\TV
-				- S:\TV\Collections
+      - S:\TV
+      - S:\TV\00 Collections
   Sarah's Weird Horror:
-    schedule: monthly(1)
+    schedule: never
     remove_overlays: false
     collection_files:
-			- repo: kometa/configs/weird-horror/collections
+    - repo: kometa/configs/weird-horror/collections
     settings:
       asset_directory:
-				- S:\Movies\Collections\Weird Horror
+      - S:\Movies\Collections\Weird Horror
 settings:
   run_order:
-		- operations
-		- metadata
-		- collections
-		- overlays
+  - operations
+  - metadata
+  - collections
+  - overlays
   cache: true
   cache_expiration: 30
   asset_directory:
@@ -80,14 +76,13 @@ settings:
   show_unmanaged: false
   show_unconfigured: false
   show_filtered: false
-  show_unfiltered: false
   show_options: true
   show_missing: false
   show_missing_assets: true
   save_report: false
   tvdb_language: eng
   ignore_ids:
-  ignore_imdb_ids: 
+  ignore_imdb_ids: tt2364582,tt6313900
   item_refresh_delay: 0
   playlist_sync_to_users: all
   playlist_exclude_users:
@@ -96,12 +91,13 @@ settings:
   custom_repo: https://github.com/tomhenrich/plex/tree/main/
   overlay_artwork_filetype: jpg
   overlay_artwork_quality: 75
+  show_unfiltered: false
 webhooks:
-  error: 
+  error: http://homeassistant.local:8123/api/webhook/kometa-error
   version:
-  run_start: 
-  run_end: 
-  changes: 
+  run_start: http://homeassistant.local:8123/api/webhook/kometa-start
+  run_end: http://homeassistant.local:8123/api/webhook/kometa-complete
+  changes: http://homeassistant.local:8123/api/webhook/kometa-changes
   delete:
 plex: # can be specified per library; REQUIRED for the script to run
   url: http://localhost:32400
@@ -118,17 +114,17 @@ tmdb: # REQUIRED for the script to run
   cache_expiration: 60
   region:
 tautulli: # can be individually specified per library
-  url: http://192.168.1.201:8181
-  apikey: ##########
+  url:
+  apikey:
 trakt:
   client_id: ##########
   client_secret: ##########
   authorization:
     access_token: ##########
     token_type: Bearer
-    expires_in: 604800
+    expires_in: ##########
     refresh_token: ##########
     scope: public
-    created_at: ##########
+    created_at: 
   pin:
   force_refresh:
