@@ -101,6 +101,15 @@ collections:
     collection_order: release
     minimum_items: 1
 
+  MonsterVerse:
+    tmdb_show: 
+      - 202411    # Monarch Legacy of Monsters
+    smart_label:
+      any:
+        label: <<smart_label>>
+      sort_by: title.asc
+    minimum_items: 1
+
   Orphan Black:
     plex_search:
       type: show
