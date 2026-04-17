@@ -42,6 +42,7 @@ dynamic_collections:
       - 721111 # The Fugitive/US Marshals
       - 531242 # Suicide Squad
       - 861415 # Free Guy (deleted from TMDB)
+      - 1665725 # MCU Solo Films (deleted from TMDB)
       ## Kaiju Series
       - 813157  # Godzilla (American re-releases)
       - 1474814 # Godzilla Minus
@@ -109,6 +110,9 @@ dynamic_collections:
           - 686487    # King Kong vs Godzilla (US)
         374511:     # Godzilla (Heisei)
           - 39256     #+ Godzilla 1985 (US Version)
+        535313:     # Godzilla (MonsterVerse)
+          - 823464    #+ GxK: The New Empire
+          - 1288438   #+ GxK: Supernova
         131635:     # Hunger Games
           - 695721    #+ Ballad of Songbirds & Snakes
           - 1300968   #+ Sunrise on the Reaping
