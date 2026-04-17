@@ -35,6 +35,10 @@ collections:
       list_id: ls4159173469
       limit: 100
     sync_mode: sync
+    smart_label:
+      sort_by: release.asc
+      all:
+        label: <<smart_label>>
 
   Battlestar Galactica:
     tmdb_collection:
