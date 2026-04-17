@@ -82,6 +82,13 @@ collections:
       all:
        title.begins: Icons Unearthed
 
+  Fullmetal Alchemist:
+    template:
+      name: tmdb
+      show:
+        - 37863
+        - 31911
+
   Knights of Sidonia:
     template:
       name: tmdb
@@ -119,7 +126,7 @@ collections:
     collection_order: release
 
   Serenity:
-    template: {name: tmdb, show: 1437}
+    tmdb_show: 1437
     minimum_items: 1
     collection_mode: hide
 
@@ -167,7 +174,7 @@ collections:
     collection_order: release
 
   X Files:
-    template: {name: tmdb, show: 4087}
+    tmdb_show: 4087
     minimum_items: 1
     collection_mode: hide
   
