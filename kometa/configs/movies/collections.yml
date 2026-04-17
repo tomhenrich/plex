@@ -30,6 +30,11 @@ templates:
 
 collections:
 
+  Battlestar Galactica:
+    tmdb_collection:
+      - 284151      # Original
+      - 91697       # Reboot
+
   Brat Pack:
     tmdb_movie:
       - 227         # the-outsiders
