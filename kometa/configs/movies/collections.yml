@@ -30,16 +30,6 @@ templates:
 
 collections:
 
-  Highly Recommended:
-    imdb_list: 
-      list_id: ls4159173469
-      limit: 100
-    sync_mode: sync
-    smart_label:
-      sort_by: release.asc
-      all:
-        label: <<smart_label>>
-
   Battlestar Galactica:
     tmdb_collection:
       - 284151      # Original
@@ -395,6 +385,17 @@ collections:
 
 
 
+  Highly Recommended:
+    imdb_list: 
+      list_id: ls4159173469
+      limit: 100
+    sync_mode: sync
+    smart_label:
+      sort_by: release.asc
+      all:
+        label: <<smart_label>>
+    sort_title: ":Highly Recommended"
+
   "Sarah's Watchlist":
     trakt_list: 
       - https://trakt.tv/users/tomhenrich/lists/sarah-s-watchlist?display=movie
@@ -454,6 +455,7 @@ collections:
       sort_by: title.asc
     sort_title: "zzzNon-English"
     summary: "You're gonna need to be okay with subtitles."
+
   Recently Added Movies:
     smart_filter:
       limit: 100
