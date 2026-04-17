@@ -30,6 +30,12 @@ templates:
 
 collections:
 
+  Highly Recommended:
+    imdb_list: 
+      list_id: ls4159173469
+      limit: 100
+    sync_mode: sync
+
   Battlestar Galactica:
     tmdb_collection:
       - 284151      # Original
