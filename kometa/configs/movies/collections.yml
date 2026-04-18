@@ -391,9 +391,10 @@ collections:
       limit: 100
     sync_mode: sync
     smart_label:
-      sort_by: release.asc
+      sort_by: title.asc
       all:
         label: <<smart_label>>
+        label.not: "Alt Edition"
     sort_title: ":Highly Recommended"
 
   "Sarah's Watchlist":
@@ -416,7 +417,6 @@ collections:
     smart_label:
       all:
         label: <<smart_label>>
-        label.not: "Alt Edition"
         unplayed: true
       sort_by: title.asc
     sort_title: "!Toms Watchlist"
