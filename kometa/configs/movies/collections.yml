@@ -416,6 +416,7 @@ collections:
     smart_label:
       all:
         label: <<smart_label>>
+        label.not: "Alt Edition"
         unplayed: true
       sort_by: title.asc
     sort_title: "!Toms Watchlist"
