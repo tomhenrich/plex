@@ -1,16 +1,16 @@
 Configuration files for use with [Kometa](https://kometa.wiki/) (formerly Plex Meta Manager) to organize and customize Plex collections and other metadata.
 
-## To Run Kometa
+## To run Kometa
 1. Once logged into the Windows PC running Plex & Kometa, open Powershell (Windows menu > Powershell)
 2. Enter the following command then press Enter to run it:
  
    `cd ~\Kometa; .\kometa-venv\Scripts\activate;`
 
-## Examples of Commands
+## Examples of commands
 Once you've started Kometa, you can run it with various commands to process Plex updates.
 
 ### Run the entire configuration
-This command will run Kometa without any specific instructions — load the entire config and process everything. (This is scheduled to happen every day automatically but can be done manually if desired.)
+This command will run Kometa without any specific instructions — load the entire config and process everything.
 
 `python kometa.py -r`
 
@@ -43,7 +43,7 @@ There are multiple individual config files for each library:
     - "Dumb" collections will just group the assigned items together and typically hide them from being shown as individual movies in the main library
     - "Smart" collections are either *filters* (which automatically update any time a new item matches the conditions, like runtime or year) or *builders* (which use external data like Trakt and update only when Kometa runs)
 
-These files are currently hosted in this GitHub repository but can be downloaded to the Kometa configs folder on the PC and run locally.
+These files are currently hosted in this GitHub repository but can be downloaded to the Kometa configs folder on the PC and run locally[^localfiles].
 
 To run specific files:
 
@@ -52,3 +52,7 @@ To run specific files:
 or
 
 `python kometa.py --run-files "franchises.yml"`
+
+[^localfiles]: If you do so, you need to update Kometa's `config.yml` to use `file` references instead of `repo` references.  
+e.g. `file: config/configs/movies/collections.yml`  
+instead of `repo: kometa/configs/movies/collections.yml`
