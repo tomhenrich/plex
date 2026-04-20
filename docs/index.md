@@ -8,13 +8,13 @@ nav_order: 1
 ## Get started
 
 1. **Accept the invitation:**  
-   From the email, **create a free account** on the Plex.tv site or sign into your account if you have one.
+   From the email, **create a free account** on Plex's site or sign into your account if you have one.
 2. **Get the Plex app:**  
-   Install the app on your streaming device and sign in.
+   Install the app on your streaming device(s) of choice and sign in.
 3. **Update the quality settings:** _(optional but important)_  
-   In the app's Settings, look for "Quality" or "Video" and [set the quality to "Original" or "Maximum"](quality-settings.md) — otherwise you'll get low-resolution video.
+   In Settings, look for "Quality" or "Video" and [set it to "Original" or "Maximum"](quality-settings.md) — otherwise you'll get low-resolution video.
 4. **Pin my server** for quick access:  
-   This is a little different on each device, but generally: open the navigation, select "More", and <a href="https://support.plex.tv/articles/customizing-the-apps/#toc-0" target="_blank">pin my libraries</a>.
+   This is a little different on each device, but basically: open the navigation, select "More", and <a href="https://support.plex.tv/articles/customizing-the-apps/#toc-0" target="_blank">pin my libraries</a>.
 
 That's it! You can start looking for something to watch.
 
@@ -22,12 +22,15 @@ That's it! You can start looking for something to watch.
 
 ## Quick notes
 
-1. **Do not share your account with someone else outside your home.**  
-   Let me know if you think someone would like access. Don't just give them your password.
-2. **If there's something you'd like to be added, just ask!**  
-   I can't realistically have everything ever made, but I'll do what I can to find it.
+* **Don't share your account.**  
+  Your account is for you and your immediate home/family members.  
+  Let me know if you think someone would like an invitation, but don't just share your password.
+* **If there's something you'd like to be added, just ask!**  
+  I can't realistically have everything ever made, but I'll do what I can to find it.
+* Users are limited to **two (2) streams at a time**.  
+  If you start a third simultaneous stream, it will be blocked.
 
-If you have any questions or need any help, just ask!
+Feel free to ask if you need help or have questions.
 
 ---
 
