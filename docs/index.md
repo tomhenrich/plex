@@ -40,11 +40,9 @@ It's just like Netflix or other streaming services you've used before.
 From the side nav, pick _Movies_ or _TV Shows_ to browse, or use Search.  
 Search may include results both from my content (shown as being on `Scylla`) and from Plex's ad-supported streaming service.
 
-**Just click Play** to start watching. You can change audio or subtitle settings at any time.
+**Just click Play** to start watching. You can change audio or subtitle settings[^settings] at any time.
 
 As with any streaming service, **Plex uses your internet.** If you have unlimited data like me, go nuts. If you have a monthly cap, just be mindful.
-
-> **TIP:** You can [update your account settings](account-settings.md) online to enable subtitles without having to select them every time you start watching.
 
 > **NOTE:** If you ever see ads, you're watching something from Plex's own ad-supported service. You will _never_ see ads while watching anything from my server.
 
@@ -55,3 +53,6 @@ As with any streaming service, **Plex uses your internet.** If you have unlimite
 * <a href="https://mediaclients.wiki/en/Plex" target="_blank">MediaClients.wiki</a> has a bunch of useful info and guides
 * <a href="https://web.archive.org/web/20250317201942/http://plxplainers.xyz/" target="_blank">Plexplainers</a> is a good resource with screenshots from various app platforms (archived on Wayback Machine as the original has disappeared)
 
+
+
+[^settings]: You can [update your account settings](account-settings.md) online to enable subtitles without having to select them every time you start watching.
