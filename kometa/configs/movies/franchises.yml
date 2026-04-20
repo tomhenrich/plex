@@ -106,10 +106,12 @@ dynamic_collections:
           - 701121    #+ 2020 remake
         2980:       # Ghostbusters
           - 43074     #+ Ghostbusters 2016
+        135468:     # G.I. Joe (Live Action)
+          - 568620    #+ Snake Eyes Origins
         374509:     # Godzilla Showa
-          - 18983     # Godzilla, King of the Monsters (US)
-          - 329237    # Gigantis the Fire Monster (US Version of Godzilla Raids Again)
-          - 686487    # King Kong vs Godzilla (US)
+          - 18983     #+ Godzilla, King of the Monsters (US)
+          - 329237    #+ Gigantis the Fire Monster (US Version of Godzilla Raids Again)
+          - 686487    #+ King Kong vs Godzilla (US)
         374511:     # Godzilla (Heisei)
           - 39256     #+ Godzilla 1985 (US Version)
         535313:     # Godzilla (MonsterVerse)
