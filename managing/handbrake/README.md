@@ -13,7 +13,9 @@
 
 * Always encoding from a direct remux (copied from Blu-ray or DVD); never encoding from a 4K source
 * x265/HEVC is widely supported enough to be used as the default codec
+  * x265 10-bit is theoretically better but results in longer encode times for minimal perceived quality difference
 * Primary Plex client devices (iOS, Google TV, Roku) support x265 video and DTS audio; Plex server can transcode as needed otherwise
+  * TrueHD audio is not supported on almost any device; discard or transcode these tracks
 
 ## Default Selection Preferences
 
@@ -26,12 +28,12 @@
 
 | Content Type | Codec | RF/Quality | Notes |
 | :----------- | :---- | :--------- | :---- |
-| High visual impact (action, sci-fi) | x265 10-bit | 18 | Preserve detail, avoid banding |
-| **Default** (drama, general films) | x265 10-bit | 20 | Balanced |
-| Dialogue-heavy (rom-com, comedy) | x265 10-bit | 22 | Lower motion/detail |
-| Animation | x265 10-bit | 22 | Compresses efficiently; set `Animation` profile |
-| Older / low-quality | x265 10-bit | 24 |  |
-| Grain-heavy film | x264 | 20 | Set `Grain` profile |
+| High visual impact (action, sci-fi) | x265 | 18 | Preserve detail, avoid banding |
+| **Default** (drama, general films) | x265 | 20 | Balanced |
+| Dialogue-heavy (rom-com, comedy) | x265 | 22 | Lower motion/detail |
+| Animation | x265 | 22 | Compresses efficiently; set `Animation` profile |
+| Older / low-quality | x265 | 24 | Need to set manually, no preset saved for this |
+| Grain-heavy film | x264 | 20 | Set `Grain` profile; need to set manually, no preset saved for this |
 
 * Encoder Preset: `Medium` (typically takes 2-3 hours for an average movie)
   * `Slow` can produce better results but usually takes 8+ hours to complete an average movie
@@ -49,7 +51,7 @@
   * If none of those formats are available, convert the highest-quality source track to `AAC` for compatibility
     * Maintain the existing channel mix (e.g. if the source is 7.1, keep that)
     * Maximum bitrate: 512 kbps or the original track's value, whichever is lower (do not upscale)
-  * TrueHD track may be kept for _exceptionally_ high-quality movies but must be secondary to a more compatible track
+  * TrueHD tracks are not supported by almost any client, and should be discarded
 
 > [!NOTE]
 > Handbrake cannot do this kind of selection logic itself.
@@ -84,5 +86,5 @@
 * Do not include language in the track name (e.g. do not name a track "English")
 * SDH tracks should be named `SDH`
 * Non-SDH tracks should not have a name
-* Forced tracks should be named `Foreign Dialogue`
+* Forced tracks should be named `Forced`
   * If the media's original language is not English, the subtitle track does not need to be labeled as Forced (e.g. a Japanese movie does not need the English subtitles marked "Forced")
