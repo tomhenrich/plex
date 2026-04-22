@@ -10,13 +10,13 @@ param(
     [int]$ExitCode
 )
 
-# 1. Verification: Only proceed if Handbrake succeeded (Exit Code 0)
+# 1. Verification: Only proceed if Handbrake succeeded
 if ($ExitCode -ne 0) {
     Write-Warning "Handbrake reported a non-zero exit code ($ExitCode). Skipping metadata processing."
     exit
 }
 
-# Path to your MKVToolNix executables
+# Paths to MKVToolNix
 $mkvpropedit = "C:\Program Files\MKVToolNix\mkvpropedit.exe"
 $mkvmerge    = "C:\Program Files\MKVToolNix\mkvmerge.exe"
 
@@ -27,48 +27,48 @@ if (-not (Test-Path $FilePath)) {
 
 Write-Host "Handbrake Success. Processing: $FilePath"
 
-# 2. Get JSON metadata using mkvmerge
-$jsonInfo = &$mkvmerge -J $FilePath | ConvertFrom-Json
+# 2. Get JSON metadata
+$jsonInfo = &$mkvmerge --ui-language en -J $FilePath | ConvertFrom-Json
 
-# 3. Check if there are any subtitle tracks at all
-$subTracks = $jsonInfo.tracks | Where-Object { $_.type -eq "subtitles" }
+# 3. Filter for subtitle tracks robustly
+[array]$subTracks = $jsonInfo.tracks | Where-Object { $_.type -eq "subtitles" }
 
-if ($null -eq $subTracks -or $subTracks.Count -eq 0) {
-    Write-Host "No subtitle tracks found. Clearing global tags/title and exiting."
-    # We still perform the global cleanup as requested in previous requirements
-    &$mkvpropedit "`$FilePath`" --edit info --set "title=" --tags "all:"
-    exit
-}
-
-# 4. Build command arguments for mkvpropedit
+# 4. Build command arguments (Starting with Global Cleanup)
 $arguments = @(
     "`"$FilePath`"",
     "--edit", "info", "--set", "title=",
     "--tags", "all:"
 )
 
-foreach ($track in $subTracks) {
-    # mkvpropedit track selection is 1-based
-    $trackNum = $track.id + 1
-    $trackName = $track.properties.track_name
+# 5. Process subtitles if any exist
+if ($subTracks.Count -gt 0) {
+    Write-Host "Found $($subTracks.Count) subtitle track(s)."
+    
+    foreach ($track in $subTracks) {
+        $trackNum = $track.id + 1
+        $trackName = $track.properties.track_name
 
-    # SDH Logic: Mark as Default + Hearing Impaired
-    if ($trackName -eq "SDH") {
-        $arguments += "--edit", "track:n$trackNum"
-        $arguments += "--set", "flag-default=1"
-        $arguments += "--set", "flag-hearing-impaired=1"
-        Write-Host "Found SDH on Track $trackNum."
-    }
+        if ($trackName -eq "SDH") {
+            $arguments += "--edit", "track:n$trackNum"
+            $arguments += "--set", "flag-default=1"
+            $arguments += "--set", "flag-hearing-impaired=1"
+            Write-Host "Modified Track $trackNum: Set SDH flags."
+        }
 
-    # Forced Logic: Mark as Forced + NOT Default
-    if ($trackName -eq "Forced") {
-        $arguments += "--edit", "track:n$trackNum"
-        $arguments += "--set", "flag-default=0"
-        $arguments += "--set", "flag-forced=1"
-        Write-Host "Found Forced on Track $trackNum."
+        if ($trackName -eq "Forced") {
+            $arguments += "--edit", "track:n$trackNum"
+            $arguments += "--set", "flag-default=0"
+            $arguments += "--set", "flag-forced=1"
+            Write-Host "Modified Track $trackNum: Set Forced flags."
+        }
     }
+} 
+else {
+    Write-Host "No subtitle tracks detected. Proceeding with global cleanup only."
 }
 
-# 5. Execute the changes
+# 6. Final Execution
+Write-Host "Applying changes via mkvpropedit..."
 Start-Process -FilePath $mkvpropedit -ArgumentList $arguments -Wait -NoNewWindow
+
 Write-Host "Metadata update complete."
