@@ -16,68 +16,64 @@ if ($ExitCode -ne 0) {
     exit
 }
 
-# 2. Define Executable Paths
 $mkvpropedit = "C:\Program Files\MKVToolNix\mkvpropedit.exe"
 $mkvmerge    = "C:\Program Files\MKVToolNix\mkvmerge.exe"
 
-# Check if executables exist
-if (-not (Test-Path $mkvpropedit)) { Write-Error "mkvpropedit not found at $mkvpropedit"; exit }
-if (-not (Test-Path $mkvmerge)) { Write-Error "mkvmerge not found at $mkvmerge"; exit }
-
-# Check if video file exists
-if (-not (Test-Path $FilePath)) {
-    Write-Error "File not found: $FilePath"
-    exit
-}
+if (-not (Test-Path $mkvpropedit)) { Write-Error "mkvpropedit not found"; exit }
+if (-not (Test-Path $FilePath)) { Write-Error "File not found: $FilePath"; exit }
 
 Write-Host "Processing: $FilePath"
 
-# 3. Get JSON metadata
-# Using --ui-language en ensures property names like "tracks" and "type" are consistent
-$jsonRaw = &$mkvmerge --ui-language en -J $FilePath
-$jsonInfo = $jsonRaw | ConvertFrom-Json
+# 2. Get JSON metadata
+$jsonInfo = &$mkvmerge --ui-language en -J $FilePath | ConvertFrom-Json
 
-# 4. Filter for subtitle tracks
-# Explicitly casting to [array] to ensure .Count works even with 1 track
+# 3. Filter for subtitle tracks
 [array]$subTracks = $jsonInfo.tracks | Where-Object { $_.type -eq "subtitles" }
 
-# 5. Build command arguments (Starting with Global Cleanup)
-$mkvArgs = @(
-    $FilePath,
-    "--edit", "info", "--set", "title=",
-    "--tags", "all:"
-)
+# 4. Build command arguments
+# We use a List object for easier manipulation of arguments
+$mkvArgs = New-Object System.Collections.Generic.List[string]
+$mkvArgs.Add($FilePath)
 
-# 6. Process subtitles if any exist
+# Global Cleanup
+$mkvArgs.Add("--edit")
+$mkvArgs.Add("info")
+$mkvArgs.Add("--set")
+$mkvArgs.Add("title=")
+$mkvArgs.Add("--tags")
+$mkvArgs.Add("all:")
+
+# 5. Process subtitles
 if ($subTracks.Count -gt 0) {
-    Write-Host "Found $($subTracks.Count) subtitle track(s)."
-    
     foreach ($track in $subTracks) {
         $trackNum = $track.id + 1
         $trackName = $track.properties.track_name
 
         if ($trackName -eq "SDH") {
-            $mkvArgs += "--edit", "track:n${trackNum}"
-            $mkvArgs += "--set", "flag-default=1"
-            $mkvArgs += "--set", "flag-hearing-impaired=1"
-            Write-Host "Modified Track ${trackNum}: Set SDH flags."
+            $mkvArgs.Add("--edit")
+            $mkvArgs.Add("track:$trackNum") # Simplified selector
+            $mkvArgs.Add("--set")
+            $mkvArgs.Add("flag-default=1")
+            $mkvArgs.Add("--set")
+            $mkvArgs.Add("flag-hearing-impaired=1")
+            Write-Host "Queued SDH flags for Track $trackNum"
         }
 
         if ($trackName -eq "Forced") {
-            $mkvArgs += "--edit", "track:n${trackNum}"
-            $mkvArgs += "--set", "flag-default=0"
-            $mkvArgs += "--set", "flag-forced=1"
-            Write-Host "Modified Track ${trackNum}: Set Forced flags."
+            $mkvArgs.Add("--edit")
+            $mkvArgs.Add("track:$trackNum") # Simplified selector
+            $mkvArgs.Add("--set")
+            $mkvArgs.Add("flag-default=0")
+            $mkvArgs.Add("--set")
+            $mkvArgs.Add("flag-forced=1")
+            Write-Host "Queued Forced flags for Track $trackNum"
         }
     }
-} 
-else {
-    Write-Host "No subtitle tracks detected. Proceeding with global cleanup only."
 }
 
-# 7. Final Execution
-# Using & with an array is the most robust way to pass complex arguments
-Write-Host "Applying changes via mkvpropedit..."
-&$mkvpropedit @mkvArgs
+# 6. Final Execution
+Write-Host "Applying changes..."
+# Converting List to Array for the call operator
+&$mkvpropedit $mkvArgs.ToArray()
 
 Write-Host "Metadata update complete."
