@@ -1,3 +1,11 @@
+# How to use with Handbrake
+# 1. Open Handbrake.
+# 2. Go to Preferences > Advanced.
+# 3. In the Post-Processing Path, enter:
+#     C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+# 4. In the Arguments box, enter:
+#    -ExecutionPolicy Bypass -File "C:\Your\Path\To\ProcessHandbrake.ps1" "{path}"
+
 param([string]$FilePath)
 
 # Path to your mkvpropedit and mkvmerge (for scanning)
