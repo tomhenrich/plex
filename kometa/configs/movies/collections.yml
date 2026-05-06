@@ -35,25 +35,6 @@ collections:
       - 284151      # Original
       - 91697       # Reboot
 
-  Brat Pack:
-    tmdb_movie:
-      - 227         # the-outsiders
-      - 21500       # class
-      - 15144       # sixteen-candles
-      - 30231       # oxford-blues
-      - 2108        # the-breakfast-club
-      - 11557       # st-elmo-s-fire
-      - 11522       # pretty-in-pink
-      - 83078       # blue-city
-      - 18169       # about-last-night
-      - 41090       # wisdom
-      - 38982       # fresh-horses
-      - 18913       # betsy-s-wedding
-    smart_label:
-      any:
-        label: <<smart_label>>
-      sort_by: release.asc
-
   Cloverfield:
     template:
       name: tmdb
