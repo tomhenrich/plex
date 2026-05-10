@@ -20,8 +20,11 @@ That's it! You can start looking for something to watch.
 
 ---
 
-## Quick notes
+## Quick Notes
 
+* **Plex is 100% free for you to use.**  
+It's a hobby I've put some money into, but it is free for you to use.  
+The company also offers <a href="https://watch.plex.tv/on-demand" target="_blank">ad-supported content</a> and titles you can pay to rent.
 * **Don't share your account.**  
   Your account is for you and your immediate home/family members.  
   Let me know if you think someone would like an invitation, but don't just share your password.
