@@ -3,7 +3,7 @@ title: Getting Started with Plex
 description: How to sign up, get into Plex, and connect to shared libraries.
 nav_order: 1
 ---
-<a href="https://www.plex.tv/" target="_blank">Plex</a> lets people create their own streaming service. I host my collection of movies and TV shows on a computer at home and can play that content anywhere, like a personal Netflix.
+<a href="https://www.plex.tv/" target="_blank">Plex</a> lets me host my collection of movies and TV shows on a computer at home and play that content anywhere, like a personal Netflix.
 
 ## Get started
 
@@ -12,7 +12,7 @@ nav_order: 1
 2. **Get the Plex app:**  
    Install the app on your streaming device(s) of choice and sign in.
 3. **Update the quality settings:** _(optional but important)_  
-   In Settings, look for "Quality" or "Video" and [set it to "Original" or "Maximum"](quality-settings.md) — otherwise you'll get low-resolution video.
+   In Settings, look for "Quality" or "Video" and [set it to "Original" or "Maximum"](quality-settings.md) — otherwise you'll get low-resolution video and/or buffering.
 4. **Pin my server** for quick access:  
    This is a little different on each device, but basically: open the navigation, select "More", and <a href="https://support.plex.tv/articles/customizing-the-apps/#toc-0" target="_blank">pin my libraries</a>.
 
@@ -22,9 +22,9 @@ That's it! You can start looking for something to watch.
 
 ## Quick Notes
 
-* **Plex is 100% free for you to use.**  
-It's a hobby I've put some money into, but it is free for you to use.  
-The company also offers <a href="https://watch.plex.tv/on-demand" target="_blank">ad-supported content</a> and titles you can pay to rent.
+* **Plex is 100% free to you.**  
+  It's a hobby I've put money into, but it will always be free for you to use.  
+  The company also offers <a href="https://watch.plex.tv/on-demand" target="_blank">ad-supported content</a> and titles you can pay to rent.
 * **Don't share your account.**  
   Your account is for you and your immediate home/family members.  
   Let me know if you think someone would like an invitation, but don't just share your password.
@@ -38,16 +38,16 @@ Feel free to ask if you need help or have questions.
 ---
 
 ## Using Plex
-It's just like Netflix or other streaming services you've used before.
+It's just like Netflix or other streaming services you've used.
 
 From the side nav, pick _Movies_ or _TV Shows_ to browse, or use Search.  
-Search may include results both from my content (shown as being on `Scylla`) and from Plex's ad-supported streaming service.
+Search may include results both from my content (shown as being on `Scylla`) and from Plex's ad-supported streaming service. 
 
-**Just click Play** to start watching. You can change audio or subtitle settings[^settings] at any time.
+If it's available, **just click Play** to start watching. You can change audio or subtitle settings[^settings] at any time.
 
 As with any streaming service, **Plex uses your internet.** If you have unlimited data like me, go nuts. If you have a monthly cap, just be mindful.
 
-> **NOTE:** If you ever see ads, you're watching something from Plex's own ad-supported service. You will _never_ see ads while watching anything from my server.
+> **NOTE:** If you ever see ads, you're watching something from Plex's own ad-supported service. You will _never_ see ads watching anything from my server.
 
 -----
 
@@ -58,4 +58,4 @@ As with any streaming service, **Plex uses your internet.** If you have unlimite
 
 
 
-[^settings]: You can [update your account settings](account-settings.md) online to enable subtitles without having to select them every time you start watching.
+[^settings]: You can [update your account settings](account-settings) online to enable subtitles without having to select them every time you start watching.
