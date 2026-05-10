@@ -5,22 +5,23 @@ permalink: /faqs
 
 ### What is Plex?
 
-The simple version is that it's _my own personal Netflix._  
-I have a significant collection of Blu-rays and DVDs that I've copied to my computer. Plex organizes those files, collects metadata about them, and lets me watch from anywhere.  
-This means I can watch what I want, when I want, without having to hope that my favorite movies are still available on some expensive streaming service.
+The simple version: it's _my own personal Netflix._  
+I have a significant collection of Blu-rays and DVDs that I've copied to my computer. Plex organizes that content and lets me watch from anywhere.
+
+This means I can watch what I want, when I want, without having to hope some expensive streaming service still has the rights to my favorite movies.
 
 ### Is Plex free?
 
 **There is no charge to you for using my Plex.**  
-It's a hobby that I've put some money into, but it is free for you to use.
+It's a hobby I've put some money into, but it is 100% free for you to use.
 
-The company also offers <a href="https://watch.plex.tv/on-demand" target="_blank">their own ad-supported streaming content</a> and a handful of titles you can pay to rent. This is _completely separate_ from whatever might be available from someone's personal Plex server.
+The company that makes the software also has <a href="https://watch.plex.tv/on-demand" target="_blank">their own ad-supported streaming content</a> and a handful of titles you can pay to rent. This is _completely separate_ from whatever might be available from someone's personal Plex server.
 
 If you see "Available to Rent" or "Free On Demand", or if you ever see ads, that's coming from their company, not from me.
 
 ### Do I need anything in order to use Plex?
 
-All you need is a free Plex account and an internet-connected device that can run the Plex app. (I recommend something like an <a href="https://www.apple.com/apple-tv-4k/" target="_blank">Apple TV</a> or <a href="https://store.google.com/product/google_tv_streamer" target="_blank">Google TV Streamer</a> but whatever you have is probably fine.)
+All you need is a free Plex account and an internet-connected device that can run the Plex app.
 
 You can watch on your phone or tablet anywhere you have Wi-Fi.  
 You can even use <a href="https://support.plex.tv/articles/chromecast-airplay-and-casting/" target="_blank">Chromecast</a> from your iPhone or iPad to devices that allow it.
