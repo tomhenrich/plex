@@ -83,7 +83,7 @@ collections:
       all:
         label: <<smart_label>>
       sort_by: release.asc
-    summary: "The 'Disney Animated Canon' – animated feature films produced and/or released by The Walt Disney Company or its predecessor, Walt Disney Productions. Does not include Pixar, Marvel, or live-action movies, with some exceptions. Compiled from disney.fandom.com."
+    summary: "The 'Disney Animated Canon' – animated feature films wholly or mostly produced by Walt Disney Animation Studios, as compiled on disney.fandom.com. Does not include Pixar, Marvel, live-action movies, or direct-to-video sequels, with some exceptions."
 
   Eastrail 177:
     template:
