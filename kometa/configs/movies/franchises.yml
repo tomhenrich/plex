@@ -36,11 +36,13 @@ dynamic_collections:
     exclude:
       - 284151 # Battlestar Galactica (Original)
       - 91697 # Battlestar Galactica (Reboot)
+      - 1701237 # Eastrail 177
       - 945984  # I Am Legend (Will Smith)
       - 627389  # Yojimbo/Sanjuro
       - 151    # Star Trek TOS
       - 115570 # Star Trek TNG
       - 115575 # Star Trek KEL
+      - 1706679 # Three Flavours Cornetto
       - 721111 # The Fugitive/US Marshals
       - 531242 # Suicide Squad
       - 861415 # Free Guy (deleted from TMDB)
