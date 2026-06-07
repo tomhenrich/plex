@@ -36,6 +36,7 @@ dynamic_collections:
     exclude:
       - 284151 # Battlestar Galactica (Original)
       - 91697 # Battlestar Galactica (Reboot)
+      - 1697536 # Cloverfield
       - 1701237 # Eastrail 177
       - 945984  # I Am Legend (Will Smith)
       - 627389  # Yojimbo/Sanjuro
@@ -48,7 +49,6 @@ dynamic_collections:
       - 861415 # Free Guy (deleted from TMDB)
       - 1665725 # MCU Solo Films (deleted from TMDB)
       - 1701553 # Vengeance Trilogy (Old Boy...)
-      ## Kaiju Series
       - 813157  # Godzilla (American re-releases)
       - 1474814 # Godzilla Minus
       - 135495  # King Kong 1930+
