@@ -120,10 +120,10 @@ collections:
   "Godzilla (Reiwa)":
     template:
       name: tmdb
-      movie:
-        - 315011    # Shin Godzilla
       collection:
         - 1474814   # Minus One Collection
+      movie:
+        - 315011    # Shin Godzilla
     collection_order: release
     sort_title: Godzilla 2016
     summary: "Toho's Japanese-language Godzilla movies resumed in 2016, running concurrently with the American MonsterVerse series."
