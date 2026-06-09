@@ -144,6 +144,8 @@ dynamic_collections:
           - 479455    #++ MIB International
         37139:      # The Naked Gun
           - 1035259   #++ 2025 Liam Neeson
+        8581:       # Nightmare on Elm Street
+          - 23437     #++ 2010 remake
         304:        # Oceans Heists
           - 402900    #++ Oceans 8
           - 299       #++ 1960 original
