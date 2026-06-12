@@ -48,7 +48,6 @@ dynamic_collections:
       - 945984  # I Am Legend (Will Smith)
       - 151    # Star Trek TOS
       - 115570 # Star Trek TNG
-      - 115575 # Star Trek KEL
       - 531242 # Suicide Squad
       - 1706679 # Three Flavours Cornetto
       - 627389  # Yojimbo/Sanjuro
@@ -217,6 +216,9 @@ dynamic_collections:
         529: Wallace and Gromit
         1079486: Winnie-the-Pooh (Horror)
         458558: Mamma Mia # no exclamation point
+        151: Star Trek The Original Series
+        115570: Star Trek The Next Generation
+        115575: Star Trek Alternate Reality
 
       item_label:
         435259: Wizarding World
