@@ -258,11 +258,10 @@ collections:
       collection:
         - 151       # The Original Series
         - 115570    # The Next Generation
-        - 115575    # Kelvin/Alternate Reality
       movie:
         - 1114894   # Section 31
     item_label.append: Star Trek
-    summary: "All films from the iconic Star Trek franchise."
+    summary: "Boldly going where no one has gone before."
     collection_order: release
 
   Studio Ghibli:
