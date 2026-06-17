@@ -412,7 +412,7 @@ collections:
         unplayed: true
         audio_language: English
         release: 3650
-        audience_rating.gte: 6
+        # audience_rating.gte: 6
         genre.not:
           - Horror
           - Short
