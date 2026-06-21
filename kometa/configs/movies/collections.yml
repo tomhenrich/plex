@@ -410,16 +410,13 @@ collections:
       limit: 5
       all:
         unplayed: true
-        audio_language: English
         release: 3650
-        # audience_rating.gte: 6
-        genre.not:
-          - Horror
-          - Short
+        genre.not: Horror
+        audience_rating.gte: 6
       sort_by: random
     sort_title: "!Choice Fatigue"
     collection_filtering: user
-    summary: "Can't decide what to watch? Here are a few popular English-language selections released in the last decade."
+    summary: "Can't decide what to watch? Here are a few popular selections released in the last decade."
 
   Unwatched:
     smart_filter:
