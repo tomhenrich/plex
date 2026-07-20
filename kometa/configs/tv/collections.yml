@@ -160,6 +160,19 @@ collections:
     minimum_items: 1
     collection_order: release
 
+  The Walking Dead:
+    tmdb_show:
+      - 1402 # Walking Dead
+      - 62286 # Fear TWD
+      - 211684 # Daryl Dixon
+      - 194583 # Dead City
+      - 94305 # World Beyond
+      - 206586 # Ones Who Live
+      - 129035 # Origins
+      - 136248 # Tales
+    collection_order: release
+    sort_title: Walking Dead
+
   Twilight Zone:
     tmdb_show:
       - 6357 # 1959
