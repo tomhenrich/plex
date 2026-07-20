@@ -65,25 +65,18 @@ collections:
     minimum_items: 1
     collection_mode: hide
 
-  Gamera:
-    plex_search:
-      title.begins: Gamera
-    minimum_items: 1
-    collection_mode: hide
-
-  Icons Unearthed:
-    summary: Cast, crew and experts detail the secret histories of the most iconic film and television series of all time.
-    plex_search:
-      type: show
-      all:
-       title.begins: Icons Unearthed
-
   Fullmetal Alchemist:
     template:
       name: tmdb
       show:
         - 37863
         - 31911
+
+  Gamera:
+    plex_search:
+      title.begins: Gamera
+    minimum_items: 1
+    collection_mode: hide
 
   Knights of Sidonia:
     template:
@@ -172,6 +165,7 @@ collections:
       - 136248 # Tales
     collection_order: release
     sort_title: Walking Dead
+    name_mapping: Walking Dead
 
   Twilight Zone:
     tmdb_show:
