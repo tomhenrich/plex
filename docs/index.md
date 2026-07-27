@@ -50,8 +50,6 @@ As with every streaming service, **Plex uses your internet.**
 If you have unlimited data like me, go nuts. If you have a monthly cap, just be mindful.
 
 
------
-
 [^ads]: If you ever see ads, you're watching something from Plex's own ad-supported service. You will _never_ see ads watching anything from my server.
 
 [^settings]: You can [update your account settings](account-settings) online to enable subtitles without having to select them every time you start watching.
