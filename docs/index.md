@@ -3,7 +3,7 @@ title: Getting Started with Plex
 description: How to sign up, get into Plex, and connect to shared libraries.
 nav_order: 1
 ---
-<a href="https://www.plex.tv/" target="_blank">Plex</a> lets me host my collection of movies and TV shows on a computer at home and play that content anywhere, like a personal Netflix.
+<a href="https://www.plex.tv/" target="_blank">Plex</a> lets me store my collection of movies and TV shows on a computer at home and play that content from anywhere, like a personal Netflix.
 
 ## Get started
 
@@ -23,7 +23,7 @@ That's it! You can start looking for something to watch.
 
 ## Quick notes
 
-* **Plex is 100% free to you.**  
+* **Plex is always 100% free to you.**  
   My server is absolutely free for you to use as much as you like.  
   Note that _Plex the company_ also has ad-supported content and rentals.[^ads]
 * **Don't share your account.**  
@@ -31,7 +31,7 @@ That's it! You can start looking for something to watch.
 * **If there's something you'd like to see, just ask!**  
   I can't realistically have everything ever made, but I'll try to find it.
 * Users are limited to **two (2) streams at a time**.  
-  If you start a third simultaneous stream, it will be blocked.
+  If you start a third simultaneous stream, it will be automatically blocked.
 
 Feel free to ask if you need help or have questions.
 
@@ -40,7 +40,7 @@ Feel free to ask if you need help or have questions.
 ## Using Plex
 It's just like Netflix or other streaming services you've used.
 
-From the side nav, pick _Movies_ or _TV Shows_ to browse, or use Search.  
+From the side nav, pick `Movies` or `TV Shows` to browse, or use Search.  
 Search may include results both from my server and from Plex's ad-supported streaming service. Titles on my server will show `Scylla`.
 
 If it's available, **just click Play**.  
@@ -51,12 +51,6 @@ If you have unlimited data like me, go nuts. If you have a monthly cap, just be 
 
 
 -----
-
-## Helpful links
-* **[Frequently Asked Questions](faqs.md)**
-* <a href="https://mediaclients.wiki/en/Plex" target="_blank">MediaClients.wiki</a> has a bunch of useful info and guides
-* <a href="https://web.archive.org/web/20250317201942/http://plxplainers.xyz/" target="_blank">Plexplainers</a> is a good resource with screenshots from various app platforms (archived on Wayback Machine as the original has disappeared)
-
 
 [^ads]: If you ever see ads, you're watching something from Plex's own ad-supported service. You will _never_ see ads watching anything from my server.
 
