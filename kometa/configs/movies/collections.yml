@@ -366,9 +366,8 @@ collections:
 
 
   Highly Recommended:
-    imdb_list: 
-      list_id: ls4159173469
-      limit: 100
+    tmdb_list:
+      - https://www.themoviedb.org/list/8677897-highly-recommended
     sync_mode: sync
     smart_label:
       sort_by: title.asc
