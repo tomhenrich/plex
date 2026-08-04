@@ -54,6 +54,11 @@ dynamic_collections:
       # Deleted from TMDB:
       - 1665725 # MCU Solo Films (deleted from TMDB)
       - 1701553 # Vengeance Trilogy (Old Boy...)
+      - 1698578 # Peanuts
+      - 1677089 # Muppet Films
+      - 1645434 # X-Anthology
+      - 1704738 # Obsession
+      - 1725600 # Three Flavours Cornetto Trilogy
 
     addons: # combine collections
       8091:        # Alien
