@@ -429,8 +429,7 @@ collections:
     smart_filter:
       any:
         audio_language.not:
-          - eng
-          - en
+          - English
       sort_by: title.asc
     sort_title: "zzzNon-English"
     summary: "You're gonna need to be okay with subtitles."
