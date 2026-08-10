@@ -23,6 +23,7 @@ _Optional but important:_
    In Settings, look for "Quality" or "Video" and [set it to "Original" or "Maximum"](quality-settings.md).  
    Otherwise you'll get low-resolution video and/or buffering.
 
+![selection of recommended titles](assets/images/backdrops.png)
 ---
 
 ## Quick notes
