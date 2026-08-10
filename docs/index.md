@@ -8,18 +8,19 @@ nav_order: 1
 ## Get started
 
 1. **Accept the invitation:**  
-   From the email, **create a free account** or sign into your account if you have one.
+   From the invitation email, **create a free account** or sign into your Plex account if you have one.
 2. **Get the Plex app:**  
    Install the app on your streaming device(s) of choice and sign in.
 
-That's it! You can start looking for something to watch.
+✔️ That's it! You can start looking for something to watch.
 
 _Optional but important:_
 
 3. **Pin my server** for quick access:  
-   This looks a little different depending on what device you're using, but basically: open the navigation, select "More", and <a href="https://support.plex.tv/articles/customizing-the-apps/#toc-0" target="_blank">pin my libraries</a>.
-4. **Update the quality settings:**  
-   In Settings, look for "Quality" or "Video" and [set it to "Original" or "Maximum"](quality-settings.md).
+   This varies by device, but basically:
+   open the navigation, select "More", and <a href="https://support.plex.tv/articles/customizing-the-apps/#toc-0" target="_blank">pin my libraries</a>.
+5. **Update the quality settings:**  
+   In Settings, look for "Quality" or "Video" and [set it to "Original" or "Maximum"](quality-settings.md).  
    Otherwise you'll get low-resolution video and/or buffering.
 
 ---
