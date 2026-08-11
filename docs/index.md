@@ -16,14 +16,14 @@ nav_order: 1
 
 _Optional but important:_
 
-3. **Pin my server** for quick access:  
-   This varies by device, but basically:
-   open the navigation, select "More", and <a href="https://support.plex.tv/articles/customizing-the-apps/#toc-0" target="_blank">pin my libraries</a>.
-5. **Update the quality settings:**  
+3. **Update the quality settings:**  
    In Settings, look for "Quality" or "Video" and [set it to "Original" or "Maximum"](quality-settings.md).  
    Otherwise you'll get low-resolution video and/or buffering.
+4. **Pin my server** for quick access:  
+   This varies by device, but basically:
+   open the navigation, select "More", and <a href="https://support.plex.tv/articles/customizing-the-apps/#toc-0" target="_blank">pin my libraries</a>.
 
-![selection of recommended titles](assets/images/backdrops.png)
+![selection of popular titles on plex](assets/images/backdrops.png)
 
 ---
 
