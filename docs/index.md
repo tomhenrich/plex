@@ -24,9 +24,10 @@ _Optional but important:_
    Otherwise you'll get low-resolution video and/or buffering.
 
 ![selection of recommended titles](assets/images/backdrops.png)
+
 ---
 
-## Quick notes
+## Important notes
 
 * **Plex is always 100% free to you.**  
   My server is absolutely free for you to use as much as you like.  
@@ -43,6 +44,7 @@ Feel free to ask if you need help or have questions.
 ---
 
 ## Using Plex
+
 It's just like Netflix or other streaming services you've used.
 
 From the side nav, pick `Movies` or `TV Shows` to browse, or use Search.  
