@@ -22,22 +22,16 @@ _Technically optional but important:_
 4. **Pin my server** for quick access: 📌  
    This varies by device, but basically: open the navigation, select "More", and and pin `Movies` and `TV Shows` under `Scylla`[^pinning].
 
----
-
 ## Important notes
 
 * **Using my Plex is always 100% free to you.**  
   Note that _Plex the company_ also has ad-supported content and rentals.[^ads]
 * **Don't share your account.**  
   Let me know if you think someone would like an invitation, but don't just share your password.
-* **If there's something you'd like to see, just ask!**  
-  I can't realistically have everything ever made, but I'll try to find it.
-* Users are limited to **two (2) streams at a time**.  
-  If you start a third simultaneous stream, it will be automatically blocked.
+* Users can have up to **two (2) streams at a time**.  
+* If there's something you'd like to see, just ask!  
 
 Feel free to ask if you need help or have questions.
-
-![selection of popular titles on plex](assets/images/backdrops.png)
 
 ## Using Plex
 
