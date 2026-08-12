@@ -5,32 +5,28 @@ nav_order: 1
 ---
 <a href="https://www.plex.tv/" target="_blank">Plex</a> lets me store my collection of movies and TV shows on a computer at home and play that content from anywhere, like a personal Netflix.
 
-## Get started
+## Quickstart
 
 1. **Accept the invitation:**  
    From the invitation email, **create a free account** or sign into your Plex account if you have one.
 2. **Get the Plex app:**  
    Install the app on your streaming device(s) of choice and sign in.
 
-✔️ That's it! You can start looking for something to watch.
+✔️ You're in! You can start looking for something to watch.
 
-_Optional but important:_
+_Technically optional but important:_
 
-3. **Update the quality settings:**  
-   In Settings, look for "Quality" or "Video" and [set it to "Original" or "Maximum"](quality-settings.md).  
+3. **Update the quality settings:** ⚙️  
+   In the Settings, look for "Quality" or "Video" and [set it to "Original" or "Maximum"](quality-settings.md).  
    Otherwise you'll get low-resolution video and/or buffering.
-4. **Pin my server** for quick access:  
-   This varies by device, but basically:
-   open the navigation, select "More", and <a href="https://support.plex.tv/articles/customizing-the-apps/#toc-0" target="_blank">pin my libraries</a>.
-
-![selection of popular titles on plex](assets/images/backdrops.png)
+4. **Pin my server** for quick access: 📌  
+   This varies by device, but basically: open the navigation, select "More", and and pin `Movies` and `TV Shows` under `Scylla`[^pinning].
 
 ---
 
 ## Important notes
 
-* **Plex is always 100% free to you.**  
-  My server is absolutely free for you to use as much as you like.  
+* **Using my Plex is always 100% free to you.**  
   Note that _Plex the company_ also has ad-supported content and rentals.[^ads]
 * **Don't share your account.**  
   Let me know if you think someone would like an invitation, but don't just share your password.
@@ -41,7 +37,7 @@ _Optional but important:_
 
 Feel free to ask if you need help or have questions.
 
----
+![selection of popular titles on plex](assets/images/backdrops.png)
 
 ## Using Plex
 
@@ -60,3 +56,5 @@ If you have unlimited data like me, go nuts. If you have a monthly cap, just be 
 [^ads]: If you ever see ads, you're watching something from Plex's own ad-supported service. You will _never_ see ads watching anything from my server.
 
 [^settings]: You can [update your account settings](account-settings) online to enable subtitles without having to select them every time you start watching.
+
+[^pinning]: Plex has a support article explaining how to <a href="https://support.plex.tv/articles/customizing-the-apps/#toc-0" target="_blank">pin libraries</a> as favorite sources.
