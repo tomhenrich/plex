@@ -52,13 +52,14 @@ dynamic_collections:
       - 1706679 # Three Flavours Cornetto
       - 627389  # Yojimbo/Sanjuro
       # Deleted from TMDB:
-      - 1665725 # MCU Solo Films (deleted from TMDB)
+      - 1665725 # MCU Solo Films
       - 1701553 # Vengeance Trilogy (Old Boy...)
       - 1698578 # Peanuts
       - 1677089 # Muppet Films
       - 1645434 # X-Anthology
       - 1704738 # Obsession
       - 1725600 # Three Flavours Cornetto Trilogy
+      - 1687719 # Unknown
 
     addons: # combine collections
       8091:        # Alien
