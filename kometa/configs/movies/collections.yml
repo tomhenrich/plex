@@ -76,6 +76,42 @@ collections:
     collection_order: release
     collection_mode: hide
 
+  DC Extended Universe:
+    template:
+      name: tmdb
+      movie:
+        - 49521 # Man of Steel
+        - 209112 # Batman v Superman
+        - 297761 # Suicide Squad
+        - 297762 # Wonder Woman
+        - 141052 # Justice League
+        - 297802 # Aquaman
+        - 287947 # Shazam
+        - 495764 # Birds of Prey
+        - 464052 # Wonder Woman 1984
+        - 791373 # Zach Snyder's Justice League
+        - 436969 # THE Suicide Squad
+        - 436270 # Black Adam
+        - 594767 # Shazam Fury of the Gods
+        - 298618 # The Flash
+        - 565770 # Blue Beetle
+        - 572802 # Aquaman and the Lost Kingdom
+    collection_order: release
+    summary: "The DC Extended Universe (DCEU) is a shared universe of films chronicling iconic heroes like Superman, Batman, and Wonder Woman. This collection captures a distinct era of interconnected, blockbuster DC storytelling."
+    sort_title: DC 2013
+
+  DC Universe:
+    template:
+      name: tmdb
+      movie:
+        - 1061474 # Superman 2025
+        - 1081003 # Supergirl
+        - 1400940 # Clayface
+        - 1523140 # Man of Tomorrow
+    collection_order: release
+    summary: "The DC Universe (DCU) is the "soft reboot" of the DC franchise spanning interconnected movies, television, animation, and video games, continuing certain aspects from the DCEU but otherwise beginning fresh."
+    sort_title: DC 2024
+
   Disney Animation:
     tmdb_list:
       - https://www.themoviedb.org/list/8634494-walt-disney-animation
