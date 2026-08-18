@@ -290,6 +290,22 @@ collections:
     minimum_items: 1
     collection_mode: hide
 
+
+  "Sony's Spider-Man Universe":
+    tmdb_movie:
+      - 335983 # Venom
+      - 580489 # Venom 2
+      - 912649 # Venom 3
+      - 526896 # Morbius
+      - 634492 # Madame Web
+      - 539972 # Kraven
+    smart_label:
+      all:
+        label: <<smart_label>>
+      sort_by: release.asc
+    summary: "Films based on various Marvel characters associated with Spider-Man (who is not prominently featured in this franchise), developed by Sony Pictures."
+    sort_title: "Spider-Man Sony"
+
   Star Trek:
     template:
       name: tmdb
