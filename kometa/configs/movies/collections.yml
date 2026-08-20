@@ -49,10 +49,8 @@ collections:
       - 313086      # Conjuring
       - 402074      # Annabelle
       - 968052      # The Nun
-    smart_label:
-      sort_by: release.asc
-      all:
-        label: <<smart_label>>
+    collection_order: release
+    sort_title: Conjuring Universe
 
   Cornetto Trilogy:
     template:
@@ -499,9 +497,6 @@ collections:
     sort_title: "zzRecent"
     summary: "Here's what's been added to Plex within the last couple months."
     collection_mode: hide
-
-
-####
 
   Asylum:
     smart_filter:
