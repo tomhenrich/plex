@@ -358,6 +358,21 @@ collections:
     collection_order: release
     collection_mode: show_items
 
+
+  Twisted Childhood Universe:
+    tmdb_movie:
+      - 980078       # Blood and Honey 1
+      - 1079485      # Blood and Honey 2
+      - 1268053      # Blood and Honey 3
+      - 1049942      # Bambi: The Reckoning
+      - 1020414      # Neverland Nightmare
+      - 1232569      # Pinocchio Unstrung
+    smart_label:
+      all:
+        label: <<smart_label>>
+      sort_by: release.asc
+    summary: "A dark re-imagining of various public domain children's fairy tale media characters."
+
   Vengeance Trilogy:
     template:
       name: tmdb
