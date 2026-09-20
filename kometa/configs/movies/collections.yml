@@ -443,33 +443,33 @@ collections:
         label.not: "Alt Edition"
     sort_title: ":Highly Recommended"
 
-  "Sarah's Watchlist":
-    trakt_list: 
-      - https://trakt.tv/users/tomhenrich/lists/sarah-s-watchlist?display=movie
-      - https://trakt.tv/users/nursesawa/watchlist?display=movie
-    smart_label:
-      all:
-        label: <<smart_label>>
-        unplayed: true
-      sort_by: title.asc
-    sort_title: "!Sarahs Watchlist"
-    name_mapping: Sarahs Watchlist
-    label: noshare
-    minimum_items: 1
-    collection_filtering: user
+  # "Sarah's Watchlist":
+  #   trakt_list: 
+  #     - https://trakt.tv/users/tomhenrich/lists/sarah-s-watchlist?display=movie
+  #     - https://trakt.tv/users/nursesawa/watchlist?display=movie
+  #   smart_label:
+  #     all:
+  #       label: <<smart_label>>
+  #       unplayed: true
+  #     sort_by: title.asc
+  #   sort_title: "!Sarahs Watchlist"
+  #   name_mapping: Sarahs Watchlist
+  #   label: noshare
+  #   minimum_items: 1
+  #   collection_filtering: user
 
-  "Tom's Watchlist":
-    trakt_list: https://trakt.tv/users/tomhenrich/watchlist?display=movie
-    smart_label:
-      all:
-        label: <<smart_label>>
-        unplayed: true
-      sort_by: title.asc
-    sort_title: "!Toms Watchlist"
-    name_mapping: Toms Watchlist
-    label: noshare
-    minimum_items: 1
-    collection_filtering: user
+  # "Tom's Watchlist":
+  #   trakt_list: https://trakt.tv/users/tomhenrich/watchlist?display=movie
+  #   smart_label:
+  #     all:
+  #       label: <<smart_label>>
+  #       unplayed: true
+  #     sort_by: title.asc
+  #   sort_title: "!Toms Watchlist"
+  #   name_mapping: Toms Watchlist
+  #   label: noshare
+  #   minimum_items: 1
+  #   collection_filtering: user
 
   Choice Fatigue:
     smart_filter:
