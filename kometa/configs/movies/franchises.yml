@@ -152,6 +152,7 @@ dynamic_collections:
         119:        # Lord of the Rings
           - 839033  #++ War of the Rohirrim
         2344:         # The Matrix
+          - 55931   #++ Animatrix
           - 624860  #++ Resurrections
         86055:      # Men in Black
           - 479455  #++ MIB International
@@ -183,8 +184,6 @@ dynamic_collections:
           - 929204  #++ Vengeance Most Fowl
         748:        # X-Men
           - 340102  #++ New Mutants
-        2344:       # The Matrix
-          - 55931   #++ Animatrix
         259027:     # Wolf Man
           - 27970   #++ Wolf Man of London
         105995:     # Anaconda
