@@ -324,16 +324,6 @@ collections:
       - 3027
     tmdb_producer:
       - 3027
-    tmdb_collection:
-      - 530064  # The Shining
-      - 107725  # Creepshow
-      - 115225  # Children of the Corn
-      - 10789    # Pet Sematary (1989-1992)
-      - 830781  # Pet Sematary (2019-2023)
-      - 168545  # Sometimes They Come Back
-      - 124935  # The Lawnmower Man
-      - 374418  # The Mangler
-      - 477962  # It (2017-2019)
     text_file: https://raw.githubusercontent.com/tomhenrich/plex/refs/heads/main/kometa/configs/movies/stephenking.txt
     smart_label:
       any:
