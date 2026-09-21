@@ -1,3 +1,48 @@
+# Shining collection
+tmdb:694 # the-shining
+tmdb:501170 # doctor-sleep
+
+# Creepshow collection
+tmdb:16281 # creepshow
+tmdb:16288 # creepshow-2
+tmdb:16304 # creepshow-3
+
+# Children of the Corn collection
+tmdb:10823 # children-of-the-corn
+tmdb:25748 # children-of-the-corn-ii-the-final-sacrifice
+tmdb:25749 # children-of-the-corn-iii-urban-harvest
+tmdb:25750 # children-of-the-corn-iv-the-gathering
+tmdb:25751 # children-of-the-corn-v-fields-of-terror
+tmdb:25752 # children-of-the-corn-666-isaac-s-return
+tmdb:25753 # children-of-the-corn-revelation
+tmdb:70575 # children-of-the-corn-genesis
+tmdb:445710 # children-of-the-corn-runaway
+
+# Pet Sematary collection
+tmdb:8913 # pet-sematary
+tmdb:10906 # pet-sematary-ii
+tmdb:157433 # pet-sematary
+tmdb:830764 # pet-sematary-bloodlines
+
+# Sometimes They Come Back collection
+tmdb:27769 # sometimes-they-come-back
+tmdb:27770 # sometimes-they-come-back-again
+tmdb:27771 # sometimes-they-come-back-for-more
+
+# Lawnmower Man collection
+tmdb:10163 # the-lawnmower-man
+tmdb:11525 # lawnmower-man-2-beyond-cyberspace
+
+# The Mangler collection
+tmdb:13559 # the-mangler
+tmdb:27345 # the-mangler-2
+tmdb:28660 # the-mangler-reborn
+
+# IT collection
+tmdb:346364 # it
+tmdb:474350 # it-chapter-two
+
+# Standalones
 tmdb:7340     # Carrie (1976)
 tmdb:10489    # Cujo (1983)
 tmdb:11336    # The Dead Zone (1983)
