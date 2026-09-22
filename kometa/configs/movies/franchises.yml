@@ -36,8 +36,6 @@ dynamic_collections:
     exclude:
       - 284151 # Battlestar Galactica (Original)
       - 91697 # Battlestar Galactica (Reboot)
-      - 1697536 # Cloverfield
-      - 1749328 # Cloverfield Saga
       - 1149208 # Commando
       - 1701237 # Eastrail 177
       - 861415 # Free Guy (deleted from TMDB)
@@ -54,6 +52,9 @@ dynamic_collections:
       - 1706679 # Three Flavours Cornetto
       - 627389  # Yojimbo/Sanjuro
       # Deleted from TMDB:
+      - 1697536 # Cloverfield
+      - 1749328 # Cloverfield Saga
+      - 1329887 # Coherence
       - 1665725 # MCU Solo Films
       - 1701553 # Vengeance Trilogy (Old Boy...)
       - 1747598 # Vengeance Trilogy again
