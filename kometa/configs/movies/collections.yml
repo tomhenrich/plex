@@ -316,7 +316,6 @@ collections:
     summary: "Boldly going where no one has gone before."
     collection_order: release
 
-collections:
   Stephen King:
     tmdb_director:
       - 3027
