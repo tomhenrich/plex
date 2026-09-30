@@ -141,6 +141,7 @@ collections:
         - 1212763    # Evil Dead Burn (2026)
     summary: "New entries of the Evil Dead franchise, returning to a darker and more brutal horror tone."
     collection_order: release
+    name_mapping: Evil Dead Reboot
   
   Galaxy Quest:
     template:
