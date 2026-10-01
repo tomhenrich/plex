@@ -64,6 +64,7 @@ dynamic_collections:
       - 1704738 # Obsession
       - 1725600 # Three Flavours Cornetto Trilogy
       - 1687719 # Unknown
+      - 1725885 # Evil Dead Standalone/Reboot
 
     addons: # combine collections
       8091:        # Alien
@@ -92,7 +93,6 @@ dynamic_collections:
         - 453993   #++ The Wolverine
 
     title_override:
-      1725885: "Evil Dead (Reboot)"
       325470: "LEGO Movies"
       535313: "Godzilla (MonsterVerse)"
       948485: "The Batman"
@@ -222,7 +222,6 @@ dynamic_collections:
         1565: 28 Days Later
         948485: The Batman
         91697: Battlestar Galactica
-        1725885: Evil Dead Reboot
         24761: Girl with the Dragon Tattoo
         575987: Girl with the Dragon Tattoo (US)
         535313: Godzilla (MonsterVerse)
