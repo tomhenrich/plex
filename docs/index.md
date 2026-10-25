@@ -20,7 +20,7 @@ _Technically optional but important:_
    In the Settings, look for "Quality" or "Video" and [set it to "Original" or "Maximum"](quality-settings.md).  
    Otherwise you'll get low-resolution video and/or buffering.
 4. **Pin my server** for quick access: 📌  
-   This varies by device, but basically: open the navigation, select "More", and and pin `Movies` and `TV Shows` under `Scylla`[^pinning].
+   This varies by device, but basically: open the navigation, select "More", and and pin the links to `Movies` and `TV Shows` from `Scylla`[^pinning].
 
 ## Important notes
 
@@ -40,7 +40,7 @@ Feel free to ask if you need help or have questions.
 It's just like Netflix or other streaming services you've used.
 
 From the navigation menu, pick `Movies` or `TV Shows` to browse, or use Search.  
-Search may include results both from my server and from Plex's ad-supported streaming service. Titles on my server will show `Scylla`.
+Search may include results both from my server and from Plex's ad-supported streaming service. Titles on my server will show up as being on `Scylla`.
 
 If it's available, **just click Play**.  
 You can change audio or subtitle settings at any time.[^settings]
