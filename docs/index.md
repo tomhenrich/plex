@@ -45,9 +45,7 @@ Search may include results both from my server and from Plex's ad-supported stre
 If it's available, **just click Play**.  
 You can change audio or subtitle settings at any time.[^settings]
 
-> **Note**
-> Remember that there have been *hundreds of thousands of movies* made in the world – I can’t realistically have all of them but you can always ask me to find something if I don’t currently have it.
-{: .heading-card .note-block }
+> There have been *hundreds of thousands of movies* made in the world – I can’t realistically have all of them but you can always ask me to find something if I don’t currently have it.
 
 As with every streaming service, **Plex uses your internet.**  
 If you have unlimited data like me, go nuts. If you have a monthly cap, just be mindful.
