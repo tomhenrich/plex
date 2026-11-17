@@ -10,7 +10,7 @@ nav_order: 1
 1. **Accept the invitation:**  
    From the invitation email, **create a free account** or sign into your Plex account if you have one.
 2. **Get the Plex app:**  
-   Install the app on your streaming device(s) of choice and sign in.
+   Install the app on your streaming device(s) of choice and sign in. (I do recommend using an app on a phone or TV, not just a browser.)
 
 ✔️ You're in! You can start looking for something to watch.
 
