@@ -635,10 +635,3 @@ collections:
         genre:
           - Musical
       sort_by: title.asc
-
-  Nic Cage:
-    smart_filter:
-      all:
-        actor: Nicolas Cage
-      sort_by: audience_rating.desc
-
