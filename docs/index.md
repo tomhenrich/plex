@@ -10,7 +10,7 @@ It's free to you, there are no ads, and getting started takes about 5 minutes.
    Open the invitation email from Plex and create a free account (or sign in if you already have one).  
    (Can't find it? Check your spam folder.)
 2. **Install the free Plex app** on your [TV, streaming stick or phone](#devices), then sign in.
-3. **Pin my libraries.**  
+3. **Pin my libraries in your navigation.**  
    My `Movies` and `TV Shows` libraries (from my server `Scylla`) will show up in the app.  
    Pin them to your navigation so they're always one tap away – open the menu, select "More", and pin each one. (See [Plex's support guide](https://support.plex.tv/articles/customizing-the-apps/#toc-0) if your screen looks different.)
 
