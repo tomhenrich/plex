@@ -1,18 +1,20 @@
 ---
 permalink: /account-settings
+title: Updating Plex account settings
 ---
-# Account Settings
+
+## Account Settings
 
 You can log into your Plex account on the web to update various settings. I recommend _at least_ updating your language and subtitle settings.
 
-## Privacy and Email Subscriptions
+### Privacy and Email Subscriptions
 
 Ethan Sholly has put together a good resource for checking Plex's various privacy-related settings, including marketing email preferences, ad partner data usage, playback data, and more: [Optimal Plex Settings for Privacy-Conscious Users](https://selfh.st/post/plex-privacy-settings/)  
 
-> **TIP**
-> In case the original article is unavailable, it is archived on [Wayback Machine](https://web.archive.org/web/20250530171740/https://selfh.st/post/plex-privacy-settings/)
+In case the original article is unavailable, it is archived on [Wayback Machine](https://web.archive.org/web/20250530171740/https://selfh.st/post/plex-privacy-settings/).
 
-## Audio & Subtitle Preferences
+### Audio & Subtitle Preferences
+
 If you prefer to use subtitles, you can set that option in your account instead of having to select them every time you watch something:
 
   1. [Log into your account on the web](https://app.plex.tv/desktop/#!/login), then go to the [Account Settings page](https://app.plex.tv/desktop/#!/settings/account) and scroll down to the "Settings" section
