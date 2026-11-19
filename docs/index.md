@@ -8,9 +8,12 @@ nav_order: 1
 ## Quickstart
 
 1. **Accept the invitation:**  
-   From the invitation email, **create a free account** or sign into your Plex account if you have one.
-2. **Get the Plex app:**  
-   Install the app on your streaming device(s) of choice and sign in. (I do recommend using an app on a phone or TV, not just a browser.)
+   From the invitation email, **create a free account** or sign into your Plex account if you have one.  
+   (Check your spam folder if you don't see the email.)
+
+3. **Get the Plex app:**  
+   Install the app on your streaming device(s) of choice and sign in.  
+   (I recommend using a phone, tablet, or an app on your TV – web browsers will struggle to play media.)
 
 ✔️ You're in! You can start looking for something to watch.
 
@@ -19,13 +22,17 @@ _Technically optional but important:_
 3. **Update the quality settings:** ⚙️  
    In the Settings, look for "Quality" or "Video" and [set it to "Original" or "Maximum"](quality-settings.md).  
    Otherwise you'll get low-resolution video and/or buffering.
-4. **Pin my server** for quick access: 📌  
-   This varies by device, but basically: open the navigation, select "More", and and pin the links to `Movies` and `TV Shows` from `Scylla`[^pinning].
 
-## Important notes
+4. **Pin my server** for quick access: 📌  
+   This varies by device, but basically:  
+   open the navigation, select "More", and pin the links to `Movies` and `TV Shows` from my server `Scylla`. [^pinning]
+
+## Using Plex
+
+### Important notes
 
 * **Using my Plex is always 100% free to you.**  
-  Note that _Plex the company_ also has ad-supported content and rentals.[^ads]  
+  Note that _Plex the company_ also has ad-supported content and rentals. [^ads]  
   Nothing from my server will ever show ads or require payment.
 * **Don't share your account.**  
   Let me know if you think someone would like an invitation, but don't just share your password.
@@ -33,22 +40,20 @@ _Technically optional but important:_
   You can sign in on as many devices as you want, but only two can be streaming at once.
 * If there's something you'd like to see, let me know!  
 
-Feel free to ask if you need help or have questions.
-
-## Using Plex
-
-It's just like Netflix or other streaming services you've used.
+Plex is very much like Netflix or other streaming services you've used.
 
 From the navigation menu, pick `Movies` or `TV Shows` to browse, or use Search.  
-Search may include results both from my server and from Plex's ad-supported streaming service. Titles on my server will show up as being on `Scylla`.
+Search may include results both from my server and from Plex's ad-supported streaming service.  
+Titles on my server will show up as being on `Scylla`.
 
 If it's available, **just click Play**.  
-You can change audio or subtitle settings at any time.[^settings]
+You can change audio or subtitle settings at any time. [^settings]
 
 > Google estimates that anywhere from *500,000 to over 2 million movies exist* – I can’t realistically have all of them but you can always ask me to find something if I don’t currently have it.
 
 As with every streaming service, **Plex uses your internet.**  
-If you have unlimited data like me, go nuts. If you have a monthly cap, just be mindful.
+If you have unlimited data like me, go nuts.  
+If you have a monthly cap, just be mindful. An average movie will use 3-6gb per hour.
 
 
 
