@@ -1,5 +1,3 @@
-# Welcome to Plex
-
 Plex lets you watch my collection of movies and TV shows from anywhere – think of it as my personal Netflix.  
 It's free to you, there are no ads, and getting started takes about 5 minutes.
 
