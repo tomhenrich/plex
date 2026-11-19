@@ -3,35 +3,28 @@ It's free to you, there are no ads, and getting started takes about 5 minutes.
 
 *Last updated:* `2026-11-18`
 
-
 ## Start watching in 5 minutes
 
 1. **Accept the invite.**  
    Open the invitation email from Plex and create a free account (or sign in if you already have one).  
    (Can't find it? Check your spam folder.)
 2. **Install the free Plex app** on your [TV, streaming stick or phone](#devices), then sign in.
-3. **Pin my libraries in your navigation.**  
+
+That's it – **you're in.**  
+Pick `Movies` or `TV Shows` from the menu to browse, or use search.
+
+- Content available from me will show `Scylla` as the source.  
+- The combined `Movies & TV Shows` link in the navigation by default is Plex's ad-supported service.
+
+**These extra steps will take 2 minutes** and will save you some hassle:
+
+1. **Pin my libraries in your navigation.**  
    My `Movies` and `TV Shows` libraries (from my server `Scylla`) will show up in the app.  
    Pin them to your navigation so they're always one tap away – open the menu, select "More", and pin each one. (See [Plex's support guide](https://support.plex.tv/articles/customizing-the-apps/#toc-0) if your screen looks different.)
-
-That's it – you're in. Just browse or search for something to watch and hit play.
-
-The one-time setup below takes two more minutes and will save you some hassle.
-
-
-## One-time setup (2 minutes)
-
-- [Set video quality](quality-settings) to "Original" or "Maximum".  
-  Plex may default to low resolution, which looks bad and can actually cause *more* buffering.
-- Set your [audio & subtitle preferences](account-settings).
-- Turn off Plex's "Free Movies and TV" (Settings > Online Media Sources).
-
-
-## Watching
-
-- Pick **Movies** or **TV Shows** from the menu to browse, or use **Search**.
-- Titles from my server show **Scylla** as the source. If you see ads, you're watching something from Plex's own service, not mine.
-- Change your subtitle selection anytime during playback from the player controls.
+1. **[Set video quality](quality-settings)** to "Original" or "Maximum".  
+   Plex may default to low resolution, which looks bad and can actually cause *more* buffering.
+1. Set your [audio & subtitle preferences](account-settings).
+1. Turn off Plex's "Free Movies & TV" (Settings > Online Media Sources).
 
 
 ## Important notes
@@ -48,19 +41,23 @@ The one-time setup below takes two more minutes and will save you some hassle.
 
 ## Requesting content
 
-If you want to watch something I don't have, let me know. I can't realistically have every movie ever made, but I'm happy to look for it.
+If you want to watch something I don't have, let me know.  
+I can't realistically have every movie ever made, but I'm happy to look for it.
 
 
 ## FAQ
 
-**Does this cost anything?**  
-No.  
-This is a hobby of mine that I spend money on, but it does not cost you anything.
+> Does this cost anything?
 
-**Why do I see ads?**  
-You're watching something from Plex's own streaming service, not from my server. You can disable their service in Settings > Online Media Sources.
+No. It's a hobby of mine that I spend money on, but it doesn't cost you anything.
 
-**Can I download things to watch offline?**  
+> Why do I see ads?
+
+You're watching something from Plex's own streaming service, not from my server.  
+You can disable their service in Settings > Online Media Sources.
+
+> Can I download things to watch offline?
+
 Not by default. If that's something you want, let me know.
 
 
