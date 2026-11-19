@@ -1,64 +1,92 @@
----
-title: Getting Started with Plex
-description: How to sign up, get into Plex, and connect to shared libraries.
-nav_order: 1
----
-<a href="https://www.plex.tv/" target="_blank">Plex</a> lets me store my collection of movies and TV shows on a computer at home and play that content from anywhere, like a personal Netflix.
+# Welcome to Plex
 
-## Quickstart
+Plex lets you watch my collection of movies and TV shows from anywhere – think of it as my personal Netflix.  
+It's free to you, there are no ads, and getting started takes about 5 minutes.
 
-1. **Accept the invitation:**  
-   From the invitation email, **create a free account** or sign into your Plex account if you have one.  
-   (Check your spam folder if you don't see the email.)
-
-3. **Get the Plex app:**  
-   Install the app on your streaming device(s) of choice and sign in.  
-   (I recommend using a phone, tablet, or an app on your TV – web browsers will struggle to play media.)
-
-✔️ You're in! You can start looking for something to watch.
-
-_Technically optional but important:_
-
-3. **Update the quality settings:** ⚙️  
-   In the Settings, look for "Quality" or "Video" and [set it to "Original" or "Maximum"](quality-settings.md).  
-   Otherwise you'll get low-resolution video and/or buffering.
-
-4. **Pin my server** for quick access: 📌  
-   This varies by device, but basically:  
-   open the navigation, select "More", and pin the links to `Movies` and `TV Shows` from my server `Scylla`. [^pinning]
-
-## Using Plex
-
-### Important notes
-
-* **Using my Plex is always 100% free to you.**  
-  Note that _Plex the company_ also has ad-supported content and rentals. [^ads]  
-  Nothing from my server will ever show ads or require payment.
-* **Don't share your account.**  
-  Let me know if you think someone would like an invitation, but don't just share your password.
-* Users can have up to **two (2) streams at a time**.  
-  You can sign in on as many devices as you want, but only two can be streaming at once.
-* If there's something you'd like to see, let me know!  
-
-Plex is very much like Netflix or other streaming services you've used.
-
-From the navigation menu, pick `Movies` or `TV Shows` to browse, or use Search.  
-Search may include results both from my server and from Plex's ad-supported streaming service.  
-Titles on my server will show up as being on `Scylla`.
-
-If it's available, **just click Play**.  
-You can change audio or subtitle settings at any time. [^settings]
-
-> Google estimates that anywhere from *500,000 to over 2 million movies exist* – I can’t realistically have all of them but you can always ask me to find something if I don’t currently have it.
-
-As with every streaming service, **Plex uses your internet.**  
-If you have unlimited data like me, go nuts.  
-If you have a monthly cap, just be mindful. An average movie will use 3-6gb per hour.
+*Last updated:* `2026-11-18`
 
 
+## Get watching in 5 minutes
 
-[^pinning]: Plex has a support article explaining how to <a href="https://support.plex.tv/articles/customizing-the-apps/#toc-0" target="_blank">pin libraries</a> as favorite sources.
+1. **Accept the invite.**  
+   Open the invitation email from Plex and create a free account (or sign in if you already have one).  
+   (Can't find it? Check your spam folder.)
+2. **Install the free Plex app** on your [TV, streaming stick or phone](#devices), then sign in.
+3. **Pin my libraries.**  
+   My `Movies` and `TV Shows` libraries (from my server `Scylla`) will show up in the app.  
+   Pin them to your navigation so they're always one tap away – open the menu, select "More", and pin each one. (See [Plex's support guide](https://support.plex.tv/articles/customizing-the-apps/#toc-0) if your screen looks different.)
+4. **Pick something and press play.**  
+   Browse Movies or TV Shows, or use Search, then choose a title and hit Play.
 
-[^ads]: If you ever see ads, you're watching something from Plex's own ad-supported service. You will _never_ see ads watching anything from my server.
+That's it – you're in. The one-time setup below takes two more minutes and will save you some hassle.
 
-[^settings]: You can [update your account settings](account-settings) online to enable subtitles without having to select them every time you start watching.
+
+## One-time setup (2 minutes)
+
+- [Set video quality](quality-settings) to "Original" or "Maximum"
+  Plex may default to low resolution, which looks bad and can actually cause *more* buffering.
+- Set your [audio & subtitle preferences](account-settings)  
+  If you prefer subtitles, you can have Plex select them by default instead of doing it manually each time.
+- Turn off Plex's "Free Movies and TV" (Settings > Online Media Sources)
+
+
+## Watching
+
+- Pick **Movies** or **TV Shows** from the menu to browse, or use **Search**.
+- Titles from my server show **Scylla** as the source. If you see ads, you're watching something from Plex's own service, not mine.
+- Change your subtitle selection anytime during playback from the player controls.
+
+
+## Important notes
+
+- **Plex is always free to you.**  
+  Nothing on my server will ever cost you money or show ads.
+- **Don't share your account.**  
+  If someone else would like access, let me know and I'll send them their own invite.
+- **Users are limited to 2 streams at a time.**  
+  You can sign in on as many devices as you want, but only 2 can play at once.
+- **Plex uses data.**  
+  Streaming HD video uses a few GB per hour. If your internet has a monthly cap, just be aware.
+
+
+## Requests
+
+If you want to watch something I don't have, let me know. I can't realistically have every movie ever made, but I'm happy to look for it.
+
+
+## Is something not working?
+
+| What you see | Likely cause | Try this |
+|---|---|---|
+| Buffering or spinning | Quality setting or slow connection | Set quality to Original. If it's still slow, lower it a step. |
+| Blurry video | Quality set to auto/low | `Settings` > `Quality` > `Original` or `Maximum`. |
+| "Server unavailable" / Scylla is missing | My server is offline or restarting | Wait a few minutes, then try again or let me know. |
+| "Too many streams" | You're already watching on 2 devices | Stop one of the other streams. |
+
+
+## FAQ
+
+**Does this cost anything?**  
+No. Plex itself offers a paid subscription (Plex Pass), but you don't need it to use my server.
+
+**Why do I see ads?**  
+That's Plex's own free content. Turn it off in Settings > Online Media Sources.
+
+**Can I download things to watch offline?**  
+Not by default. If that's something you want, let me know.
+
+
+## Devices
+
+*Recommended:* **TV / streaming stick** (Google TV, Roku, Fire TV, Apple TV, smart TVs)  
+Install Plex from your device's app store, open it, and follow the on-screen instructions to sign in.  
+This is the best way to watch.
+
+**Phone or tablet (iOS / Android)**  
+Install Plex from the App Store or Google Play and sign in.  
+Good for watching on the go, and most phones support casting to a TV too.
+
+**Computer**  
+Use the Plex desktop app](https://www.plex.tv/media-server-downloads/?cat=plex+desktop#plex-app).  
+Browsers *work*, but most content will play *much* better in a proper app.
+
