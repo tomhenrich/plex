@@ -2,12 +2,12 @@
 permalink: /quality-settings
 description: It's important to update your Plex app's settings to get a high-quality streaming experience.
 ---
-# Updating quality settings
+## Updating quality settings
 
 The settings that Plex apps use by default are not great and will likely result in a low-resolution stream that buffers frequently.  
 Use the quick steps for your app below to update them and get the best possible experience.
 
-## 📱 iOS/Android app
+### 📱 iOS/Android app
 
 1. Tap your profile icon in the top right corner of the app
 2. Tap "Settings" then select "Video & Audio"
@@ -16,7 +16,7 @@ Use the quick steps for your app below to update them and get the best possible 
    * Allow Direct Play: `On`
    * Allow Direct Stream: `On`
 
-## 📺 Other streaming devices (Roku, Fire Stick, etc)
+### 📺 Other streaming devices (Roku, Fire Stick, etc)
 
 1. In the left-hand menu, select "Settings"
 2. In the "Video" section:
