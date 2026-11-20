@@ -1,0 +1,178 @@
+<html>
+  <head>
+    <title>Bootstrap test</title>
+
+    <meta name="robots" content="noindex" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style type="text/css">
+
+      @media (min-width: 1400px) {
+        .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+            max-width: 1012px;
+        }
+      }
+
+      h1 {
+        font-weight: bold;
+      }
+      h2 {
+        padding-bottom: 0.3em;
+        font-size: 1.5em;
+        border-bottom: 1px solid var(--bs-secondary-bg);
+      }
+      ol > li:not(:first-child), ul > li:not(:first-child) {
+        margin-top: 0.5rem;
+      }
+
+      code, tt {
+        padding: 0.2em 0.4em;
+        margin: 0;
+        background-color: rgba(27, 31, 35, 0.05);
+        border-radius: 3px;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <main class="container my-3">
+
+      <h1>Welcome to Plex</h1>
+      <p>Plex lets you watch my collection of movies and TV shows from anywhere – think of it as my personal Netflix.</p>
+      <p>It's free to you, there are no ads, and getting started takes about 5 minutes.</p>
+
+
+      <section id="start" class="py-3">
+        <h2>Start watching in 5 minutes</h2>
+        <ol>
+          <li><strong>Accept the invite.</strong><br>
+          Open the invitation email from Plex and create a free account (or sign in if you already have one).<br>
+          (Can't find it? Check your spam folder.)</li>
+          <li><strong>Install the free Plex app</strong> on your TV, streaming stick or phone, then sign in.</li>
+        </ol>
+
+        <div class="alert alert-success">That's it – <strong>you're in.</strong></div>
+        <p>Pick <tt>Movies</tt> or <tt>TV Shows</tt> from the menu to browse, or use search.</p>
+
+        <p>These extra steps will take 2 minutes and will save you some hassle:</p>
+
+        <ol dir="auto">
+          <li><strong>Pin my libraries in your navigation.</strong><br>
+          My <tt>Movies</tt> and <tt>TV Shows</tt> libraries (from my server <tt>Scylla</tt>) will show up in the app.<br>
+          Pin them to your navigation so they're always one tap away – open the menu, select "More", and pin each one. (See <a href="https://support.plex.tv/articles/customizing-the-apps/#toc-0" rel="nofollow">Plex's support guide</a> if your screen looks different.)</li>
+          <li><strong>Set <a href="/plex/quality-settings">video quality</a></strong> to "Original" or "Maximum".<br>
+          Plex may default to low resolution, which looks bad and can cause buffering while the server makes it available.</li>
+          <li>Set your <a href="/plex/account-settings">audio &amp; subtitle preferences</a>.</li>
+          <li>Turn off Plex's "Free Movies &amp; TV" (Settings &gt; Online Media Sources).</li>
+        </ol>
+      </section>
+
+      <section id="important" class="py-3">
+
+        <h2>Important notes</h2>
+
+        <div class="row">
+
+          <div class="col-xs-12 col-sm-6 col-md">
+            <div class="alert alert-primary">Plex is always free to you.</div>
+            <p>Nothing on my server will ever cost you money or show ads.</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md">
+            <div class="alert alert-danger">Don't share your account.</div>
+            <p>If you think someone else would like access, let me know and I'll send them their own invite.</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md">
+            <div class="alert alert-secondary">You get 2 streams.</div>
+            <p>You can sign in on as many devices as you want, but only 2 can be playing at the same time.</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md">
+            <div class="alert alert-secondary">Plex uses data.</div>
+            <p>Streaming HD video uses a few GB per hour. If your internet has a monthly cap, just be aware.</p>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section id="faq" class="py-3">
+
+        <h2>FAQ</h2>
+
+        <div class="card">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <strong>How do I request something that's not on Plex yet?</strong><br>
+              If there's something you want to watch and can't find anywhere, let me know.<br>
+              I can't realistically have every movie ever made, but I'm happy to look for it.
+            </li>
+            <li class="list-group-item">
+              <strong>Why did I see ads?</strong><br>
+              You'll only see ads while watching something from Plex's own streaming service, not from my server.<br>
+              You can disable their service in Settings > Online Media Sources.
+            </li>
+            <li class="list-group-item">
+              <strong>Can I download things to watch offline?</strong><br>
+              Not by default. If that's something you want, let me know.
+            </li>
+          </ul>
+        </div>
+
+      </section>
+
+
+      <section id="devices" class="py-4">
+
+        <h2>Supported devices</h2>
+
+        <div class="row row-cols-1 row-cols-md-2 g-3">
+
+          <div class="col col-md-4">
+            <div class="card h-100">
+              <div class="card-header"><strong>TV or streaming stick</strong> <span class="badge text-bg-primary">Recommended</span></div>
+              <div class="card-body">
+                <div class="card-text">
+                  <p>Install Plex from your device's app store, open it, and follow the on-screen instructions to sign in.</p>
+                  <p>This is the best way to watch.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col col-md-4">
+            <div class="card h-100">
+              <div class="card-header"><strong>Phone or tablet (iOS/Android)</strong></div>
+              <div class="card-body">
+                <div class="card-text">
+                  <p>Install Plex from the App Store or Google Play and sign in.</p>
+                  <p>Good for watching on the go, and most phones support casting to a TV too.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col col-md-4">
+            <div class="card h-100">
+              <div class="card-header"><strong>Computer</strong></div>
+              <div class="card-body">
+                <div class="card-text">
+                  <p>Use the <a href="https://www.plex.tv/media-server-downloads/?cat=plex+desktop#plex-app">Plex desktop app</a>.</p>
+                  <p>Browsers <em>work</em>, but most content will play <em>much</em> better in a proper app.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+    </main>
+
+    <footer class="container border-top my-3 py-3">
+      <span class="text-secondary">&copy; Tom Henrich. All rights reserved. Last updated: 2026-11-18</span>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+  </body>
+</html>
