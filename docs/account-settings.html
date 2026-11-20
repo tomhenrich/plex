@@ -1,0 +1,91 @@
+<html>
+  <head>
+    <title>Account Settings | Plex Onboarding Guide</title>
+
+    <meta name="robots" content="noindex" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./onboarding.css">
+
+  </head>
+  <body>
+
+    <main class="container my-3">
+
+      <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/plex">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Account Settings</li>
+        </ol>
+      </nav>
+
+      <h1>Account Settings</h1>
+      <p>You can <a href="https://app.plex.tv/desktop/#!/login" target="_blank">log into your Plex account on the web</a> to update various settings.</p>
+      <p>I recommend at least updating your language and subtitle settings.</p>
+
+
+      <section id="privacy" class="py-3">
+
+        <h2>Privacy and email subscriptions</h2>
+        <p>Ethan Sholly has put together a good resource for checking Plex's various privacy-related settings, including marketing email preferences, ad partner data usage, playback data, and more: <a href="https://selfh.st/post/plex-privacy-settings/">Optimal Plex Settings for Privacy-Conscious Users</a></p>
+        <p>In case the original article is unavailable, it is archived on <a href="https://web.archive.org/web/20250530171740/https://selfh.st/post/plex-privacy-settings/">Wayback Machine</a>.</p>
+
+      </section>
+
+      <section id="preferences" class="py-3">
+
+        <h2>Audio and subtitle preferences</h2>
+
+        <ol>
+          <li><a href="https://app.plex.tv/desktop/#!/login">Log into your account on the web</a>, then go to the <a href="https://app.plex.tv/desktop/#!/settings/account">Account Settings page</a> and scroll down to the "Settings" section</li>
+          <li><strong>Set your Language preference:</strong>
+            <ol>
+              <li>Next to "LANGUAGE", click "Edit", select your preferred language, then click "Save Changes"</li>
+            </ol>
+          </li>
+          <li><strong>Set your Audio &amp; Subtitle preferences:</strong>
+            <ol>
+              <li>Next to "AUDIO &amp; SUBTITLE SETTINGS" click "Edit"</li>
+              <li>Select the checkbox for "Automatically select audio and subtitle tracks"</li>
+              <li>Set your preferred language for audio and subtitles
+                  <div class="card" style="width: 25rem;">
+                    <div class="card-header">
+                      <strong>My recommendation</strong>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Leave the audio option empty</li>
+                    </ul>
+                  </div>
+
+              </li>
+              <li>Select "Auto-Select Subtitle Mode" to "Always Enabled"</li>
+              <li>The last two boxes are up to you — they only apply if something on Plex <em>doesn't already have subtitles</em> and you use its built-in search tool to find some
+                  <div class="card" style="width: 25rem;">
+                    <div class="card-header">
+                      <strong>FYI</strong>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item"><acronym title="Subtitles for Deaf and Hard of Hearing">SDH</acronym> subtitles</tt> include non-dialog effects like <tt>[COWS MOOING]</tt></li>
+                      <li class="list-group-item">"Forced" subtitles contain <em>only</em> the foreign dialogue in an otherwise all-English movie</li>
+                    </ul>
+                  </div>
+              </li>
+              <li>Select "Save Changes"</li>
+            </ol>
+          </li>
+        </ol>
+        
+        <p>You can always change your subtitle selection for any given content while you're watching it.</p>
+
+        <p><img src="assets/images/subtitle-settings.png" alt="Subtitle settings: English, Always Enabled, Prefer SDH, and Prefer Forced"></p>
+
+      </section>
+
+
+    </main>
+
+    {% include _includes/footer.html %}
+  </body>
+</html>
