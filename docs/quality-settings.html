@@ -1,0 +1,80 @@
+---
+title: Quality Settings
+---
+<html>
+  <head>
+    <title>Quality Settings | Plex Onboarding Guide</title>
+
+    <meta name="robots" content="noindex" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./onboarding.css">
+
+  </head>
+  <body>
+
+    <main class="container my-3">
+
+      <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/plex">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Quality Settings</li>
+        </ol>
+      </nav>
+
+      <h1>Video quality settings</h1>
+      <p>The settings that Plex apps use by default are not great and will likely result in a low-resolution stream that buffers frequently.</p>
+      <p>Use the quick steps for your app below to update them and get the best possible experience.</p>
+
+
+      <section id="mobile" class="py-3">
+
+        <h2>📱 iOS/Android app</h2>
+        <ol>
+          <li>Tap your profile icon in the top right corner of the app</li>
+          <li>Tap "Settings" then select "Video &amp; Audio"
+            <ul>
+              <li>Local Quality: <tt>Maximum</tt></li>
+              <li>Wi-Fi Quality: <tt>Maximum</tt></li>
+              <li>Allow Direct Play: <tt>On</tt></li>
+              <li>Allow Direct Stream: <tt>On</tt></li>
+            </ul>
+          </li>
+        </ol>
+
+      </section>
+
+      <section id="streaming" class="py-3">
+
+        <h2>📺 Other streaming devices (Roku, Fire Stick, etc)</h2>
+        <ol>
+          <li>In the left-hand menu, select "Settings"</li>
+          <li>In the "Video" section:
+            <ul>
+              <li>"Auto Adjust Quality" (if present): <tt>Off</tt></li>
+              <li>"Local Quality" and "Remote Quality": <tt>Original</tt>
+                <ul>
+                  <li>On some devices (like Rokus) you may need to <strong>uncheck the "Quality Suggestion" checkbox</strong> first</li>
+                  <li>If you do leave the "<a href="https://support.plex.tv/articles/quality-suggestions/" target="_blank">Quality Suggestion</a>" option enabled, even with "Maximum Remote Quality" set to <tt>Unlimited</tt> Plex may try to stream at a lower quality which will likely result in buffering</li>
+                </ul>
+              </li>
+              <li>"Allow Direct Play": <tt>On</tt></li>
+              <li>"Allow Direct Stream": <tt>On</tt></li>
+            </ul>
+          </li>
+        </ol>
+
+      </section>
+
+      <div class="mt-4">
+        <span class="text-secondary">Last updated: <time datetime="2026-11-20">November 20, 2026</time></span>
+      </div>
+
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+</html>
