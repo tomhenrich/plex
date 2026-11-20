@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Bootstrap test</title>
+    <title>Plex Onboarding Guide</title>
 
     <meta name="robots" content="noindex" />
     <meta charset="utf-8">
@@ -57,6 +57,7 @@
         <div class="alert alert-success">That's it – <strong>you're in.</strong></div>
         <p>Pick <tt>Movies</tt> or <tt>TV Shows</tt> from the menu to browse, or use search.</p>
 
+        <h3>Recommended setup</h3>
         <p>These extra steps will take 2 minutes and will save you some hassle:</p>
 
         <ol dir="auto">
@@ -64,7 +65,7 @@
           My <tt>Movies</tt> and <tt>TV Shows</tt> libraries (from my server <tt>Scylla</tt>) will show up in the app.<br>
           Pin them to your navigation so they're always one tap away – open the menu, select "More", and pin each one. (See <a href="https://support.plex.tv/articles/customizing-the-apps/#toc-0" rel="nofollow">Plex's support guide</a> if your screen looks different.)</li>
           <li><strong>Set <a href="/plex/quality-settings">video quality</a></strong> to "Original" or "Maximum".<br>
-          Plex may default to low resolution, which looks bad and can cause buffering while the server makes it available.</li>
+          Plex may default to low resolution, which looks bad and can cause buffering since my server has to create a new version on the fly.</li>
           <li>Set your <a href="/plex/account-settings">audio &amp; subtitle preferences</a>.</li>
           <li>Turn off Plex's "Free Movies &amp; TV" (Settings &gt; Online Media Sources).</li>
         </ol>
@@ -110,8 +111,7 @@
             </li>
             <li class="list-group-item">
               <strong>Why did I see ads?</strong><br>
-              You'll only see ads while watching something from Plex's own streaming service, not from my server.<br>
-              You can disable their service in Settings > Online Media Sources.
+              You'll only see ads while watching something from Plex's own streaming service. You can disable their service in <tt>Settings > Online Media Sources</tt> so you only see content from my server.
             </li>
             <li class="list-group-item">
               <strong>Can I download things to watch offline?</strong><br>
@@ -131,7 +131,10 @@
 
           <div class="col col-md-4">
             <div class="card h-100">
-              <div class="card-header"><strong>TV or streaming stick</strong> <span class="badge text-bg-primary">Recommended</span></div>
+              <div class="card-header">
+                <strong>TV or streaming stick</strong>
+                <div class="d-inline"><span class="badge text-bg-primary">Recommended</span></div>
+              </div>
               <div class="card-body">
                 <div class="card-text">
                   <p>Install Plex from your device's app store, open it, and follow the on-screen instructions to sign in.</p>
@@ -143,7 +146,9 @@
 
           <div class="col col-md-4">
             <div class="card h-100">
-              <div class="card-header"><strong>Phone or tablet (iOS/Android)</strong></div>
+              <div class="card-header">
+                <strong>Phone or tablet (iOS/Android)</strong>
+              </div>
               <div class="card-body">
                 <div class="card-text">
                   <p>Install Plex from the App Store or Google Play and sign in.</p>
@@ -155,7 +160,9 @@
 
           <div class="col col-md-4">
             <div class="card h-100">
-              <div class="card-header"><strong>Computer</strong></div>
+              <div class="card-header">
+                <strong>Computer</strong>
+              </div>
               <div class="card-body">
                 <div class="card-text">
                   <p>Use the <a href="https://www.plex.tv/media-server-downloads/?cat=plex+desktop#plex-app">Plex desktop app</a>.</p>
