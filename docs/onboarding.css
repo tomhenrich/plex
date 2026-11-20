@@ -13,7 +13,7 @@ h2 {
   border-bottom: 1px solid var(--bs-secondary-bg);
 }
 
-ol > li:not(:first-child), ul > li:not(:first-child) {
+ol:not(.breadcrumb) > li:not(:first-child), ul:not(.breadcrumb) > li:not(:first-child) {
   margin-top: 0.5rem;
 }
 
