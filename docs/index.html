@@ -11,7 +11,7 @@
 
       @media (min-width: 1400px) {
         .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-            max-width: 1012px;
+          max-width: 1012px;
         }
       }
 
@@ -21,7 +21,6 @@
 
       h2 {
         padding-bottom: 0.3em;
-        font-size: 1.5em;
         border-bottom: 1px solid var(--bs-secondary-bg);
       }
 
@@ -30,6 +29,7 @@
       }
 
       code, tt {
+        font-size: 0.9em;
         padding: 0.2em 0.4em;
         margin: 0;
         background-color: rgba(27, 31, 35, 0.05);
@@ -44,7 +44,7 @@
 
       <h1>Welcome to Plex</h1>
       <p>Plex lets you watch my collection of movies and TV shows from anywhere – think of it as my personal Netflix.</p>
-      <p>It's free to you, there are no ads, and getting started takes about 5 minutes.</p>
+      <p>It's free for you to use, and getting started takes about 5 minutes.</p>
 
 
       <section id="start" class="py-3">
@@ -53,13 +53,15 @@
           <li><strong>Accept the invite.</strong><br>
           Open the invitation email from Plex and create a free account (or sign in if you already have one).<br>
           (Can't find it? Check your spam folder.)</li>
-          <li><strong>Install the free Plex app</strong> on your TV, streaming stick or phone, then sign in.</li>
+          <li><strong>Install the free Plex app</strong> on your <a href="#devices">TV, streaming stick or phone</a>, then sign in.</li>
         </ol>
 
-        <div class="alert alert-success">That's it – <strong>you're in.</strong></div>
-        <p>Pick <tt>Movies</tt> or <tt>TV Shows</tt> from the menu to browse, or use search.</p>
+        <div class="alert alert-success">That's it, <strong>you're in.</strong></div>
 
-        <h3>Recommended setup</h3>
+        <p>Pick <tt>Movies</tt> or <tt>TV Shows</tt> from the menu to browse for something to watch, or use search.</p>
+
+        <h3 class="fs-4">Optional extra steps</h3>
+        <div><span class="badge text-bg-primary">Recommended</span></div>
         <p>These extra steps will take 2 minutes and will save you some hassle:</p>
 
         <ol dir="auto">
@@ -67,33 +69,33 @@
           My <tt>Movies</tt> and <tt>TV Shows</tt> libraries (from my server <tt>Scylla</tt>) will show up in the app.<br>
           Pin them to your navigation so they're always one tap away – open the menu, select "More", and pin each one. (See <a href="https://support.plex.tv/articles/customizing-the-apps/#toc-0" rel="nofollow">Plex's support guide</a> if your screen looks different.)</li>
           <li><strong>Set <a href="/plex/quality-settings">video quality</a></strong> to "Original" or "Maximum".<br>
-          Plex may default to low resolution, which looks bad and can cause buffering since my server has to create a new version on the fly.</li>
-          <li>Set your <a href="/plex/account-settings">audio &amp; subtitle preferences</a>.</li>
-          <li>Turn off Plex's "Free Movies &amp; TV" (Settings &gt; Online Media Sources).</li>
+          Lower settings make my server convert the video to lower resolutions, which can cause buffering.</li>
+          <li>Set your <a href="/plex/account-settings">subtitle preferences</a>.</li>
+          <li>Turn off Plex's ad-supported "Free Movies &amp; TV" (Settings &gt; Online Media Sources).</li>
         </ol>
       </section>
 
       <section id="important" class="py-3">
 
-        <h2>Important notes</h2>
+        <h2>Please note</h2>
 
         <div class="row">
 
           <div class="col-xs-12 col-sm-6 col-md">
-            <div class="alert alert-primary">Plex is always free to you.</div>
-            <p>Nothing on my server will ever cost you money or show ads.</p>
+            <div class="alert alert-primary">My Plex is completely free.</div>
+            <p>My server has no ads and is free for you to enjoy.</p>
           </div>
           <div class="col-xs-12 col-sm-6 col-md">
             <div class="alert alert-danger">Don't share your account.</div>
-            <p>If you think someone else would like access, let me know and I'll send them their own invite.</p>
+            <p>If you think someone else would enjoy Plex, I can invite them separately.</p>
           </div>
           <div class="col-xs-12 col-sm-6 col-md">
             <div class="alert alert-secondary">You get 2 streams.</div>
-            <p>You can sign in on as many devices as you want, but only 2 can be playing at the same time.</p>
+            <p>Sign in on as many devices as you want, but only 2 can be playing at the same time.</p>
           </div>
           <div class="col-xs-12 col-sm-6 col-md">
             <div class="alert alert-secondary">Plex uses data.</div>
-            <p>Streaming HD video uses a few GB per hour. If your internet has a monthly cap, just be aware.</p>
+            <p>Streaming uses a few&nbsp;GB per hour. If your internet has a monthly data cap, just be aware.</p>
           </div>
 
         </div>
