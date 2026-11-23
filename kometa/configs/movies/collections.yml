@@ -131,17 +131,6 @@ collections:
     summary: "A superhero thriller and psychological horror film series involving the derailment of the fictitious Eastrail 177 train."
     collection_order: release
     collection_mode: show_items
-
-  "Evil Dead (Reboot)":
-    template:
-      name: tmdb
-      movie: 
-        - 109428      # Evil Dead (2013)
-        - 713704    # Evil Dead Rise (2023)
-        - 1212763    # Evil Dead Burn (2026)
-    summary: "New entries of the Evil Dead franchise, returning to a darker and more brutal horror tone."
-    collection_order: release
-    name_mapping: Evil Dead Reboot
   
   Galaxy Quest:
     template:
