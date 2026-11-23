@@ -94,6 +94,92 @@ title: Plex Onboarding Guide
 
       </section>
 
+      
+      <section id="settings" class="py-4">
+
+        <h2>Settings to update</h2>
+
+        <div class="accordion" id="settingshelp">
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="settings-video">
+                Video quality settings
+              </button>
+            </h3>
+            <div id="settings-video" class="accordion-collapse collapse" data-bs-parent="#settingshelp">
+              <div class="accordion-body">
+
+                <p>The settings that Plex apps use by default are not great and will likely result in a low-resolution stream that buffers frequently.</p>
+                <p>Use the quick steps for your app below to update them and get the best possible experience.</p>
+
+                <h4>📱 iOS/Android app</h4>
+                <ol>
+                  <li>Tap your profile icon in the top right corner of the app</li>
+                  <li>Tap "Settings" then select "Video &amp; Audio"
+                    <ul>
+                      <li>Local Quality: <tt>Maximum</tt></li>
+                      <li>Wi-Fi Quality: <tt>Maximum</tt></li>
+                      <li>Allow Direct Play: <tt>On</tt></li>
+                      <li>Allow Direct Stream: <tt>On</tt></li>
+                    </ul>
+                  </li>
+                </ol>
+                   
+                <h4>📺 Other streaming devices (Roku, Fire Stick, etc)</h4>
+                <ol>
+                  <li>In the left-hand menu, select "Settings"</li>
+                  <li>In the "Video" section:
+                    <ul>
+                      <li>"Auto Adjust Quality" (if present): <tt>Off</tt></li>
+                      <li>"Local Quality" and "Remote Quality": <tt>Original</tt>
+                        <ul>
+                          <li>On some devices (like Rokus) you may need to <strong>uncheck the "Quality Suggestion" checkbox</strong> first</li>
+                          <li>If you do leave the "<a href="https://support.plex.tv/articles/quality-suggestions/" target="_blank">Quality Suggestion</a>" option enabled, even with "Maximum Remote Quality" set to <tt>Unlimited</tt> Plex may try to stream at a lower quality which will likely result in buffering</li>
+                        </ul>
+                      </li>
+                      <li>"Allow Direct Play": <tt>On</tt></li>
+                      <li>"Allow Direct Stream": <tt>On</tt></li>
+                    </ul>
+                  </li>
+                </ol>
+
+                <p>These may have different names depending on the platform — anywhere it asks for quality levels, set them to `Original` if available or `Maximum` otherwise.</p>
+
+        <div class="row row-cols-1 row-cols-md-2 g-3">
+
+          <div class="col col-md-4">
+            <div class="card h-100">
+              <div class="card-header">
+                <strong>👎 Quality Suggestions _On_ by Default</strong>
+              </div>
+              <div class="card-body">
+                <div class="card-text">
+                  <img src="./assets/images/quality-suggestions-on.jpg" alt="Video settings: Quality Suggestions on by default" loading="lazy" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-4">
+            <div class="card h-100">
+              <div class="card-header">
+                <strong>👍 Quality Suggestions _Off_</strong>
+              </div>
+              <div class="card-body">
+                <div class="card-text">
+                  <img src="./assets/images/quality-suggestions-off.jpg" alt="Video settings: Quality Suggestions turned off, remote quality set to Original" loading="lazy" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
 
       <section id="devices" class="py-4">
 
@@ -151,7 +237,7 @@ title: Plex Onboarding Guide
       </section>
 
       <div class="mt-4">
-        <span class="text-secondary">Last updated: <time datetime="2026-11-20">November 20, 2026</time></span>
+        <span class="text-secondary">Last updated: <time datetime="2026-11-20">November 23, 2026</time></span>
       </div>
 
     </main>
