@@ -41,9 +41,9 @@ title: Plex Onboarding Guide
               <li>In most TV apps: open the left-hand menu, find my libraries from <tt>Scylla</tt>, select the three-dot menu, and "pin" each one.</li>
             </ul>
           </li>
-          <li><strong>Set <a href="#settings-video">video quality</a></strong> to "Original" or "Maximum".<br>
+          <li><strong>Set <a href="#settings">video quality</a></strong> to "Original" or "Maximum".<br>
           Lower settings make my server convert the video to lower resolutions, which can cause buffering.</li>
-          <li>Set your <a href="/plex/account-settings">subtitle preferences</a>.</li>
+          <li>Set your <a href="#settings">subtitle preferences</a>.</li>
           <li>Turn off Plex's ad-supported "Free Movies &amp; TV" (Settings &gt; Online Media Sources).</li>
         </ol>
       </section>
@@ -173,6 +173,66 @@ title: Plex Onboarding Guide
           </div>
 
         </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#settings-subtitles" aria-expanded="true" aria-controls="settings-subtitles">
+                Audio and subtitle preferences
+              </button>
+            </h3>
+            <div id="settings-subtitles" class="accordion-collapse collapse" data-bs-parent="#settingshelp">
+              <div class="accordion-body">
+
+              <ol>
+                <li><a href="https://app.plex.tv/desktop/#!/login">Log into your account on the web</a>, then go to the <a href="https://app.plex.tv/desktop/#!/settings/account">Account Settings page</a> and scroll down to the "Settings" section</li>
+                <li><strong>Set your Language preference:</strong>
+                  <ol>
+                    <li>Next to "LANGUAGE", click "Edit", select your preferred language, then click "Save Changes"</li>
+                  </ol>
+                </li>
+                <li><strong>Set your Audio &amp; Subtitle preferences:</strong>
+                  <ol>
+                    <li>Next to "AUDIO &amp; SUBTITLE SETTINGS" click "Edit"</li>
+                    <li>Select the checkbox for "Automatically select audio and subtitle tracks"</li>
+                    <li>Set your preferred language for audio and subtitles
+                          <ul>
+                            <li>My recommendation: leave the audio option empty</li>
+                          </ul>
+                    </li>
+                    <li>Select "Auto-Select Subtitle Mode" to "Always Enabled"</li>
+                    <li>The last two boxes are up to you — they only apply if something on Plex <em>doesn't already have subtitles</em> and you use its built-in search tool to find some
+                          <ul>
+                            <li><acronym title="Subtitles for Deaf and Hard of Hearing">SDH</acronym> subtitles include non-dialog effects like <tt>[COWS MOOING]</tt></li>
+                            <li>"Forced" subtitles contain <em>only</em> the foreign dialogue in an otherwise all-English movie</li>
+                          </ul>
+                    </li>
+                    <li>Select "Save Changes"</li>
+                  </ol>
+                </li>
+              </ol>
+        
+              <p>You can always change your subtitle selection for any given content while you're watching it.</p>
+
+              <p><img src="./assets/images/subtitle-settings.png" class="img-fluid" alt="Subtitle settings: English, Always Enabled, Prefer SDH, and Prefer Forced"></p>
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#settings-privacy" aria-expanded="true" aria-controls="settings-privacy">
+                Privacy and email subscriptions
+              </button>
+            </h3>
+            <div id="settings-privacy" class="accordion-collapse collapse" data-bs-parent="#settingshelp">
+              <div class="accordion-body">
+
+                <p>Ethan Sholly has put together a good resource for checking Plex's various privacy-related settings, including marketing email preferences, ad partner data usage, playback data, and more: <a href="https://selfh.st/post/plex-privacy-settings/">Optimal Plex Settings for Privacy-Conscious Users</a></p>
+                <p>In case the original article is unavailable, it is archived on <a href="https://web.archive.org/web/20250530171740/https://selfh.st/post/plex-privacy-settings/">Wayback Machine</a>.</p>
+
 
               </div>
             </div>
